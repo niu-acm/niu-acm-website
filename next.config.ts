@@ -10,6 +10,7 @@ module.exports = (phase: any, { }) => {
     return {
       output: 'export', // Enables static export
       basePath: '/niu-acm-website', // Base path for the application
+      assetPrefix: '/niu-acm-website', // Prefix for static assets
     }
   }
 
