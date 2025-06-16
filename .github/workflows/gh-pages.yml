@@ -5,6 +5,8 @@ on:
     branches:
       - main
   pull_request:
+env:
+  GITHUB_PAGE_BASEURL: ${{ vars.PAGE_BASEURL }}
 
 jobs:
   deploy:
