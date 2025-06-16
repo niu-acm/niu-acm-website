@@ -21,6 +21,8 @@ jobs:
         run: bun install
       - name: Build static site
         run: bun run build
+      - name: Create .nojekyll file
+        run: echo > ./out/.nojekyll
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
