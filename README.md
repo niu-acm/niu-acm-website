@@ -19,7 +19,7 @@ bun install
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000/niu-acm-website](http://localhost:3000/niu-acm-website) with your browser to see the result.
 
 You can start editing the page by modifying `src/page.tsx`. The page auto-updates as you edit the file.
 
@@ -30,7 +30,7 @@ Build the site with Bun, which outputs to `out/`:
 bun run build
 ```
 
-Test the static version at `https://localhost:3000`:
+Test the static version at `https://localhost:3000/niu-acm-website`:
 ```bash
 bunx serve out/
 ```

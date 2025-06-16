@@ -23,9 +23,7 @@ jobs:
         run: bun run build
       - name: Create .nojekyll file
         run: echo > ./out/.nojekyll
-      - name: Correct CNAME
-        run: echo 'niu-acm.github.io/niu-acm-website' > ./out/CNAME
-
+        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
