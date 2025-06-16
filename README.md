@@ -1,7 +1,10 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1a2244f0-2c60-4a77-96d0-2c865499ebf1" width=125>
+</p>
+
 # NIU ACM Website
 
 The homepage for the NIU Association for Computing Machinery.
-
 
 ## Development
 **Pre-Requisites**:
