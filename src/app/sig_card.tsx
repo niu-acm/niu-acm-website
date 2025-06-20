@@ -4,16 +4,20 @@ type SigCardProps = {
     image_url: string;
     flipped?: boolean; // Optional prop to indicate if the card should be flipped
 };
+
 export default function SigCard({
     name,
     description,
-    image_url
+    image_url,
+    flipped
 }: SigCardProps) {
     return (
-        <div className="sig-card">
-            {/* hello juan. i am evil. */}
-            {/* also, if you want to interpolate a `variable`, use `{variable}` syntax. */}
-            {/* let's be react components vro :wilted_rose: */}
+        <div className={`sig-card${flipped ? ' flipped' : ''}>`}>
+            <img src={image_url} alt={name} className="sig-card-image"/>
+            <div className="sig-card-content">
+                <h3>{name}</h3>
+                <p>{description}</p>
+            </div>
         </div>
     );
 }
