@@ -5,10 +5,14 @@ import SigCard from './sig_card';
 export default function Home() {
   return (
     <div>
+      {/* Header Called Here */}
       <Header />
 
-      <h1>acm</h1>
+      <b><h2>Section talking about how ACM is different and join link</h2></b>
+      <h1>come join acm with me vro. come be deckerpilled</h1>
+      <h1>no cronem. im a lehutachud</h1>
 
+      <b><h2>Special Interest Groups</h2></b>
       <SigCard
         name="SIGmainframe"
         description="SIGmainframe is our deep dive into the world of enterprise computing,
@@ -24,7 +28,12 @@ export default function Home() {
         image_url="/webdev.png" //these are just placeholder images that fit the vibe. find better later
         flipped={true} // Example of using the flipped prop
       />
+    
+      <b><h2>Speaker Section</h2></b>
 
+      <b><h2>Socials Section</h2></b>
+      
+      {/* Footer Called Here */}
       <Footer />
     </div>
   );
