@@ -29,10 +29,24 @@ export default function Header() {
                     font-weight: bold;
                     letter-spacing: 1px;
                 }
-                .header-nav {
-                    display: flex;
-                    gap: 2rem;
+
+                .header-nav a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    padding: 0.5rem 1.2rem;
+                    border-radius: 8px;
+                    transition: background 0.2s, color 0.2s, transform 0.15s, box-shadow 0.2s;
                 }
+
+                .header-nav a:hover {
+                    background: rgb(189, 19, 50);
+                    color: #fff;
+                    transform: scale(1.07);
+                    box-shadow: 0 4px 16px rgba(0,0,0,0.16);
+                }
+                    
             `}</style>
             <header className="header">
                 <div className="header-left">
