@@ -77,6 +77,8 @@ export default function Home() {
             Whether you're curious about what powers the world’s banking and airline systems,
             or you want to earn IBM Z Developer Badges, this is the SIG for you!"
           image_url="/IBM_z16_.png"
+          flipped={false}
+          link="/sigm"
         />
         <SigCard
           name="SIGwebdev"
@@ -84,6 +86,7 @@ export default function Home() {
             If you're into HTML/CSS, PHP, React, Tailwind, or just want to make your portfolio shine, this is your space"
           image_url="/webdev.png"
           flipped={true}
+          link="/sigw"
         />
       </div>
       <Footer />
