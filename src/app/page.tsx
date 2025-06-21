@@ -2,6 +2,7 @@ import Header from './header';
 import Footer from './footer';
 import SigCard from './sig_card';
 import IntroBody from './introbody';
+import SectionBody from './sectionbody';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         }}
       >
         
+         {/* Intro Section */}
         <IntroBody
           title="NIU's Premier Computer Science Organization"
           content=" NIU ACM is your gateway to hands-on tech experience, career growth, and a community of like-minded students. Join us for workshops, guest speakers, and SIGs (Special Interest Groups) where you can build projects, learn new skills, connect with alumni, and have fun through socials and team events — whether you're just starting out or looking to level up, there's a place for you here."
@@ -26,12 +28,36 @@ export default function Home() {
           altText="come join acm with me vro. come be deckerpilled"
           join="https://huskiehub.niu.edu/NIUACM/club_signup"
         />
-        
-        <b><h2>Why ACM is different section</h2></b>
-        <b><h2>Speaker Section</h2></b>
-        <b><h2>Socials Section</h2></b>
 
-        <b><h2>Special Interest Groups</h2></b>
+        {/* Different Section */}
+        <SectionBody
+          title="Why ACM is Different this year"
+          content="NIU's ACM Chapter is expanding to two special interest groups (SIGs) this year:  SIGmainrame and SIGwebdev. ACM also has a new advisor, Kurt McMahon. Our Board
+          is more diverse than ever, with a mix of new and returning members. We are the biggest ACM board in NIU history with 9 board members."
+          content2="ACM's goal is to provide a welcoming and inclusive environment for all students interested in computer science and finding their niche within the tech industry."
+          imageSrc="https://i.imgflip.com/2e8ce9.jpg"
+        ></SectionBody>
+
+         {/* Speaker Section */}
+        <SectionBody
+          title="ACM Speaker Series Fall 2025"
+          content="ACM has Three Speaker Series events planned for Fall 2025.
+          These events will feature guest speakers providing their experiences and career pathes.
+          Stay tuned for more details on dates and speakers!"
+          content2="Free Food and Drinks will be provided at all events"
+          imageSrc="https://media.licdn.com/dms/image/v2/D5622AQHTXFkxkZoaBw/feedshare-shrink_2048_1536/B56ZW1n1DIHEAs-/0/1742508881064?e=1753315200&v=beta&t=MwufZgGVTQT1m7HjUdDoIY4sMZQofpj7USZZKdZD4b8"
+          lightGrey={true}
+        ></SectionBody>
+
+        {/* Socials Section */}
+        <SectionBody
+          title="ACM Socials"
+          content="ACM hosts a variety of social events throughout the semester to help members connect, relax, and have fun."
+          content2="Free food, games, and activities are always included!"
+          imageSrc="https://sportslogohistory.com/wp-content/uploads/2023/05/northern_illinois_huskies_1988-2001.png"
+        ></SectionBody>
+
+         {/* Sig Cards */}
         <SigCard
           name="SIGmainframe"
           description="SIGmainframe is our deep dive into the world of enterprise computing,
