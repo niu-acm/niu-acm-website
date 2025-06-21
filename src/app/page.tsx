@@ -24,6 +24,7 @@ export default function Home() {
           content=" NIU ACM is your gateway to hands-on tech experience, career growth, and a community of like-minded students. Join us for workshops, guest speakers, and SIGs (Special Interest Groups) where you can build projects, learn new skills, connect with alumni, and have fun through socials and team events — whether you're just starting out or looking to level up, there's a place for you here."
           imageSrc="https://npr.brightspotcdn.com/e1/7b/9b044d4642d389e499176c5edd69/img-9121.jpg"
           altText="come join acm with me vro. come be deckerpilled"
+          join="https://huskiehub.niu.edu/NIUACM/club_signup"
         />
 
         <b><h2>Special Interest Groups</h2></b>
