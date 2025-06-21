@@ -2,14 +2,16 @@ type SigCardProps = {
     name: string;
     description: string;
     image_url: string;
-    flipped?: boolean; // Optional prop to indicate if the card should be flipped
+    flipped: boolean;
+    link: string;
 };
 
 export default function SigCard({
     name,
     description,
     image_url,
-    flipped
+    flipped,
+    link
 }: SigCardProps) {
     if (!flipped) {
         return (
@@ -45,7 +47,25 @@ export default function SigCard({
 
               .sig-body {
                    font-size: 20px;
-                   padding: 50px 0px 100px 0px;
+                   padding: 40px 0px 40px 0px;
+              }
+
+              .sig-link {
+                   display: inline-block;
+                   background: rgb(200, 16, 46);
+                   color: white;
+                   padding: 30px;
+                   border-radius: 8px;
+                   font-weight: bold;
+                   text-decoration: none;
+                   font-size: 1.2rem;
+                   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+                   transition: background 0.2s, color 0.2s, transform 0.15s;
+                   margin-bottom: 30px;
+              }
+
+              .sig-link:hover {
+                   background-color: rgb(94, 83, 85);
               }
 
             
@@ -55,6 +75,7 @@ export default function SigCard({
                     <div className="sig-card-content">
                         <h3 className="sig-header"><b>{name}</b></h3>
                         <p className="sig-body">{description}</p>
+                        <a className="sig-link" href={link}>Learn More About {name}!</a>
                     </div>
                 </div>
         </>
@@ -66,6 +87,7 @@ export default function SigCard({
                     <div className="sig-card-content">
                         <h3 className="sig-header"><b>{name}</b></h3>
                         <p className="sig-body">{description}</p>
+                        <a className="sig-link" href={link}>Learn More About {name}!</a>
                     </div>
                     <img src={image_url} alt={name} className="sig-card-image"/>
                 </div>
