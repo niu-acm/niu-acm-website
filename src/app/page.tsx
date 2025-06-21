@@ -57,6 +57,16 @@ export default function Home() {
           imageSrc="https://sportslogohistory.com/wp-content/uploads/2023/05/northern_illinois_huskies_1988-2001.png"
         ></SectionBody>
 
+        <SectionBody
+          title="Special Interest Groups (SIGs)"
+          content="SIGs are focused subgroups where members can dive deep 
+          into specific areas of tech they're passionate about.
+           They’re informal, collaborative spaces that meet regularly to learn, build, and grow together."
+          content2="Check out our two SIGs below to see what they’re all about"
+          imageSrc="https://sportslogohistory.com/wp-content/uploads/2023/05/northern_illinois_huskies_1988-2001.png"
+          lightGrey={true}
+        ></SectionBody>
+
          {/* Sig Cards */}
         <SigCard
           name="SIGmainframe"
