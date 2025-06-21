@@ -1,5 +1,31 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import localFont from 'next/font/local'
+ 
+const gothamFont = localFont({
+  src: [
+    {
+      path: '../../public/fonts/Gotham/Gotham-Book.otf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Gotham/Gotham-Medium.otf',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Gotham/Gotham-Bold.otf',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Gotham/Gotham-Black.otf',
+      weight: '900',
+      style: 'normal',
+    }
+  ]
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -12,7 +38,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={gothamFont.className}>
       <body>
         {children}
       </body>
