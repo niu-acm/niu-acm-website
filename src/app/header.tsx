@@ -37,7 +37,7 @@ export default function Header() {
             <header className="header">
                 <div className="header-left">
                     <a href="/">
-                        <img src="/acmlogo.png" alt="ACM Logo" className="header-logo" />
+                        <img src="/images/logos/niu-banner-logo-white-1-1.png" alt="ACM Logo" className="header-logo" />
                     </a>
                     <span className="header-title">Northern Illinois ACM</span>
                 </div>
