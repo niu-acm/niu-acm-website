@@ -26,6 +26,10 @@ export default function Home() {
           altText="come join acm with me vro. come be deckerpilled"
           join="https://huskiehub.niu.edu/NIUACM/club_signup"
         />
+        
+        <b><h2>Why ACM is different section</h2></b>
+        <b><h2>Speaker Section</h2></b>
+        <b><h2>Socials Section</h2></b>
 
         <b><h2>Special Interest Groups</h2></b>
         <SigCard
@@ -43,11 +47,7 @@ export default function Home() {
           image_url="/webdev.png"
           flipped={true}
         />
-
-        <b><h2>Speaker Section</h2></b>
-        <b><h2>Socials Section</h2></b>
       </div>
-
       <Footer />
     </div>
   );
