@@ -41,12 +41,13 @@ export default function SigCard({
               .sig-header {
                    font-size: 30px;
                    margin-bottom: 10px;
-                   margin-top: 20px;
+                   margin-top: 30px;
                    color: rgb(200, 16, 46);
               }
 
               .sig-body {
                    font-size: 20px;
+                   padding: 50px 0px 100px 0px;
               }
 
             
@@ -65,8 +66,8 @@ export default function SigCard({
             <>
                 <div className="sig-card">
                     <div className="sig-card-content">
-                        <h3><b>{name}</b></h3>
-                        <p>{description}</p>
+                        <h3 className="sig-header"><b>{name}</b></h3>
+                        <p className="sig-body">{description}</p>
                     </div>
                     <img src={image_url} alt={name} className="sig-card-image"/>
                 </div>
