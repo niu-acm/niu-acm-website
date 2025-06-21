@@ -5,8 +5,6 @@ type SigCardProps = {
     flipped?: boolean; // Optional prop to indicate if the card should be flipped
 };
 
-
-
 export default function SigCard({
     name,
     description,
@@ -20,10 +18,10 @@ export default function SigCard({
               .sig-card {
                    display: flex;
                    flex-direction: row;
-                   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                   box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                    transition: 0.3s ease;
                    border-radius: 5px;
-                   border: 2px solid black;
+                   border: 2px dark grey;
                    margin: 25px 100px 25px 100px;
                 }
 
