@@ -1,8 +1,8 @@
-import Header from './header';
-import Footer from './footer';
-import SigCard from './sig_card';
-import IntroBody from './introbody';
-import SectionBody from './sectionbody';
+import Header from '../components/header';
+import Footer from '../components/footer';
+import SigCard from '../components/sig_card';
+import IntroBody from '../components/introbody';
+import SectionBody from '../components/sectionbody';
 
 export default function Home() {
   return (
