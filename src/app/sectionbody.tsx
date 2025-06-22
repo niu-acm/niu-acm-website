@@ -20,7 +20,7 @@ export default function SectionBody({ title, content, content2, imageSrc, imageS
                 }
                 .section-title:hover {
                     color: #c8102e;
-                    text-shadow: 0 2rem 12rem #c8102e44;
+                    text-shadow: 0 2px 12px #c8102e44;
                     transform: scale(1.07);
                 }
             `}</style>
@@ -30,7 +30,7 @@ export default function SectionBody({ title, content, content2, imageSrc, imageS
                     justifyContent: "center",
                     gap: "3rem",
                     width: "100%",
-                    minHeight: "350rem",
+                    minHeight: "350px",
                     backgroundColor: lightGrey ? "#f5f5f5" : "#fff",
                     color: "#222",
                     padding: "3rem 6vw",
@@ -46,9 +46,9 @@ export default function SectionBody({ title, content, content2, imageSrc, imageS
                 </div>
                 {/* All Images on right */}
                 <div style={{ flex: 1, display: "flex", flexDirection: "row", gap: "1rem", alignItems: "center", justifyContent: "flex-end" }}>
-                    {imageSrc && <img src={imageSrc} alt="" style={{ width: "100%", maxWidth: "250rem", borderRadius: "8rem", objectFit: "cover" }} />}
-                    {imageSrc2 && <img src={imageSrc2} alt="" style={{ width: "100%", maxWidth: "250rem", borderRadius: "8rem", objectFit: "cover" }} />}
-                    {imageSrc3 && <img src={imageSrc3} alt="" style={{ width: "100%", maxWidth: "250rem", borderRadius: "8rem", objectFit: "cover" }} />}
+                    {imageSrc && <img src={imageSrc} alt="" style={{ width: "100%", maxWidth: "250px", borderRadius: "8px", objectFit: "cover" }} />}
+                    {imageSrc2 && <img src={imageSrc2} alt="" style={{ width: "100%", maxWidth: "250px", borderRadius: "8px", objectFit: "cover" }} />}
+                    {imageSrc3 && <img src={imageSrc3} alt="" style={{ width: "100%", maxWidth: "250px", borderRadius: "8px", objectFit: "cover" }} />}
                 </div>
             </div>
         </>

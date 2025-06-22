@@ -27,7 +27,7 @@ export default function Header() {
                 .header-title {
                     font-size: 2rem;
                     font-weight: bold;
-                    letter-spacing: 1rem;
+                    letter-spacing: 1px;
                 }
 
                 .header-nav a {
@@ -36,7 +36,7 @@ export default function Header() {
                     font-size: 1.2rem;
                     font-weight: 500;
                     padding: 0.5rem 1.2rem;
-                    border-radius: 8rem;
+                    border-radius: 8px;
                     transition: background 0.2s, color 0.2s, transform 0.15s, box-shadow 0.2s;
                 }
 
@@ -44,7 +44,7 @@ export default function Header() {
                     background: rgb(189, 19, 50);
                     color: #fff;
                     transform: scale(1.07);
-                    box-shadow: 0 4prem 16prem rgba(0,0,0,0.16);
+                    box-shadow: 0 4px 16px rgba(0,0,0,0.16);
                 }
                     
             `}</style>
