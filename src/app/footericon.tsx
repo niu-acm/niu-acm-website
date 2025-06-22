@@ -18,12 +18,12 @@ export default function FooterIcon({
                 flex-direction: row;
                 align-items: center;
                 gap: 8px;
-                padding: 10px 20px 10px 20px;
-                border-radius: 10px;
+                padding: 10rem 20rem 10rem 20rem;
+                border-radius: 10rem;
             }
 
             .icons {
-                height: 30px;
+                height: 30rem;
                 width: auto;
                 color: white;
                 -webkit-filter: invert(100%);
