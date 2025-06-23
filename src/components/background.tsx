@@ -1,18 +1,19 @@
 'use client';
 
 import { useEffect, useRef } from "react";
+import p5 from "p5";
 
 const Background: React.FC = () => {
     const canvasContainer = useRef<HTMLDivElement>(null);
-    const sketchInstance = useRef<any>(null); // temporarily 'any' to avoid type issue from dynamic import
+    const sketchInstance = useRef<p5 | null>(null);
 
     useEffect(() => {
-        let p5Instance: any = null;
+        let p5Instance: p5 | null = null;
 
         const createSketch = async () => {
             const p5 = (await import("p5")).default;
 
-            const sketch = (p: any) => {
+            const sketch = (p: p5) => {
                 type Cursor = {
                     x: number;
                     y: number;
@@ -27,6 +28,7 @@ const Background: React.FC = () => {
                     dx: number;
                     dy: number;
                     speed: number;
+                    level: number;
                     
                     segments: Array<Segment>;
                 };
@@ -37,9 +39,9 @@ const Background: React.FC = () => {
                     y_1: number;
                 };
 
-                let niu_red = [200, 16, 46];
-                let toAddCursors: Array<Cursor> = [];
-                let cursors: Array<Cursor> = [];
+                const niu_red = [200, 16, 46];
+                const toAddCursors: Array<Cursor> = [];
+                const cursors: Array<Cursor> = [];
                 const cursor_count = 50;
 
                 p.setup = () => {
@@ -47,8 +49,8 @@ const Background: React.FC = () => {
                     p.noStroke();
 
                     for (let i = 0; i < cursor_count; i++) {
-                        let x = i % 2 === 0 ? 0 : p.width;
-                        let y = p.random(p.height);
+                        const x = i % 2 === 0 ? 0 : p.width;
+                        const y = p.random(p.height);
                         toAddCursors.push({
                             x: x,
                             y: y,
@@ -63,6 +65,7 @@ const Background: React.FC = () => {
                             dx: i % 2 === 1 ? -1 : 1,
                             dy: 0,
                             speed: p.random(2, 12),
+                            level: p.random(1, 3),
 
                             segments: [],
                         });
@@ -81,23 +84,32 @@ const Background: React.FC = () => {
                         }
                     }
                     
-                    for (let cursor of cursors) {
+                    for (const cursor of cursors) {
+                        const breath_offset = 10 * Math.sin(p.frameCount / (cursor.level * 500 / cursor.speed));
+                        const dist_from_mouse_offset = 200 / (p.dist(
+                            p.mouseX,
+                            p.mouseY,
+                            cursor.x,
+                            cursor.y
+                        ) + 25);
+                        const offset_total = dist_from_mouse_offset + breath_offset;
+
                         // Draw the segments
                         p.stroke(niu_red);
-                        for (let segment of cursor.segments) {
+                        for (const segment of cursor.segments) {
                             p.strokeWeight(2);
-                            p.line(segment.x_0, segment.y_0, segment.x_1, segment.y_1);
+                            p.line(segment.x_0, segment.y_0 + offset_total, segment.x_1, segment.y_1 + offset_total);
                         };
 
                         // Draw the current segment
                         p.strokeWeight(2);
                         p.stroke(niu_red);
-                        p.line(cursor.original_x, cursor.original_y, cursor.x, cursor.y);
+                        p.line(cursor.original_x, cursor.original_y + offset_total, cursor.x, cursor.y + offset_total);
 
                         // Draw the dot
                         p.fill(niu_red);
                         p.noStroke();
-                        p.ellipse(cursor.x, cursor.y, 10, 10);
+                        p.ellipse(cursor.x, cursor.y + offset_total, 10, 10);
 
                         if ( cursor.segment_number >= cursor.max_segments ) {
                             continue;

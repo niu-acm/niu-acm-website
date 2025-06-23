@@ -5,9 +5,8 @@ type SectionBodyProps = {
     imageSrc: string;
     imageSrc2?: string;
     imageSrc3?: string;
-    lightGrey?: boolean; 
 }
-export default function SectionBody({ title, content, content2, imageSrc, imageSrc2, imageSrc3, lightGrey }: SectionBodyProps) {
+export default function SectionBody({ title, content, content2, imageSrc, imageSrc2, imageSrc3 }: SectionBodyProps) {
     return (
         <>
             <style>{`
