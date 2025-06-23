@@ -27,15 +27,16 @@ export default function SectionBody({ title, content, content2, imageSrc, imageS
             <div
                 style={{
                     display: "flex",
+                    backgroundColor: "white",
                     justifyContent: "center",
                     gap: "3rem",
-                    width: "100%",
+                    width: "90%",
                     minHeight: "350px",
-                    backgroundColor: lightGrey ? "#f5f5f5" : "#fff",
                     color: "#222",
                     padding: "3rem 6vw",
                     boxSizing: "border-box",
                     margin: "1rem 0",
+                    boxShadow: "0 4px 8px 0 rgba(100, 100, 100, 0.5)",
                 }}
             >
                 {/* All text on left */}

@@ -3,14 +3,18 @@ import Footer from '../components/footer';
 import SigCard from '../components/sig_card';
 import IntroBody from '../components/introbody';
 import SectionBody from '../components/sectionbody';
+import Background from '@/components/background';
+import { NodeNextRequest } from 'next/dist/server/base-http/node';
 
 export default function Home() {
   return (
     <div>
+      <Background />
       <Header />
 
       <div
         style={{
+          backgroundColor: "none",
           minHeight: "60vh",
           display: "flex",
           flexDirection: "column",
