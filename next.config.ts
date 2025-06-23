@@ -8,5 +8,8 @@ import { PHASE_PRODUCTION_BUILD } from 'next/constants';
 module.exports = (phase: any, { }) => {
   return {
     output: 'export', // Enables static export
+    images: {
+      unoptimized: true, // Disable image optimization for static export
+    },
   }
 };

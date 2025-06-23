@@ -1,16 +1,19 @@
-import Header from './header';
-import Footer from './footer';
-import SigCard from './sig_card';
-import IntroBody from './introbody';
-import SectionBody from './sectionbody';
+import Header from '../components/header';
+import Footer from '../components/footer';
+import SigCard from '../components/sig_card';
+import IntroBody from '../components/introbody';
+import SectionBody from '../components/sectionbody';
+import Background from '@/components/background';
 
 export default function Home() {
   return (
     <div>
+      <Background />
       <Header />
 
       <div
         style={{
+          backgroundColor: "none",
           minHeight: "60vh",
           display: "flex",
           flexDirection: "column",
@@ -46,7 +49,6 @@ export default function Home() {
           Stay tuned for more details on dates and speakers!"
           content2="Free Food and Drinks will be provided at all events"
           imageSrc="https://media.licdn.com/dms/image/v2/D5622AQHTXFkxkZoaBw/feedshare-shrink_2048_1536/B56ZW1n1DIHEAs-/0/1742508881064?e=1753315200&v=beta&t=MwufZgGVTQT1m7HjUdDoIY4sMZQofpj7USZZKdZD4b8"
-          lightGrey={true}
         ></SectionBody>
 
         {/* Socials Section */}
@@ -66,7 +68,6 @@ export default function Home() {
           content2="Check out our two SIGs below to see what they’re all about"
           imageSrc="https://sportslogohistory.com/wp-content/uploads/2023/05/northern_illinois_huskies_1988-2001.png"
           imageSrc2="https://sportslogohistory.com/wp-content/uploads/2023/05/northern_illinois_huskies_1988-2001.png"
-          lightGrey={true}
         ></SectionBody>
 
          {/* Sig Cards */}

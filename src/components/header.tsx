@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
     return (
         <>
@@ -50,17 +52,17 @@ export default function Header() {
             `}</style>
             <header className="header">
                 <div className="header-left">
-                    <a href="/">
+                    <Link href="/">
                         <img src="/images/logos/niu-updated-logo.png" alt="ACM Logo" className="header-logo" />
-                    </a>
+                    </Link>
                     <span className="header-title">Northern Illinois ACM</span>
                 </div>
                 <nav className="header-nav">
-                    <a href="/about">About</a>
-                    <a href="/cal">Calendar</a>
-                    <a href="/sigm">SIGmainframe</a>
-                    <a href="/sigw">SIGwebdev</a>
-                    <a href="/resc">Resources</a>
+                    <Link href="/about">About</Link>
+                    <Link href="/cal">Calendar</Link>
+                    <Link href="/sigm">SIGmainframe</Link>
+                    <Link href="/sigw">SIGwebdev</Link>
+                    <Link href="/resc">Resources</Link>
                 </nav>
             </header>
         </>

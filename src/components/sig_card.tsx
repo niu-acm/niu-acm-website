@@ -17,7 +17,8 @@ export default function SigCard({
         return (
         <>
             <style>{`
-              .sig-card {
+                .sig-card {
+                    background-color: white;
                    display: flex;
                    flex-direction: row;
                    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
@@ -28,7 +29,7 @@ export default function SigCard({
                 }
 
                 .sig-card:hover {
-                   background-color: rgba(0, 0, 0, 0.1);
+                   background-color: rgba(230);
                    transform: scale(1.05);
                    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.4);
                 }
