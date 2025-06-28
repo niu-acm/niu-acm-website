@@ -7,13 +7,21 @@ export default function Header() {
 
                 .header {
                     width: 100%;
-                    padding: 2rem 7.5rem;
+                    padding: 1rem 2.5rem;
                     box-sizing: border-box;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
                     background-color: rgb(200, 16, 46);
                     color: white;
+                }
+                .header-container {
+                    width: 100%;
+                    max-width: 1500px;
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
                 }
 
                 .header-left {
@@ -23,7 +31,7 @@ export default function Header() {
                 }
 
                 .header-logo {
-                    height: 150px;
+                    height: 75px;
                 }
 
                 .header-title {
@@ -51,19 +59,21 @@ export default function Header() {
                     
             `}</style>
             <header className="header">
-                <div className="header-left">
-                    <Link href="/">
-                        <img src="/images/logos/niu-updated-logo.png" alt="ACM Logo" className="header-logo" />
-                    </Link>
-                    <span className="header-title">Northern Illinois ACM</span>
+                <div className="header-container">
+                    <div className="header-left">
+                        <Link href="/">
+                            <img src="/images/logos/niu-updated-logo.png" alt="ACM Logo" className="header-logo" />
+                        </Link>
+                        <span className="header-title">Northern Illinois ACM</span>
+                    </div>
+                    <nav className="header-nav">
+                        <Link href="/about">About</Link>
+                        <Link href="/calendar">Calendar</Link>
+                        <Link href="/sigmainframe">SIGmainframe</Link>
+                        <Link href="/sigwebdev">SIGwebdev</Link>
+                        <Link href="/resources">Resources</Link>
+                    </nav>
                 </div>
-                <nav className="header-nav">
-                    <Link href="/about">About</Link>
-                    <Link href="/cal">Calendar</Link>
-                    <Link href="/sigm">SIGmainframe</Link>
-                    <Link href="/sigw">SIGwebdev</Link>
-                    <Link href="/resc">Resources</Link>
-                </nav>
             </header>
         </>
     );

@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "dependencies": {
     "@chakra-ui/react": "^3.21.0",
+    "@fullcalendar/core": "^6.1.17",
+    "@fullcalendar/daygrid": "^6.1.17",
+    "@fullcalendar/interaction": "^6.1.17",
+    "@fullcalendar/react": "^6.1.17",
     "@p5-wrapper/next": "^1.0.3",
     "@p5-wrapper/react": "^4.4.2",
     "@tabler/icons-react": "^3.34.0",
     "@types/p5": "^1.7.6",
+    "ical.js": "^2.1.0",
     "next": "15.3.3",
     "p5": "^2.0.3",
     "react-p5": "^1.4.1"
