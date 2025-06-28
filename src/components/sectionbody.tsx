@@ -29,7 +29,7 @@ export default function SectionBody({ title, content, content2, imageSrc, imageS
                     backgroundColor: "white",
                     justifyContent: "center",
                     gap: "3rem",
-                    width: "90%",
+                    width: "100%",
                     minHeight: "350px",
                     color: "#222",
                     padding: "3rem 6vw",
