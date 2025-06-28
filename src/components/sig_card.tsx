@@ -23,6 +23,7 @@ export default function SigCard({
                    flex-direction: row;
                    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                    transition: 0.3s ease;
+                   width: "100%",
                    border-radius: 5px;
                    border: 2px dark grey;
                    margin: 25px 100px 25px 100px;
