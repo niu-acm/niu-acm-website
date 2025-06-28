@@ -1,28 +1,13 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Background from '@/components/background';
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
-import ICAL from 'ical.js';
-
+import { EventContentArg } from '@fullcalendar/core/index.js';
 export default function Home() {
-	const [events, setEvents] = useState([] as any[]);
-
-	useEffect(() => {
-		async function loadICS() {
-		}
-
-		loadICS();
-	}, []);
-
 	return (
-		<>
-		<style>
-			
-		</style>
 		<div>
 			<Background />
 			<Header />
@@ -61,11 +46,10 @@ export default function Home() {
 
 			<Footer />
 		</div>
-		</>
 	);
 }
 
-function renderEventContent(eventInfo: any) {
+function renderEventContent(eventInfo: EventContentArg) {
   return (
     <>
       <b>{eventInfo.timeText}</b> <i>{eventInfo.event.title}</i>
