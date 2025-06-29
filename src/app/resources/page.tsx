@@ -36,7 +36,7 @@ export default function Home() {
                     <SectionBody
                         title="Interesting Links and Musings"
                         content="Just a bunch of useful websites"
-                        imageSrc="https://i.imgflip.com/2e8ce9.jpg"
+                        imageSrc="https://www.niu.edu/academics/images/apply-block-images/alejandro-cut-out.png"
                         link={{ url: "https://leetcode.com/problemset/", text: "Leetcode" }}
                         link2={{ url: "https://niucsci.wiki/", text: "NIU CSCI Wiki" }}
                         link3={{ url: "https://web.archive.org/web/20051231223018/http://www.cs.niu.edu/", text: "CS Department's Website in 2006" }}
