@@ -3,10 +3,11 @@ type IntroBodyProps = {
     content: string;
     imageSrc: string;
     altText: string;
-    join: string;
+    join?: string;         // Make join optional
+    whiteBg?: boolean;
 }
 
-export default function IntroBody({ title, content, imageSrc, altText, join}: IntroBodyProps) {
+export default function IntroBody({ title, content, imageSrc, altText, join, whiteBg }: IntroBodyProps) {
     return (
         <>
             <style>{`
@@ -36,8 +37,8 @@ export default function IntroBody({ title, content, imageSrc, altText, join}: In
                     gap: "2rem",
                     width: "100%",
                     minHeight: "350px",
-                    backgroundColor: "rgb(200, 16, 46)",
-                    color: "white",
+                    backgroundColor: whiteBg ? "#fff" : "rgb(200, 16, 46)",
+                    color: whiteBg ? "#222" : "white",
                     boxSizing: "border-box",
                     borderBottomLeftRadius: "24px",
                     borderBottomRightRadius: "24px"

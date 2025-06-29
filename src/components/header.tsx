@@ -69,8 +69,8 @@ export default function Header() {
                     <nav className="header-nav">
                         <Link href="/about">About</Link>
                         <Link href="/calendar">Calendar</Link>
-                        <Link href="/sigmainframe">SIGmainframe</Link>
-                        <Link href="/sigwebdev">SIGwebdev</Link>
+                        <Link href="/sigm">SIGmainframe</Link>
+                        <Link href="/sigw">SIGwebdev</Link>
                         <Link href="/resources">Resources</Link>
                     </nav>
                 </div>
