@@ -2,7 +2,7 @@ type SectionBodyProps = {
     title: string;
     content: string;
     content2?: string;
-    imageSrc: string;
+    imageSrc?: string;
     imageSrc2?: string;
     imageSrc3?: string;
     link?: { url: string; text: string };
@@ -67,7 +67,7 @@ export default function SectionBody({ title, content, content2, imageSrc, imageS
                 {/* All text on left */}
                 <div style={{ flex: 1, textAlign: "left", display: "flex", flexDirection: "column", justifyContent: "center", gap: "1.5rem" }}>
                     <h2 className="section-title">{title}</h2>
-                    <p style={{ fontSize: "1.3rem", margin: 0 }}>{content}</p>
+                    <p style={{ fontSize: "1.3rem", margin: 0, whiteSpace: "pre-line" }}>{content}</p>
                     {content2 && <p style={{ fontSize: "1.1rem", margin: 0 }}>{content2}</p>}
                     <div>
                         {link && (
