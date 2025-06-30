@@ -12,7 +12,7 @@ export default function Home() {
 		<Header />
 
 		<div style={{
-			backgroundColor: "none",
+			backgroundColor: "rgba(0, 0, 0, 0.1)",
 			minHeight: "60vh",
 			display: "flex",
 			flexDirection: "column",
@@ -36,10 +36,10 @@ export default function Home() {
 			{/* Different Section */}
 			<SectionBody
 				title="Why ACM is Different this year"
-				content="NIU's ACM Chapter is expanding to two special interest groups (SIGs) this year:  SIGmainrame and SIGwebdev. ACM also has a new advisor, Kurt McMahon. Our Board
-				is more diverse than ever, with a mix of new and returning members. We are the biggest ACM board in NIU history with 9 board members."
+				content="NIU's ACM Chapter is expanding to two special interest groups (SIGs) this year:  SIGmainframe and SIGwebdev. ACM also has a new advisor, Kurt McMahon. Our Board
+				is more diverse than ever, with a mix of new and returning members. We are the biggest ACM board in NIU history with 10 board members."
 				content2="ACM's goal is to provide a welcoming and inclusive environment for all students interested in computer science and finding their niche within the tech industry."
-				imageSrc="https://i.imgflip.com/2e8ce9.jpg"
+				imageSrc2="Niu_bars.png"
 			></SectionBody>
 
 			{/* Speaker Section */}
@@ -49,7 +49,8 @@ export default function Home() {
 				These events will feature guest speakers providing their experiences and career pathes.
 				Stay tuned for more details on dates and speakers!"
 				content2="Free Food and Drinks will be provided at all events"
-				imageSrc="https://media.licdn.com/dms/image/v2/D5622AQHTXFkxkZoaBw/feedshare-shrink_2048_1536/B56ZW1n1DIHEAs-/0/1742508881064?e=1753315200&v=beta&t=MwufZgGVTQT1m7HjUdDoIY4sMZQofpj7USZZKdZD4b8"
+				imageSrc2="https://media.licdn.com/dms/image/v2/D5622AQHTXFkxkZoaBw/feedshare-shrink_2048_1536/B56ZW1n1DIHEAs-/0/1742508881064?e=1753315200&v=beta&t=MwufZgGVTQT1m7HjUdDoIY4sMZQofpj7USZZKdZD4b8"
+				flipped={true}
 			></SectionBody>
 
 			{/* Socials Section */}
@@ -57,7 +58,7 @@ export default function Home() {
 				title="ACM Socials"
 				content="ACM hosts a variety of social events throughout the semester to help members connect, relax, and have fun."
 				content2="Free food, games, and activities are always included!"
-				imageSrc="https://sportslogohistory.com/wp-content/uploads/2023/05/northern_illinois_huskies_1988-2001.png"
+				imageSrc2="social.png"
 			></SectionBody>
 
 			{/* SIG Section */}
@@ -67,8 +68,8 @@ export default function Home() {
 				into specific areas of tech they're passionate about.
 				They’re informal, collaborative spaces that meet regularly to learn, build, and grow together."
 				content2="Check out our two SIGs below to see what they’re all about"
-				imageSrc="https://sportslogohistory.com/wp-content/uploads/2023/05/northern_illinois_huskies_1988-2001.png"
-				imageSrc2="https://sportslogohistory.com/wp-content/uploads/2023/05/northern_illinois_huskies_1988-2001.png"
+				imageSrc="ibm.png"
+				imageSrc3="huskie.png"
 			></SectionBody>
 
 			{/* Sig Cards */}
@@ -86,7 +87,7 @@ export default function Home() {
 				name="SIGwebdev"
 				description="SIGwebdev is for anyone interested in building things on the web—from total beginners to experienced devs.
 				If you're into HTML/CSS, PHP, React, Tailwind, or just want to make your portfolio shine, this is your space"
-				image_url="/webdev.png"
+				image_url="https://www.hubspot.com/hubfs/web-development.webp"
 				flipped={true}
 				link="/sigw"
 			/>

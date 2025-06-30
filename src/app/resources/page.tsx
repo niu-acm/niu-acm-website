@@ -11,7 +11,7 @@ export default function Home() {
 
             <div
                 style={{
-                    backgroundColor: "none",
+                    backgroundColor: "rgba(0, 0, 0, 0.1)",
                     minHeight: "60vh",
                     display: "flex",
                     flexDirection: "column",
