@@ -1,0 +1,140 @@
+1:"$Sreact.fragment"
+2:I[7555,[],""]
+3:I[1295,[],""]
+4:I[435,["729","static/chunks/729-ae78cc4b1db87e1f.js","752","static/chunks/app/resources/page-53039592ac31ae4a.js"],"default"]
+6:I[6874,["729","static/chunks/729-ae78cc4b1db87e1f.js","752","static/chunks/app/resources/page-53039592ac31ae4a.js"],""]
+9:I[9665,[],"MetadataBoundary"]
+b:I[9665,[],"OutletBoundary"]
+e:I[4911,[],"AsyncMetadataOutlet"]
+10:I[9665,[],"ViewportBoundary"]
+12:I[6614,[],""]
+:HL["/_next/static/media/45d4bdb7b7024bda-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
+:HL["/_next/static/media/c8fd26c47b32418b-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
+:HL["/_next/static/media/eb74faabb8756d67-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
+:HL["/_next/static/media/ec453c98cba9d61a-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
+:HL["/_next/static/css/5c9f773d906baa3d.css","style"]
+5:T6d2,
+
+                .header {
+                    width: 100%;
+                    padding: 1rem 2.5rem;
+                    box-sizing: border-box;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: rgb(200, 16, 46);
+                    color: white;
+                }
+                .header-container {
+                    width: 100%;
+                    max-width: 1500px;
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+
+                .header-left {
+                    display: flex;
+                    align-items: center;
+                    gap: 1.5rem;
+                }
+
+                .header-logo {
+                    height: 75px;
+                }
+
+                .header-title {
+                    font-size: 2rem;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                }
+
+                .header-nav a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    padding: 0.5rem 1.2rem;
+                    border-radius: 8px;
+                    transition: background 0.2s, color 0.2s, transform 0.15s, box-shadow 0.2s;
+                }
+
+                .header-nav a:hover {
+                    background: rgb(189, 19, 50);
+                    color: #fff;
+                    transform: scale(1.07);
+                    box-shadow: 0 4px 16px rgba(0,0,0,0.16);
+                }
+                    
+            7:T49f,
+                .section-title {
+                    font-size: 2.4rem;
+                    font-weight: bold;
+                    margin: 0;
+                    transition: color 0.2s, text-shadow 0.2s, transform 0.2s;
+                    cursor: pointer;
+                }
+                .section-title:hover {
+                    color: #c8102e;
+                    text-shadow: 0 2px 12px #c8102e44;
+                    transform: scale(1.07);
+                }
+                .section-link {
+                    display: inline-block;
+                    margin-top: 1.2rem;
+                    margin-right: 1rem;
+                    padding: 0.6rem 1.5rem;
+                    background: #c8102e;
+                    color: #fff;
+                    border-radius: 8px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    font-size: 1.1rem;
+                    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+                    transition: background 0.2s, color 0.2s;
+                }
+                .section-link:hover {
+                    background: #a00b23;
+                    color: #fff;
+                }
+            8:T49f,
+                .section-title {
+                    font-size: 2.4rem;
+                    font-weight: bold;
+                    margin: 0;
+                    transition: color 0.2s, text-shadow 0.2s, transform 0.2s;
+                    cursor: pointer;
+                }
+                .section-title:hover {
+                    color: #c8102e;
+                    text-shadow: 0 2px 12px #c8102e44;
+                    transform: scale(1.07);
+                }
+                .section-link {
+                    display: inline-block;
+                    margin-top: 1.2rem;
+                    margin-right: 1rem;
+                    padding: 0.6rem 1.5rem;
+                    background: #c8102e;
+                    color: #fff;
+                    border-radius: 8px;
+                    font-weight: bold;
+                    text-decoration: none;
+                    font-size: 1.1rem;
+                    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+                    transition: background 0.2s, color 0.2s;
+                }
+                .section-link:hover {
+                    background: #a00b23;
+                    color: #fff;
+                }
+            0:{"P":null,"b":"yHneUnOt8KA5Rkj_Ps69o","p":"","c":["","resources"],"i":false,"f":[[["",{"children":["resources",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5c9f773d906baa3d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__className_258576","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["resources",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"children":[["$","$L4",null,{}],[["$","style",null,{"children":"$5"}],["$","header",null,{"className":"header","children":["$","div",null,{"className":"header-container","children":[["$","div",null,{"className":"header-left","children":[["$","$L6",null,{"href":"/","children":["$","img",null,{"src":"/images/logos/niu-updated-logo.png","alt":"ACM Logo","className":"header-logo"}]}],["$","span",null,{"className":"header-title","children":"Northern Illinois ACM"}]]}],["$","nav",null,{"className":"header-nav","children":[["$","$L6",null,{"href":"/about","children":"About"}],["$","$L6",null,{"href":"/calendar","children":"Calendar"}],["$","$L6",null,{"href":"/sigm","children":"SIGmainframe"}],["$","$L6",null,{"href":"/sigw","children":"SIGwebdev"}],["$","$L6",null,{"href":"/resources","children":"Resources"}]]}]]}]}]],["$","div",null,{"style":{"backgroundColor":"rgba(0, 0, 0, 0.1)","minHeight":"60vh","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center","textAlign":"center"},"children":["$","div",null,{"style":{"width":"100%","maxWidth":"1500px"},"children":[[["$","style",null,{"children":"$7"}],["$","div",null,{"style":{"display":"flex","flexDirection":"row","backgroundColor":"white","justifyContent":"space-between","gap":"0.5rem","width":"100%","minHeight":"350px","color":"#222","padding":"4rem 6vw","boxSizing":"border-box","margin":"1rem 0","boxShadow":"0 4px 8px 0 rgba(100, 100, 100, 0.5)"},"children":[["$","div",null,{"style":{"flex":1,"textAlign":"left","display":"flex","flexDirection":"column","justifyContent":"center","gap":"1.2rem","maxWidth":"500px"},"children":[["$","h2",null,{"className":"section-title","children":"Community GitHub"}],["$","p",null,{"style":{"fontSize":"1.3rem","margin":0,"whiteSpace":"pre-line"},"children":"Our GitHub is the central hub for all our projects, resources, and community contributions. Whether you're looking to collaborate on a project, find resources, or just explore what we're working on"}],"$undefined",["$","div",null,{"children":[["$","a",null,{"href":"https://github.com/niu-acm","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"Visit Our GitHub"}],"$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"style":{"flex":"0 0 auto","display":"flex","flexDirection":"row","gap":"1rem","alignItems":"center","justifyContent":"flex-end"},"children":[["$","img",null,{"src":"https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png","alt":"","style":{"width":"240px","borderRadius":"12px","objectFit":"cover"}}],"$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$8"}],["$","div",null,{"style":{"display":"flex","flexDirection":"row","backgroundColor":"white","justifyContent":"space-between","gap":"0.5rem","width":"100%","minHeight":"350px","color":"#222","padding":"4rem 6vw","boxSizing":"border-box","margin":"1rem 0","boxShadow":"0 4px 8px 0 rgba(100, 100, 100, 0.5)"},"children":[["$","div",null,{"style":{"flex":1,"textAlign":"left","display":"flex","flexDirection":"column","justifyContent":"center","gap":"1.2rem","maxWidth":"500px"},"children":[["$","h2",null,{"className":"section-title","children":"Interesting Links and Musings"}],["$","p",null,{"style":{"fontSize":"1.3rem","margin":0,"whiteSpace":"pre-line"},"children":"Just a bunch of useful websites"}],"$undefined",["$","div",null,{"children":[["$","a",null,{"href":"https://leetcode.com/problemset/","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"Leetcode"}],["$","a",null,{"href":"https://niucsci.wiki/","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"NIU CSCI Wiki"}],["$","a",null,{"href":"https://web.archive.org/web/20051231223018/http://www.cs.niu.edu/","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"CS Department's Website in 2006"}],["$","a",null,{"href":"https://web.archive.org/web/19970630122311/http://www.cs.niu.edu/~mcmahon/","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"Kurt McMahon's 1997 Faculty Page"}],["$","a",null,{"href":"https://www.youtube.com/watch?v=HXeLdyB6zME","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"John Winans 340"}],"$undefined","$undefined"]}]]}],["$","div",null,{"style":{"flex":"0 0 auto","display":"flex","flexDirection":"row","gap":"1rem","alignItems":"center","justifyContent":"flex-end"},"children":[["$","img",null,{"src":"https://www.niu.edu/academics/images/apply-block-images/alejandro-cut-out.png","alt":"","style":{"width":"240px","borderRadius":"12px","objectFit":"cover"}}],"$undefined","$undefined"]}]]}]]]}]}],[["$","style",null,{"children":"\n            .footer {\n               display: flex;\n               align-items: center;\n               justify-content: center;\n               background-color:rgb(200, 16, 46);\n               color: white;\n               border-radius: 10px 10px 0px 0px;\n               flex-direction: row;\n            }\n\n            .icons-wrapper {\n               display: flex;\n               flex-direction: row;\n               gap: 50px;\n               margin-top: 15px;\n               margin-bottom: 15px;\n            }\n        "}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"icons-wrapper","children":[[["$","style",null,{"children":"\n\n            .icon-button {\n                display: flex;\n                flex-direction: row;\n                align-items: center;\n                gap: 8px;\n                padding: 10px 20px 10px 20px;\n                border-radius: 10px;\n            }\n\n            .icons {\n                height: 30px;\n                width: auto;\n                color: white;\n                -webkit-filter: invert(100%);\n            }\n\n            .icon-button:hover {\n                background-color: rgba(0, 0, 0, 0.1);\n                cursor: pointer;\n                transition: background-color 0.25s ease-in-out;\n            }\n\n        "}],["$","a",null,{"href":"mailto:niuhuskiesacm@gmail.com","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"icons/mail.svg"}],["$","p",null,{"children":["$","b",null,{"children":"Email Us"}]}]]}]}]],[["$","style",null,{"children":"\n\n            .icon-button {\n                display: flex;\n                flex-direction: row;\n                align-items: center;\n                gap: 8px;\n                padding: 10px 20px 10px 20px;\n                border-radius: 10px;\n            }\n\n            .icons {\n                height: 30px;\n                width: auto;\n                color: white;\n                -webkit-filter: invert(100%);\n            }\n\n            .icon-button:hover {\n                background-color: rgba(0, 0, 0, 0.1);\n                cursor: pointer;\n                transition: background-color 0.25s ease-in-out;\n            }\n\n        "}],["$","a",null,{"href":"https://discord.gg/gzQDaQMGjJ","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"icons/brand-discord.svg"}],["$","p",null,{"children":["$","b",null,{"children":"Discord"}]}]]}]}]],[["$","style",null,{"children":"\n\n            .icon-button {\n                display: flex;\n                flex-direction: row;\n                align-items: center;\n                gap: 8px;\n                padding: 10px 20px 10px 20px;\n                border-radius: 10px;\n            }\n\n            .icons {\n                height: 30px;\n                width: auto;\n                color: white;\n                -webkit-filter: invert(100%);\n            }\n\n            .icon-button:hover {\n                background-color: rgba(0, 0, 0, 0.1);\n                cursor: pointer;\n                transition: background-color 0.25s ease-in-out;\n            }\n\n        "}],["$","a",null,{"href":"https://huskiehub.niu.edu/NIUACM/club_signup","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"icons/heading.svg"}],["$","p",null,{"children":["$","b",null,{"children":"Huskie Hub"}]}]]}]}]],[["$","style",null,{"children":"\n\n            .icon-button {\n                display: flex;\n                flex-direction: row;\n                align-items: center;\n                gap: 8px;\n                padding: 10px 20px 10px 20px;\n                border-radius: 10px;\n            }\n\n            .icons {\n                height: 30px;\n                width: auto;\n                color: white;\n                -webkit-filter: invert(100%);\n            }\n\n            .icon-button:hover {\n                background-color: rgba(0, 0, 0, 0.1);\n                cursor: pointer;\n                transition: background-color 0.25s ease-in-out;\n            }\n\n        "}],["$","a",null,{"href":"https://github.com/niu-acm","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"icons/brand-github.svg"}],["$","p",null,{"children":["$","b",null,{"children":"GitHub"}]}]]}]}]],[["$","style",null,{"children":"\n\n            .icon-button {\n                display: flex;\n                flex-direction: row;\n                align-items: center;\n                gap: 8px;\n                padding: 10px 20px 10px 20px;\n                border-radius: 10px;\n            }\n\n            .icons {\n                height: 30px;\n                width: auto;\n                color: white;\n                -webkit-filter: invert(100%);\n            }\n\n            .icon-button:hover {\n                background-color: rgba(0, 0, 0, 0.1);\n                cursor: pointer;\n                transition: background-color 0.25s ease-in-out;\n            }\n\n        "}],["$","a",null,{"href":"https://www.linkedin.com/groups/14721661","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"icons/brand-linkedin.svg"}],["$","p",null,{"children":["$","b",null,{"children":"LinkedIn"}]}]]}]}]]]}]}]]]}],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","tXfNvTB4gEA8zn7IX5IxH",{"children":[["$","$L10",null,{"children":"$L11"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+13:"$Sreact.suspense"
+14:I[4911,[],"AsyncMetadata"]
+a:["$","$13",null,{"fallback":null,"children":["$","$L14",null,{"promise":"$@15"}]}]
+d:null
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+15:{"metadata":[["$","title","0",{"children":"Create Next App"}],["$","meta","1",{"name":"description","content":"Generated by create next app"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+f:{"metadata":"$15:metadata","error":null,"digest":"$undefined"}
