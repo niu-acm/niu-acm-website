@@ -5,6 +5,8 @@ type SectionBodyProps = {
     imageSrc?: string;
     imageSrc2?: string;
     imageSrc3?: string;
+    imageSrc4?: string;
+    imageSrc5?: string;
     link?: { url: string; text: string };
     link2?: { url: string; text: string };
     link3?: { url: string; text: string };
@@ -16,7 +18,7 @@ type SectionBodyProps = {
 }
 
 export default function SectionBody({
-    title, content, content2, imageSrc, imageSrc2, imageSrc3,
+    title, content, content2, imageSrc, imageSrc2, imageSrc3, imageSrc4, imageSrc5,
     link, link2, link3, link4, link5, link6, link7, flipped
 }: SectionBodyProps) {
     return (
@@ -132,8 +134,10 @@ export default function SectionBody({
                     }}
                 >
                     {imageSrc && <img src={imageSrc} alt="" style={{ width: "240px", borderRadius: "12px", objectFit: "cover" }} />}
-                    {imageSrc2 && <img src={imageSrc2} alt="" style={{ width: "550px", borderRadius: "12px", objectFit: "cover" }} />}
-                    {imageSrc3 && <img src={imageSrc3} alt="" style={{ width: "240px", borderRadius: "12px", objectFit: "cover" }} />}
+                    {imageSrc2 && <img src={imageSrc2} alt="" style={{ width: "550px", borderRadius: "12px", objectFit: "cover" }} />}    { /* 2 is perfect for single large */}
+                    {imageSrc3 && <img src={imageSrc3} alt="" style={{ width: "240px", borderRadius: "12px", objectFit: "cover" }} />}   
+                    {imageSrc4 && <img src={imageSrc4} alt="" style={{ width: "400px", borderRadius: "12px", objectFit: "cover" }} />}    {/* 4,5 are perfect for side by side */}
+                    {imageSrc5 && <img src={imageSrc5} alt="" style={{ width: "400px", borderRadius: "12px", objectFit: "cover" }} />}
                 </div>
             </div>
         </>

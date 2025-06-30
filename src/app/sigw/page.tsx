@@ -46,7 +46,6 @@ export default function Home() {
                         imageSrc="nerdsky.jpg"
                         imageSrc3="warsky.png"
                         flipped={true}
-
                     />
 
                     {/* Schedule  */}
