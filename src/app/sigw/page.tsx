@@ -12,7 +12,7 @@ export default function Home() {
 
             <div
                 style={{
-                    backgroundColor: "none",
+                    backgroundColor: "rgba(0, 0, 0, 0.1)",
                     minHeight: "60vh",
                     display: "flex",
                     flexDirection: "column",
@@ -29,7 +29,7 @@ export default function Home() {
                     The semester features hands-on workshops covering HTML/CSS, GitHub Pages, React with Vite, 
                     TypeScript, ExpressJS, and SQL. Participants build real projects like personal sites, REST APIs, 
                     and React apps, with guidance tailored to both new and advanced coders."
-                    imageSrc="https://cdn.jim-nielsen.com/blog/2021/css-is-awesome-default.png"
+                    imageSrc="https://www.getmecoding.com/wp-content/uploads/2017/10/GMC_blog_IsWebDevelopmentCoding_resize.jpg"
                     altText="come join acm with me vro. come be deckerpilled"
                     whiteBg={true}
                 />
@@ -43,15 +43,27 @@ export default function Home() {
                         title="What Type of Events does SIGwebdev Host?"
                         content="SIG webdev focuses on web development skills, hosting workshops on HTML, CSS, JavaScript, TypeScript and popular frameworks. Members learn about web technologies not taught in the classroom."
                         content2="SIG webdev also meets for SQL & Snacks, Study Events, and Movies"
-                        imageSrc="https://www.niutoday.info/wp-content/uploads/2013/08/victor-e-huskie-2.jpg"
+                        imageSrc="nerdsky.jpg"
+                        imageSrc3="warsky.png"
+                        flipped={true}
+
                     />
 
                     {/* Schedule  */}
                     <SectionBody
                         title="Fall 2025 Schedule"
-                        content={`Week 1: \nWeek 2: \nWeek 3: \nWeek 4: \nWeek 5: \nWeek 6: \nWeek 7: \nWeek 8: \nWeek 9:   `}
+                        content={`
+                            Sep 24: Kickoff + Developer Setup + GitHub Pages
+                            \nOct 1: One-Stop Web Basics Workshop (HTML/CSS/Dev Tools)
+                            \nOct 8: Intro to React + Vite + JSX
+                            \nOct 15: TypeScript for Web Dev
+                            \nOct 22: Backend with ExpressJS + REST APIs
+                            \nOct 29: SQL and Snacks
+                            \nNov 5: SEO Optimization & page accessibility workshop
+                            \nNov 12: Catch up Workshop & Chill: Leetcode/Hackerrank Practice
+                            \nNov 19: Project Showcase + End-of-Semester Party
+                            `}
                         content2="Weekly Meetings in Psych CS building from 4:30pm to 6pm"
-                        imageSrc="https://i.imgflip.com/2e8ce9.jpg"
                     />
 
                     {/* Past Events */}

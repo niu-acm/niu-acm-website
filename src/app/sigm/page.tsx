@@ -3,7 +3,6 @@ import Footer from '../../components/footer';
 import Background from '@/components/background';
 import IntroBody from '../../components/introbody';
 import SectionBody from '../../components/sectionbody';
-import SigCard from '../../components/sig_card'; // If you want to use SigCard
 
 export default function Home() {
     return (
@@ -13,7 +12,7 @@ export default function Home() {
 
             <div
                 style={{
-                    backgroundColor: "none",
+                    backgroundColor: "rgba(0, 0, 0, 0.1)",
                     minHeight: "60vh",
                     display: "flex",
                     flexDirection: "column",
