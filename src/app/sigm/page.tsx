@@ -37,32 +37,46 @@ export default function Home() {
                     {/* Example Section */}
                     <SectionBody
                         title="What Type of Events does SIGmainframe Host?"
-                        content="NIU's ACM Chapter is expanding to two special interest groups (SIGs) this year:  SIGmainrame and SIGwebdev. ACM also has a new advisor, Kurt McMahon. Our Board is more diverse than ever, with a mix of new and returning members. We are the biggest ACM board in NIU history with 9 board members."
-                        content2="ACM's goal is to provide a welcoming and inclusive environment for all students interested in computer science and finding their niche within the tech industry."
+                        content=""
+                        content2=""
                         imageSrc="https://i.imgflip.com/2e8ce9.jpg"
+                        flipped={true}
                     />
 
-                {/* Schedule  */}
+                    {/* Schedule  */}
                     <SectionBody
                         title="Fall 2025 Schedule"
-                        content="NIU's ACM Chapter is expanding to two special interest groups (SIGs) this year:  SIGmainrame and SIGwebdev. ACM also has a new advisor, Kurt McMahon. Our Board is more diverse than ever, with a mix of new and returning members. We are the biggest ACM board in NIU history with 9 board members."
-                        content2="ACM's goal is to provide a welcoming and inclusive environment for all students interested in computer science and finding their niche within the tech industry."
-                        imageSrc="https://i.imgflip.com/2e8ce9.jpg"
+                         content={`
+                            Sep 23: 
+                            \nSep 30:
+                            \nOct 7:
+                            \nOct 14: 
+                            \nOct 21: 
+                            \nOct 28: 
+                            \nNov 4: 
+                            \nNov 11: 
+                            \nNov 18: 
+                            `}
+                    />
+
+                    {/* Share & TechExchange */}
+                    <SectionBody
+                        title="Mainframe Conferences"
+                        content="NIU Mainframers often attend SHARE and TechXChange events throughout the year. These events provide opportunities to learn about the latest mainframe technologies, network with industry professionals, and share knowledge with peers."
+                        imageSrc4="share.jpg"
+                        imageSrc5="https://media.licdn.com/dms/image/v2/D5622AQHgkZLYjmnzcQ/feedshare-shrink_2048_1536/B56ZVOjV5YGQAo-/0/1740779648248?e=1753920000&v=beta&t=OnTGbIB13VoiW7Ye8BCFk4mLVbE4oRB9TEPVRKlbvSM"
                     />
 
                     {/* Past Events */}
                     <SectionBody
                         title="Past Events"
-                        content="NIU's ACM Chapter is expanding to two special interest groups (SIGs) this year:  SIGmainrame and SIGwebdev. ACM also has a new advisor, Kurt McMahon. Our Board is more diverse than ever, with a mix of new and returning members. We are the biggest ACM board in NIU history with 9 board members."
-                        content2="ACM's goal is to provide a welcoming and inclusive environment for all students interested in computer science and finding their niche within the tech industry."
-                        imageSrc="https://i.imgflip.com/2e8ce9.jpg"
-                    />
+                        content=""
+                    /> 
 
                     {/* Example Section */}
                     <SectionBody
-                        title="Past and Present Mainframers in the Community"
-                        content="NIU's ACM Chapter is expanding to two special interest groups (SIGs) this year:  SIGmainrame and SIGwebdev. ACM also has a new advisor, Kurt McMahon. Our Board is more diverse than ever, with a mix of new and returning members. We are the biggest ACM board in NIU history with 9 board members."
-                        content2="ACM's goal is to provide a welcoming and inclusive environment for all students interested in computer science and finding their niche within the tech industry."
+                        title="Mainframe Alumni"
+                        content=""
                         imageSrc="https://i.imgflip.com/2e8ce9.jpg"
                     />
                 </div>
