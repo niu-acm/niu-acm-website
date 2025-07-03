@@ -10,7 +10,7 @@ export default function Home() {
             <Background />
             <Header />
 
-            <div
+            <div 
                 style={{
                     backgroundColor: "rgba(0, 0, 0, 0.1)",
                     minHeight: "60vh",
@@ -21,7 +21,6 @@ export default function Home() {
                     textAlign: "center",
                 }}
             >       
-            
                 <AboutBoard
                     members={[
                         { name: "Juan Lopez", position: "Chair, SIGwebdev Lead", imageUrl: "board/juan.jpg" },
@@ -33,11 +32,10 @@ export default function Home() {
                         { name: "Jakobi McFadden", position: "SIGwebdev Officer", imageUrl:"board/jakobi.jpg" },
                         { name: "Julian Carranza", position: "SIGwebdev Officer", imageUrl: "board/julian.jpg" },
                         { name: "Victor Taiwo", position: "ACM Recruiter", imageUrl:"board/victor.jpg" },
-                        { name: "Oyewale Adeole", position: "ACM Recruiter", imageUrl: "board/wale.jpg"}
-
+                        { name: "Oyewale Adeoye", position: "ACM Recruiter", imageUrl: "board/wale.jpg"}
                     ]}
                 />
-
+                
                 <div style={{ width: "100%", maxWidth: "80rem", margin: "0 auto" }}>
                 <SectionBody
                     title="Speaker Series Fall 2025"
