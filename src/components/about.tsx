@@ -16,7 +16,7 @@ export default function AboutBoard({ members }: AboutBoardProps) {
     // Calculate columns: up to 5, but never more than the number of members (unless members > 5)
     const columns = Math.min(5, shownMembers.length || 1);
     // Calculate rows: enough to fit all members
-    const rows = Math.ceil(shownMembers.length / columns);
+    //const rows = Math.ceil(shownMembers.length / columns);
 
     return (
         <div
