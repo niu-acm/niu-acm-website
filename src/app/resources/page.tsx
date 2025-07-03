@@ -44,6 +44,12 @@ export default function Home() {
                         link5={{ url: "https://www.youtube.com/watch?v=HXeLdyB6zME", text: "John Winans 340" }}
                     />
 
+                    <SectionBody
+                        title="NIU ACM History"
+                        content="Our NIU ACM chapter founders came to DeKalb, Illinois on the S.S. Decker from Lehutastan in 1980"
+                        imageSrc2="stupidboat.png"
+                    />
+
                 </div>
             </div>
             <Footer />
