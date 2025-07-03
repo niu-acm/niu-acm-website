@@ -39,7 +39,7 @@ export default function FooterIcon({
 
         <a href={link}>
             <button className="icon-button">
-                <img className="icons" src={iconPath}></img>
+                <img className="icons" src={iconPath} alt={iconName + " icon"} ></img>
                 <p><b>{iconName}</b></p>
             </button>
         </a>
