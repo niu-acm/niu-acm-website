@@ -35,7 +35,7 @@ export default function Home() {
                 {/* Schedule  */}
                     <SectionBody
                         title="Resources and Musings"
-                        content="Just a bunch of useful websites"e
+                        content="Just a bunch of useful websites"
                         imageSrc="https://www.niu.edu/academics/images/apply-block-images/alejandro-cut-out.png"
                         link={{ url: "https://leetcode.com/problemset/", text: "Leetcode" }}
                         link2={{ url: "https://niucsci.wiki/", text: "NIU CSCI Wiki" }}
@@ -43,8 +43,7 @@ export default function Home() {
                         link4={{ url: "https://niucsci.wiki/guide/make", text: "How to make Makefiles" }}
                         link5={{ url: "https://niucsci.wiki/guide/documentation", text: "Doc-driven development with doxygen and git" }}
                         link6={{ url: "https://web.archive.org/web/20051231223018/http://www.cs.niu.edu/", text: "CS Department's Website in 2006" }}
-                        link7={{ url: "https://web.archive.org/web/19970630122311/http://www.cs.niu.edu/~mcmahon/", text: "Kurt McMahon's 1997 Faculty Page" }}
-                        link8={{ url: "https://www.youtube.com/watch?v=HXeLdyB6zME", text: "John Winans 340 Youtube Course" }}
+                        link7={{ url: "https://www.youtube.com/watch?v=HXeLdyB6zME", text: "John Winans 340 Youtube Course" }}
                     />
 
                     <SectionBody
