@@ -43,8 +43,8 @@ export default function Home() {
                         title="What Type of Events does SIGwebdev Host?"
                         content="SIG webdev focuses on web development skills, hosting workshops on HTML, CSS, JavaScript, TypeScript and popular frameworks. Members learn about web technologies not taught in the classroom."
                         content2="SIG webdev also meets for SQL & Snacks, Study Events, and Movies"
-                        imageSrc="nerdsky.jpg"
-                        imageSrc3="warsky.png"
+                        imageSrc="https://i.imgur.com/MdiVDe9.jpeg"
+                        imageSrc3="https://i.imgur.com/Wi92GC6.png"
                         flipped={true}
                     />
 

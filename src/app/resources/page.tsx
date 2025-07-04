@@ -45,11 +45,10 @@ export default function Home() {
                     />
 
                     <SectionBody
-                        title="NIU ACM History"
-                        content="Our NIU ACM chapter founders came to DeKalb, Illinois on the S.S. Decker from Lehutastan in 1980"
-                        imageSrc2="stupidboat.png"
+                        title="NIU ACM"
+                        content="Look for the Student Chapter of the ACM's fliers posted on campus bulletin boards for announcements of activities."
+                        imageSrc2="https://i.imgur.com/khcj2aF.png"
                     />
-
                 </div>
             </div>
             <Footer />
