@@ -62,7 +62,7 @@ export default function Header() {
                 <div className="header-container">
                     <div className="header-left">
                         <Link href="/">
-                            <img src="https://private-user-images.githubusercontent.com/108855394/462245740-d1a3224a-b4d8-4e01-8ef4-8f7c75e04a95.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTE1ODc5MDEsIm5iZiI6MTc1MTU4NzYwMSwicGF0aCI6Ii8xMDg4NTUzOTQvNDYyMjQ1NzQwLWQxYTMyMjRhLWI0ZDgtNGUwMS04ZWY0LThmN2M3NWUwNGE5NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcwNFQwMDA2NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NTQzNGRhZDBjZDMwODg2OTQ3NWU0ZTgyYzYzZTBiMjRiMzJjMjI5NTYyYTdlM2VmZDQwNTM5ZjEzYTZmNjE0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.XYz8PKpYJV3Bed_qFS0R5WXEnYKWtEW5MRDdsJ2u49I" 
+                            <img src="https://github.com/user-attachments/assets/d1a3224a-b4d8-4e01-8ef4-8f7c75e04a95"
                             alt="ACM Logo" className="header-logo" />
                         </Link>
                         <span className="header-title">Northern Illinois ACM</span>
