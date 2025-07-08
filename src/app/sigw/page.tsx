@@ -54,8 +54,8 @@ export default function Home() {
                         content={`
                             Sep 24: Kickoff + Developer Setup + GitHub Pages
                             \nOct 1: One-Stop Web Basics Workshop (HTML/CSS/Dev Tools)
-                            \nOct 8: Intro to React + Vite + JSX
-                            \nOct 15: TypeScript for Web Dev
+                            \nOct 8: Intro to React + Vite + TypeScript + bun
+                            \nOct 15: SQL and Snacks
                             \nOct 22: Backend with ExpressJS + REST APIs
                             \nOct 29: SQL and Snacks
                             \nNov 5: SEO Optimization & page accessibility workshop
