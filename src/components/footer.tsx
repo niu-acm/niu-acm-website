@@ -21,6 +21,29 @@ export default function Footer() {
                margin-top: 15px;
                margin-bottom: 15px;
             }
+
+            /* Mobile styles */
+            @media (max-width: 768px) {
+                .icons-wrapper {
+                    gap: 30px;
+                    margin-top: 12px;
+                    margin-bottom: 12px;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .footer {
+                    padding: 0 10px;
+                }
+
+                .icons-wrapper {
+                    gap: 20px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
         `}</style>
 
         <footer className="footer">

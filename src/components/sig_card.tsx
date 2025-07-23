@@ -70,6 +70,79 @@ export default function SigCard({
                    background-color: rgb(94, 83, 85);
               }
 
+              .sig-card-image {
+                   width: 300px;
+                   height: auto;
+                   object-fit: cover;
+              }
+
+              /* Mobile styles */
+              @media (max-width: 768px) {
+                  .sig-card {
+                      flex-direction: column;
+                      margin: 15px 20px;
+                  }
+
+                  .sig-card-content {
+                      padding: 20px 30px;
+                      font-size: 20px;
+                      text-align: left;
+                  }
+
+                  .sig-header {
+                      font-size: 24px;
+                      margin-top: 20px;
+                  }
+
+                  .sig-body {
+                      font-size: 16px;
+                      padding: 20px 0px;
+                  }
+
+                  .sig-link {
+                      padding: 15px 20px;
+                      font-size: 1rem;
+                      margin-bottom: 20px;
+                  }
+
+                  .sig-card-image {
+                      width: 100%;
+                      max-width: 400px;
+                      margin: 0 auto;
+                  }
+              }
+
+              @media (max-width: 480px) {
+                  .sig-card {
+                      margin: 10px 15px;
+                  }
+
+                  .sig-card-content {
+                      padding: 15px 20px;
+                      font-size: 18px;
+                  }
+
+                  .sig-header {
+                      font-size: 20px;
+                      margin-top: 15px;
+                  }
+
+                  .sig-body {
+                      font-size: 14px;
+                      padding: 15px 0px;
+                  }
+
+                  .sig-link {
+                      padding: 12px 16px;
+                      font-size: 0.9rem;
+                      margin-bottom: 15px;
+                  }
+
+                  .sig-card-image {
+                      max-width: 300px;
+                  }
+              }
+
             
             `}</style>
                 <div className="sig-card">
