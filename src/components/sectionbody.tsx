@@ -147,18 +147,18 @@ export default function SectionBody({
 
                     .section-images {
                         order: 1;
-                        justify-content: flex-start;
+                        justify-content: center;
                         flex-wrap: wrap;
                     }
 
                     .section-images.flipped {
                         order: 1;
-                        justify-content: flex-start;
+                        justify-content: center;
                     }
 
                     .section-title {
                         font-size: 2rem;
-                        text-align: left;
+                        text-align: center;
                     }
 
                     .section-content {
@@ -174,6 +174,8 @@ export default function SectionBody({
                     .section-image-medium {
                         width: 100%;
                         max-width: 350px;
+                        height: 250px;
+                        object-fit: cover;
                     }
 
                     .section-link {
@@ -203,6 +205,8 @@ export default function SectionBody({
                     .section-image-large,
                     .section-image-medium {
                         max-width: 280px;
+                        height: 200px;
+                        object-fit: cover;
                     }
 
                     .section-link {

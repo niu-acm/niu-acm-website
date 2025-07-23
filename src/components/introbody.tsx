@@ -56,7 +56,7 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                 }
 
                 .intro-image {
-                    width: 600px;
+                    width: 700px;
                     height: auto;
                     border-radius: 8px;
                     box-shadow: 0 4px 24px rgba(0,0,0,0.1);
@@ -78,7 +78,7 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
 
                     .intro-image {
                         width: 100%;
-                        max-width: 400px;
+                        max-width: 800px;
                         transform: none;
                         order: 1;
                     }
@@ -114,7 +114,7 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                     }
 
                     .intro-image {
-                        max-width: 300px;
+                        max-width: 500px;
                     }
                 }
             `}</style>
