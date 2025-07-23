@@ -27,7 +27,7 @@ export default function Home() {
                         { name: "Douglas Johnson", position: "Vice Chair, SIGmainframe Lead", imageUrl:"https://github.com/user-attachments/assets/35d84516-1df5-41a4-96b6-032217b0a1ef" },
                         { name: "John White", position: "Secretary", imageUrl:"https://github.com/user-attachments/assets/cbacee6a-cf39-4196-9246-23e902a4351b" },
                         { name: "Elisabeth Smith", position: "Treasurer", imageUrl:"https://github.com/user-attachments/assets/281a0339-a1de-4651-b461-f17d80638373" },
-                        { name: "Kurt McMahon", position: "Faculty Advisor", imageUrl: "https://assetsio.gnwcdn.com/digitalfoundry-2021-halo-combat-evolved-season-7-master-chief-collection-1622735120728.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp" },
+                        { name: "Kurt McMahon", position: "Faculty Advisor", imageUrl: "https://github.com/user-attachments/assets/ee9b2a42-e63c-46bf-8bb8-99090f6e2862" },
                         { name: "Nathaniel Aguirre", position: "SIGwebdev Officer", imageUrl:"https://github.com/user-attachments/assets/29846ee6-7e52-426f-beb8-03e1f576b502" },
                         { name: "Jakobi McFadden", position: "SIGwebdev Officer", imageUrl:"https://github.com/user-attachments/assets/326e0216-6822-407b-88c5-44bf4a4618ef" },
                         { name: "Julian Carranza", position: "SIGwebdev Officer", imageUrl: "https://github.com/user-attachments/assets/af74b729-f4dd-4a5d-a913-37fce192688a" },
