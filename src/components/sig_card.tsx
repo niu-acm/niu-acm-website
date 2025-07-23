@@ -80,66 +80,66 @@ export default function SigCard({
               @media (max-width: 768px) {
                   .sig-card {
                       flex-direction: column;
-                      margin: 15px 20px;
+                      margin: 5px 10px;
                   }
 
                   .sig-card-content {
-                      padding: 20px 30px;
-                      font-size: 20px;
+                      padding: 10px 20px;
+                      font-size: 16px;
                       text-align: left;
                   }
 
                   .sig-header {
-                      font-size: 24px;
-                      margin-top: 20px;
+                      font-size: 20px;
+                      margin-top: 10px;
                   }
 
                   .sig-body {
-                      font-size: 16px;
-                      padding: 20px 0px;
+                      font-size: 14px;
+                      padding: 10px 0px;
                   }
 
                   .sig-link {
-                      padding: 15px 20px;
-                      font-size: 1rem;
-                      margin-bottom: 20px;
+                      padding: 10px 15px;
+                      font-size: 0.8rem;
+                      margin-bottom: 10px;
                   }
 
                   .sig-card-image {
                       width: 100%;
-                      max-width: 400px;
+                      max-width: 300px;
                       margin: 0 auto;
                   }
               }
 
               @media (max-width: 480px) {
                   .sig-card {
-                      margin: 10px 15px;
+                      margin: 5px 8px;
                   }
 
                   .sig-card-content {
-                      padding: 15px 20px;
-                      font-size: 18px;
+                      padding: 8px 15px;
+                      font-size: 15px;
                   }
 
                   .sig-header {
-                      font-size: 20px;
-                      margin-top: 15px;
+                      font-size: 18px;
+                      margin-top: 8px;
                   }
 
                   .sig-body {
-                      font-size: 14px;
-                      padding: 15px 0px;
+                      font-size: 13px;
+                      padding: 8px 0px;
                   }
 
                   .sig-link {
-                      padding: 12px 16px;
-                      font-size: 0.9rem;
-                      margin-bottom: 15px;
+                      padding: 8px 12px;
+                      font-size: 0.75rem;
+                      margin-bottom: 8px;
                   }
 
                   .sig-card-image {
-                      max-width: 300px;
+                      max-width: 250px;
                   }
               }
 

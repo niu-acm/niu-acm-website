@@ -24,6 +24,10 @@ export default function Footer() {
 
             /* Mobile styles */
             @media (max-width: 768px) {
+                .footer {
+                    min-height: auto;
+                }
+
                 .icons-wrapper {
                     gap: 30px;
                     margin-top: 12px;
@@ -36,12 +40,40 @@ export default function Footer() {
             @media (max-width: 480px) {
                 .footer {
                     padding: 0 10px;
+                    min-height: auto;
                 }
 
                 .icons-wrapper {
                     gap: 20px;
                     margin-top: 10px;
                     margin-bottom: 10px;
+                }
+            }
+
+            /* Firefox mobile specific optimizations */
+            @-moz-document url-prefix() {
+                @media (max-width: 768px) {
+                    .footer {
+                        padding: 5px 10px;
+                    }
+
+                    .icons-wrapper {
+                        margin-top: 8px;
+                        margin-bottom: 8px;
+                        gap: 25px;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    .footer {
+                        padding: 3px 8px;
+                    }
+
+                    .icons-wrapper {
+                        margin-top: 6px;
+                        margin-bottom: 6px;
+                        gap: 15px;
+                    }
                 }
             }
         `}</style>

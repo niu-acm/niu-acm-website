@@ -74,6 +74,41 @@ export default function FooterIcon({
                 }
             }
 
+            /* Firefox mobile specific optimizations */
+            @-moz-document url-prefix() {
+                @media (max-width: 768px) {
+                    .icon-button {
+                        padding: 6px 12px;
+                        gap: 5px;
+                    }
+
+                    .icons {
+                        height: 22px;
+                    }
+
+                    .icon-button p {
+                        font-size: 13px;
+                        line-height: 1.2;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    .icon-button {
+                        padding: 4px 8px;
+                        gap: 3px;
+                    }
+
+                    .icons {
+                        height: 18px;
+                    }
+
+                    .icon-button p {
+                        font-size: 11px;
+                        line-height: 1.1;
+                    }
+                }
+            }
+
         `}</style>
 
         <a href={link}>
