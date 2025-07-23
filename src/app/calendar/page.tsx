@@ -70,18 +70,19 @@ export default function Home() {
 
 			<div className="calendar-container">
 				<div className="calendar-wrapper">
-					<FullCalendar
-					className="calendar"
-					plugins={[dayGridPlugin]}
-					initialView='dayGridMonth'
-					weekends={true}
-					events={{
-						url: 'https://huskiehub.niu.edu/ics?uid=3043b56d-f57c-11ef-a5a0-0afff28bcb11&type=group&eid=b02f85ed69b64e0aa51b2cc3686aaf59',
-						format: 'ics'
-					}}
-					eventContent={renderEventContent}
-					height="80vh"
-					/>
+					<div className="calendar">
+						<FullCalendar
+						plugins={[dayGridPlugin]}
+						initialView='dayGridMonth'
+						weekends={true}
+						events={{
+							url: 'https://huskiehub.niu.edu/ics?uid=3043b56d-f57c-11ef-a5a0-0afff28bcb11&type=group&eid=b02f85ed69b64e0aa51b2cc3686aaf59',
+							format: 'ics'
+						}}
+						eventContent={renderEventContent}
+						height="100%"
+						/>
+					</div>
 				</div>
 			</div>
 
