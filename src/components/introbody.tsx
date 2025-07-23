@@ -28,6 +28,95 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                     background: #e0e0e0;
                     color: rgb(200, 16, 46);
                 }
+
+                .intro-container {
+                    width: 100%;
+                    max-width: 1500px;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    gap: 2rem;
+                    padding: 4rem 0rem;
+                }
+
+                .intro-content {
+                    flex: 1;
+                    text-align: left;
+                }
+
+                .intro-title {
+                    font-size: 2.8rem;
+                    font-weight: bold;
+                    margin: 0;
+                }
+
+                .intro-text {
+                    font-size: 1.5rem;
+                    margin-top: 2rem;
+                }
+
+                .intro-image {
+                    width: 700px;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+                    transform: translateY(-30px);
+                }
+
+                /* Mobile styles */
+                @media (max-width: 768px) {
+                    .intro-container {
+                        flex-direction: column;
+                        padding: 2rem 1rem;
+                        gap: 1rem;
+                    }
+
+                    .intro-content {
+                        text-align: left;
+                        order: 2;
+                    }
+
+                    .intro-image {
+                        width: 100%;
+                        max-width: 800px;
+                        transform: none;
+                        order: 1;
+                    }
+
+                    .intro-title {
+                        font-size: 2rem;
+                        text-align: left;
+                    }
+
+                    .intro-text {
+                        font-size: 1.2rem;
+                        margin-top: 1rem;
+                    }
+
+                    .join-acm-btn {
+                        margin-top: 1.5rem;
+                        padding: 0.75rem 1.5rem;
+                        font-size: 1.1rem;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    .intro-container {
+                        padding: 1.5rem 1rem;
+                    }
+
+                    .intro-title {
+                        font-size: 1.8rem;
+                    }
+
+                    .intro-text {
+                        font-size: 1.1rem;
+                    }
+
+                    .intro-image {
+                        max-width: 500px;
+                    }
+                }
             `}</style>
             <div
                 style={{
@@ -44,18 +133,10 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                     borderBottomRightRadius: "24px"
                 }}
             >
-                <div style={{
-                    width: "100%",
-                    maxWidth: "1500px",
-                    display: "flex",
-                    alignItems: "flex-start",
-                    justifyContent: "center",
-                    gap: "2rem",
-                    padding: "4rem 0rem"
-                }} >
-                    <div style={{ flex: 1, textAlign: "left" }}>
-                        <h2 style={{ fontSize: "2.8rem", fontWeight: "bold", margin: 0 }}>{title}</h2>
-                        <p style={{ fontSize: "1.5rem", marginTop: "2rem" }}>{content}</p>
+                <div className="intro-container">
+                    <div className="intro-content">
+                        <h2 className="intro-title">{title}</h2>
+                        <p className="intro-text">{content}</p>
                         {join && (
                             <a
                                 href={join}
@@ -70,13 +151,7 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                     <img
                         src={imageSrc}
                         alt={altText}
-                        style={{
-                            width: "600px",
-                            height: "auto",
-                            borderRadius: "8px",
-                            boxShadow: "0 4px 24px rgba(0,0,0,0.1)",
-                            transform: "translateY(-30px)"
-                        }}
+                        className="intro-image"
                     />
                 </div>
             </div>

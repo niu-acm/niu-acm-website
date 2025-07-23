@@ -54,36 +54,173 @@ export default function SectionBody({
                     background: #a00b23;
                     color: #fff;
                 }
+
+                .section-container {
+                    display: flex;
+                    flex-direction: row;
+                    background-color: white;
+                    justify-content: space-between;
+                    gap: 0.5rem;
+                    width: 100%;
+                    min-height: 350px;
+                    color: #222;
+                    padding: 4rem 6vw;
+                    box-sizing: border-box;
+                    margin: 1rem 0;
+                    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
+                }
+
+                .section-flipped {
+                    flex-direction: row-reverse;
+                }
+
+                .section-text {
+                    flex: 1;
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 1.2rem;
+                    max-width: 500px;
+                }
+
+                .section-content {
+                    font-size: 1.3rem;
+                    margin: 0;
+                    white-space: pre-line;
+                }
+
+                .section-content2 {
+                    font-size: 1.1rem;
+                    margin: 0;
+                }
+
+                .section-images {
+                    flex: 0 0 auto;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 1rem;
+                    align-items: center;
+                    justify-content: flex-end;
+                }
+
+                .section-images.flipped {
+                    justify-content: flex-start;
+                }
+
+                .section-image-small {
+                    width: 240px;
+                    border-radius: 12px;
+                    object-fit: cover;
+                }
+
+                .section-image-large {
+                    width: 550px;
+                    border-radius: 12px;
+                    object-fit: cover;
+                }
+
+                .section-image-medium {
+                    width: 400px;
+                    border-radius: 12px;
+                    object-fit: cover;
+                }
+
+                /* Mobile styles */
+                @media (max-width: 768px) {
+                    .section-container {
+                        flex-direction: column;
+                        padding: 2rem 1rem;
+                        gap: 1.5rem;
+                        min-height: auto;
+                    }
+
+                    .section-flipped {
+                        flex-direction: column;
+                    }
+
+                    .section-text {
+                        max-width: 100%;
+                        text-align: left;
+                        order: 2;
+                    }
+
+                    .section-images {
+                        order: 1;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                    }
+
+                    .section-images.flipped {
+                        order: 1;
+                        justify-content: center;
+                    }
+
+                    .section-title {
+                        font-size: 2rem;
+                        text-align: center;
+                    }
+
+                    .section-content {
+                        font-size: 1.1rem;
+                    }
+
+                    .section-content2 {
+                        font-size: 1rem;
+                    }
+
+                    .section-image-small,
+                    .section-image-large,
+                    .section-image-medium {
+                        width: 100%;
+                        max-width: 350px;
+                        height: 250px;
+                        object-fit: cover;
+                    }
+
+                    .section-link {
+                        margin-top: 1rem;
+                        margin-right: 0.5rem;
+                        margin-bottom: 0.5rem;
+                        padding: 0.6rem 1.2rem;
+                        font-size: 1rem;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    .section-container {
+                        padding: 1.5rem 1rem;
+                        margin: 0.5rem 0;
+                    }
+
+                    .section-title {
+                        font-size: 1.8rem;
+                    }
+
+                    .section-content {
+                        font-size: 1rem;
+                    }
+
+                    .section-image-small,
+                    .section-image-large,
+                    .section-image-medium {
+                        max-width: 280px;
+                        height: 200px;
+                        object-fit: cover;
+                    }
+
+                    .section-link {
+                        padding: 0.5rem 1rem;
+                        font-size: 0.9rem;
+                    }
+                }
             `}</style>
-            <div
-                style={{
-                    display: "flex",
-                    flexDirection: flipped ? "row-reverse" : "row",
-                    backgroundColor: "white",
-                    justifyContent: "space-between",
-                    gap: "0.5rem",
-                    width: "100%",
-                    minHeight: "350px",
-                    color: "#222",
-                    padding: "4rem 6vw",
-                    boxSizing: "border-box",
-                    margin: "1rem 0",
-                    boxShadow: "0 4px 8px 0 rgba(100, 100, 100, 0.5)",
-                }}
-            >
+            <div className={`section-container ${flipped ? 'section-flipped' : ''}`}>
                 {/* Text section */}
-                <div style={{
-                    flex: 1,
-                    textAlign: "left",
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    gap: "1.2rem",
-                    maxWidth: "500px"
-                }}>
+                <div className="section-text">
                     <h2 className="section-title">{title}</h2>
-                    <p style={{ fontSize: "1.3rem", margin: 0, whiteSpace: "pre-line" }}>{content}</p>
-                    {content2 && <p style={{ fontSize: "1.1rem", margin: 0 }}>{content2}</p>}
+                    <p className="section-content">{content}</p>
+                    {content2 && <p className="section-content2">{content2}</p>}
                     <div>
                         {link && (
                             <a href={link.url} className="section-link" target="_blank" rel="noopener noreferrer">
@@ -123,21 +260,12 @@ export default function SectionBody({
                     </div>
                 </div>
                 {/* Image section */}
-                <div
-                    style={{
-                        flex: "0 0 auto",
-                        display: "flex",
-                        flexDirection: "row",
-                        gap: "1rem",
-                        alignItems: "center",
-                        justifyContent: flipped ? "flex-start" : "flex-end"
-                    }}
-                >
-                    {imageSrc && <img src={imageSrc} alt="" style={{ width: "240px", borderRadius: "12px", objectFit: "cover" }} />}
-                    {imageSrc2 && <img src={imageSrc2} alt="" style={{ width: "550px", borderRadius: "12px", objectFit: "cover" }} />}    { /* 2 is perfect for single large */}
-                    {imageSrc3 && <img src={imageSrc3} alt="" style={{ width: "240px", borderRadius: "12px", objectFit: "cover" }} />}   
-                    {imageSrc4 && <img src={imageSrc4} alt="" style={{ width: "400px", borderRadius: "12px", objectFit: "cover" }} />}    {/* 4,5 are perfect for side by side */}
-                    {imageSrc5 && <img src={imageSrc5} alt="" style={{ width: "400px", borderRadius: "12px", objectFit: "cover" }} />}
+                <div className={`section-images ${flipped ? 'flipped' : ''}`}>
+                    {imageSrc && <img src={imageSrc} alt="" className="section-image-small" />}
+                    {imageSrc2 && <img src={imageSrc2} alt="" className="section-image-large" />}
+                    {imageSrc3 && <img src={imageSrc3} alt="" className="section-image-small" />}
+                    {imageSrc4 && <img src={imageSrc4} alt="" className="section-image-medium" />}
+                    {imageSrc5 && <img src={imageSrc5} alt="" className="section-image-medium" />}
                 </div>
             </div>
         </>

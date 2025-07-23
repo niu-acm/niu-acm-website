@@ -68,7 +68,6 @@ export default function Home() {
 				into specific areas of tech they're passionate about.
 				They’re informal, collaborative spaces that meet regularly to learn, build, and grow together."
 				content2="Check out our two SIGs below to see what they’re all about"
-				imageSrc="https://github.com/user-attachments/assets/dee8a6ad-d2a0-4557-a926-bdc1911f9659"
 				imageSrc3="https://github.com/user-attachments/assets/d1e339a0-25b5-479a-8272-f45287020ab8"
 			></SectionBody>
 

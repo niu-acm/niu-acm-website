@@ -20,6 +20,9 @@ export default function FooterIcon({
                 gap: 8px;
                 padding: 10px 20px 10px 20px;
                 border-radius: 10px;
+                background: none;
+                border: none;
+                color: white;
             }
 
             .icons {
@@ -35,12 +38,48 @@ export default function FooterIcon({
                 transition: background-color 0.25s ease-in-out;
             }
 
+            .icon-button p {
+                margin: 0;
+                font-weight: bold;
+            }
+
+            /* Mobile styles */
+            @media (max-width: 768px) {
+                .icon-button {
+                    padding: 8px 15px;
+                    gap: 6px;
+                }
+
+                .icons {
+                    height: 25px;
+                }
+
+                .icon-button p {
+                    font-size: 14px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .icon-button {
+                    padding: 6px 10px;
+                    gap: 4px;
+                }
+
+                .icons {
+                    height: 20px;
+                }
+
+                .icon-button p {
+                    font-size: 12px;
+                }
+            }
+
         `}</style>
 
         <a href={link}>
             <button className="icon-button">
                 <img className="icons" src={iconPath} alt={iconName + " icon"} ></img>
-                <p><b>{iconName}</b></p>
+                <p>{iconName}</p>
             </button>
         </a>
         </>
