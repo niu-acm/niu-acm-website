@@ -80,11 +80,11 @@ export default function Footer() {
 
         <footer className="footer">
             <div className="icons-wrapper">
-                <FooterIcon iconName="Email Us" link="mailto:niuhuskiesacm@gmail.com" iconPath="/icons/mail.svg"/>
-                <FooterIcon iconName="Discord" link="https://discord.gg/gzQDaQMGjJ" iconPath="/icons/brand-discord.svg"/>
-                <FooterIcon iconName="Huskie Hub" link="https://huskiehub.niu.edu/NIUACM/club_signup" iconPath="/icons/heading.svg"/>
-                <FooterIcon iconName="GitHub" link="https://github.com/niu-acm" iconPath="/icons/brand-github.svg"/>
-                <FooterIcon iconName="LinkedIn" link="https://www.linkedin.com/groups/14721661" iconPath="/icons/brand-linkedin.svg"/>
+                <FooterIcon iconName="Email Us" link="mailto:niuhuskiesacm@gmail.com" iconPath="https://github.com/user-attachments/assets/e1584402-dc6d-42dc-99cf-515440ed82dd"/>
+                <FooterIcon iconName="Discord" link="https://discord.gg/gzQDaQMGjJ" iconPath="https://github.com/user-attachments/assets/bc0c54fb-838c-4535-a756-b2487533903a"/>
+                <FooterIcon iconName="Huskie Hub" link="https://huskiehub.niu.edu/NIUACM/club_signup" iconPath="https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0"/>
+                <FooterIcon iconName="GitHub" link="https://github.com/niu-acm" iconPath="https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace"/>
+                <FooterIcon iconName="LinkedIn" link="https://www.linkedin.com/groups/14721661" iconPath="https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551"/>
             </div>
         </footer>
         </>
