@@ -22,3 +22,11 @@
 ![mcmahon](https://github.com/user-attachments/assets/ee9b2a42-e63c-46bf-8bb8-99090f6e2862)
 ![social](https://github.com/user-attachments/assets/f4c576e9-4ce5-4aad-a4db-ccac2ac55dcd)
 ![speaker](https://github.com/user-attachments/assets/f64f5d13-134c-43d9-97ae-4daa162c6629)
+
+
+![brand-github](https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace)
+![brand-discord](https://github.com/user-attachments/assets/bc0c54fb-838c-4535-a756-b2487533903a)
+![mail](https://github.com/user-attachments/assets/e1584402-dc6d-42dc-99cf-515440ed82dd)
+![horse](https://github.com/user-attachments/assets/ceb46555-e444-4768-9af6-706b25a1817a)
+![heading](https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0)
+![brand-linkedin](https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551)
