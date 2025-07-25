@@ -36,7 +36,7 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          password: ${{ secrets.SSH_PASSWORD }}
           script: |
             rm -rf /home/data/www/acm/public
             wget https://github.com/niu-acm/niu-acm-website/archive/refs/heads/build.zip
