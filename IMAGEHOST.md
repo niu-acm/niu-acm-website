@@ -20,3 +20,4 @@
 ![wale](https://github.com/user-attachments/assets/fe7fbea7-bb05-432e-8e1e-b9992437b8f5)
 ![mcmahon](https://github.com/user-attachments/assets/ee9b2a42-e63c-46bf-8bb8-99090f6e2862)
 ![social](https://github.com/user-attachments/assets/f4c576e9-4ce5-4aad-a4db-ccac2ac55dcd)
+![speaker](https://github.com/user-attachments/assets/f64f5d13-134c-43d9-97ae-4daa162c6629)
