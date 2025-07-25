@@ -30,3 +30,15 @@ jobs:
           FOLDER: out # The directory where your assets are generated
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
           MESSAGE: "Build: ({sha}) {msg}" # The commit message
+
+      - name: Remove Old Site
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          script: |
+            rm -rf /home/data/www/acm/public
+            wget https://github.com/niu-acm/niu-acm-website/archive/refs/heads/build.zip
+            unzip -d /home/data/www/acm build.zip
+            mv /home/data/www/acm/niu-acm-website-build /home/data/www/acm/public
