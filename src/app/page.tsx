@@ -49,7 +49,7 @@ export default function Home() {
 				These events will feature guest speakers providing their experiences and career pathes.
 				Stay tuned for more details on dates and speakers!"
 				content2="Free Food and Drinks will be provided at all events"
-				imageSrc2="https://media.licdn.com/dms/image/v2/D5622AQHTXFkxkZoaBw/feedshare-shrink_2048_1536/B56ZW1n1DIHEAs-/0/1742508881064?e=1753315200&v=beta&t=MwufZgGVTQT1m7HjUdDoIY4sMZQofpj7USZZKdZD4b8"
+				imageSrc2="https://github.com/user-attachments/assets/f64f5d13-134c-43d9-97ae-4daa162c6629"
 				flipped={true}
 			></SectionBody>
 
@@ -58,7 +58,7 @@ export default function Home() {
 				title="ACM Socials"
 				content="ACM hosts a variety of social events throughout the semester to help members connect, relax, and have fun."
 				content2="Free food, games, and activities are always included!"
-				imageSrc2="https://i.imgur.com/EEu0VvC.jpeg"
+				imageSrc2="https://github.com/user-attachments/assets/f4c576e9-4ce5-4aad-a4db-ccac2ac55dcd"
 			></SectionBody>
 
 			{/* SIG Section */}

@@ -63,7 +63,7 @@ export default function Home() {
                     <SectionBody
                         title="Mainframe Conferences"
                         content="NIU Mainframers often attend SHARE and TechXChange events throughout the year. These events provide opportunities to learn about the latest mainframe technologies, network with industry professionals, and share knowledge with peers."
-                        imageSrc4="https://private-user-images.githubusercontent.com/108855394/462245741-907cf5e5-f53d-40fe-b1c0-96f585bb7c3d.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTE2MDIyMzIsIm5iZiI6MTc1MTYwMTkzMiwicGF0aCI6Ii8xMDg4NTUzOTQvNDYyMjQ1NzQxLTkwN2NmNWU1LWY1M2QtNDBmZS1iMWMwLTk2ZjU4NWJiN2MzZC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcwNFQwNDA1MzJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03NDE4OWEwZGM3YTFjMmZiNWI5MzkxNjZiMzE2OTIwNTk2OTM4OWEzZDA0MGRiZmNjNDFlMTYxOWQ2ZTI0YjExJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.416beqIiD02IpkRjFsWKYGAiji_jCu9ncNEOwpeQcWE"
+                        imageSrc4="https://github.com/user-attachments/assets/e97a945e-955e-4fe4-9885-6e8185de4d01"
                         imageSrc5="https://media.licdn.com/dms/image/v2/D5622AQHgkZLYjmnzcQ/feedshare-shrink_2048_1536/B56ZVOjV5YGQAo-/0/1740779648248?e=1753920000&v=beta&t=OnTGbIB13VoiW7Ye8BCFk4mLVbE4oRB9TEPVRKlbvSM"
                     />
 

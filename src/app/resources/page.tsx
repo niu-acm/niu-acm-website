@@ -57,7 +57,7 @@ export default function Home() {
                     <SectionBody
                         title="NIU ACM Flyers"
                         content="Look for the Student Chapter of the ACM's flyers posted on campus bulletin boards for announcements of activities."
-                        imageSrc2="https://i.imgur.com/khcj2aF.png"
+                        imageSrc2="https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b"
                     />
                 </div>
             </div>
