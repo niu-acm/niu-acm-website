@@ -1,123 +1,207 @@
 1:"$Sreact.fragment"
 2:I[7555,[],""]
 3:I[1295,[],""]
-4:I[435,["729","static/chunks/729-0ae0020d02b338de.js","109","static/chunks/app/sigw/page-4a7004881b5935b4.js"],"default"]
-5:I[7911,["729","static/chunks/729-0ae0020d02b338de.js","109","static/chunks/app/sigw/page-4a7004881b5935b4.js"],"default"]
-11:I[9665,[],"MetadataBoundary"]
-13:I[9665,[],"OutletBoundary"]
-16:I[4911,[],"AsyncMetadataOutlet"]
-18:I[9665,[],"ViewportBoundary"]
-1a:I[6614,[],""]
+4:I[435,["729","static/chunks/729-0ae0020d02b338de.js","752","static/chunks/app/resources/page-7a0e692d4c575913.js"],"default"]
+5:I[7911,["729","static/chunks/729-0ae0020d02b338de.js","752","static/chunks/app/resources/page-7a0e692d4c575913.js"],"default"]
+10:I[9665,[],"MetadataBoundary"]
+12:I[9665,[],"OutletBoundary"]
+15:I[4911,[],"AsyncMetadataOutlet"]
+17:I[9665,[],"ViewportBoundary"]
+19:I[6614,[],""]
 :HL["/_next/static/media/45d4bdb7b7024bda-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/c8fd26c47b32418b-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/eb74faabb8756d67-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/ec453c98cba9d61a-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/css/75d977d86924f4e6.css","style"]
-6:Tcc8,
-                .join-acm-btn {
+6:T17da,
+                .section-title {
+                    font-size: 2.4rem;
+                    font-weight: bold;
+                    margin: 0;
+                    transition: color 0.2s, text-shadow 0.2s, transform 0.2s;
+                    cursor: pointer;
+                }
+                .section-title:hover {
+                    color: #c8102e;
+                    text-shadow: 0 2px 12px #c8102e44;
+                    transform: scale(1.07);
+                }
+                .section-link {
                     display: inline-block;
-                    margin-top: 2rem;
-                    padding: 0.75rem 2rem;
-                    background: #fff;
-                    color: rgb(200, 16, 46);
+                    margin-top: 1.2rem;
+                    margin-right: 1rem;
+                    padding: 0.6rem 1.5rem;
+                    background: #c8102e;
+                    color: #fff;
                     border-radius: 8px;
                     font-weight: bold;
                     text-decoration: none;
-                    font-size: 1.2rem;
+                    font-size: 1.1rem;
                     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
                     transition: background 0.2s, color 0.2s;
                 }
-                .join-acm-btn:hover {
-                    background: #e0e0e0;
-                    color: rgb(200, 16, 46);
+                .section-link:hover {
+                    background: #a00b23;
+                    color: #fff;
                 }
 
-                .intro-container {
-                    width: 100%;
-                    max-width: 1500px;
+                .section-container {
                     display: flex;
-                    align-items: flex-start;
-                    justify-content: center;
-                    gap: 2rem;
-                    padding: 4rem 0rem;
+                    flex-direction: row;
+                    background-color: white;
+                    justify-content: space-between;
+                    gap: 0.5rem;
+                    width: 100%;
+                    min-height: 350px;
+                    color: #222;
+                    padding: 4rem 6vw;
+                    box-sizing: border-box;
+                    margin: 1rem 0;
+                    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
-                .intro-content {
+                .section-flipped {
+                    flex-direction: row-reverse;
+                }
+
+                .section-text {
                     flex: 1;
                     text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 1.2rem;
+                    max-width: 500px;
                 }
 
-                .intro-title {
-                    font-size: 2.8rem;
-                    font-weight: bold;
+                .section-content {
+                    font-size: 1.3rem;
+                    margin: 0;
+                    white-space: pre-line;
+                }
+
+                .section-content2 {
+                    font-size: 1.1rem;
                     margin: 0;
                 }
 
-                .intro-text {
-                    font-size: 1.5rem;
-                    margin-top: 2rem;
+                .section-images {
+                    flex: 0 0 auto;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 1rem;
+                    align-items: center;
+                    justify-content: flex-end;
                 }
 
-                .intro-image {
-                    width: 700px;
-                    height: auto;
-                    border-radius: 8px;
-                    box-shadow: 0 4px 24px rgba(0,0,0,0.1);
-                    transform: translateY(-30px);
+                .section-images.flipped {
+                    justify-content: flex-start;
+                }
+
+                .section-image-small {
+                    width: 240px;
+                    border-radius: 12px;
+                    object-fit: cover;
+                }
+
+                .section-image-large {
+                    width: 550px;
+                    border-radius: 12px;
+                    object-fit: cover;
+                }
+
+                .section-image-medium {
+                    width: 400px;
+                    border-radius: 12px;
+                    object-fit: cover;
                 }
 
                 /* Mobile styles */
                 @media (max-width: 768px) {
-                    .intro-container {
+                    .section-container {
                         flex-direction: column;
                         padding: 2rem 1rem;
-                        gap: 1rem;
+                        gap: 1.5rem;
+                        min-height: auto;
                     }
 
-                    .intro-content {
+                    .section-flipped {
+                        flex-direction: column;
+                    }
+
+                    .section-text {
+                        max-width: 100%;
                         text-align: left;
                         order: 2;
                     }
 
-                    .intro-image {
-                        width: 100%;
-                        max-width: 800px;
-                        transform: none;
+                    .section-images {
                         order: 1;
+                        justify-content: center;
+                        flex-wrap: wrap;
                     }
 
-                    .intro-title {
+                    .section-images.flipped {
+                        order: 1;
+                        justify-content: center;
+                    }
+
+                    .section-title {
                         font-size: 2rem;
-                        text-align: left;
+                        text-align: center;
                     }
 
-                    .intro-text {
-                        font-size: 1.2rem;
-                        margin-top: 1rem;
-                    }
-
-                    .join-acm-btn {
-                        margin-top: 1.5rem;
-                        padding: 0.75rem 1.5rem;
+                    .section-content {
                         font-size: 1.1rem;
+                    }
+
+                    .section-content2 {
+                        font-size: 1rem;
+                    }
+
+                    .section-image-small,
+                    .section-image-large,
+                    .section-image-medium {
+                        width: 100%;
+                        max-width: 350px;
+                        height: 250px;
+                        object-fit: cover;
+                    }
+
+                    .section-link {
+                        margin-top: 1rem;
+                        margin-right: 0.5rem;
+                        margin-bottom: 0.5rem;
+                        padding: 0.6rem 1.2rem;
+                        font-size: 1rem;
                     }
                 }
 
                 @media (max-width: 480px) {
-                    .intro-container {
+                    .section-container {
                         padding: 1.5rem 1rem;
+                        margin: 0.5rem 0;
                     }
 
-                    .intro-title {
+                    .section-title {
                         font-size: 1.8rem;
                     }
 
-                    .intro-text {
-                        font-size: 1.1rem;
+                    .section-content {
+                        font-size: 1rem;
                     }
 
-                    .intro-image {
-                        max-width: 500px;
+                    .section-image-small,
+                    .section-image-large,
+                    .section-image-medium {
+                        max-width: 280px;
+                        height: 200px;
+                        object-fit: cover;
+                    }
+
+                    .section-link {
+                        padding: 0.5rem 1rem;
+                        font-size: 0.9rem;
                     }
                 }
             7:T17da,
@@ -693,198 +777,7 @@
                         font-size: 0.9rem;
                     }
                 }
-            a:T17da,
-                .section-title {
-                    font-size: 2.4rem;
-                    font-weight: bold;
-                    margin: 0;
-                    transition: color 0.2s, text-shadow 0.2s, transform 0.2s;
-                    cursor: pointer;
-                }
-                .section-title:hover {
-                    color: #c8102e;
-                    text-shadow: 0 2px 12px #c8102e44;
-                    transform: scale(1.07);
-                }
-                .section-link {
-                    display: inline-block;
-                    margin-top: 1.2rem;
-                    margin-right: 1rem;
-                    padding: 0.6rem 1.5rem;
-                    background: #c8102e;
-                    color: #fff;
-                    border-radius: 8px;
-                    font-weight: bold;
-                    text-decoration: none;
-                    font-size: 1.1rem;
-                    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-                    transition: background 0.2s, color 0.2s;
-                }
-                .section-link:hover {
-                    background: #a00b23;
-                    color: #fff;
-                }
-
-                .section-container {
-                    display: flex;
-                    flex-direction: row;
-                    background-color: white;
-                    justify-content: space-between;
-                    gap: 0.5rem;
-                    width: 100%;
-                    min-height: 350px;
-                    color: #222;
-                    padding: 4rem 6vw;
-                    box-sizing: border-box;
-                    margin: 1rem 0;
-                    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
-                }
-
-                .section-flipped {
-                    flex-direction: row-reverse;
-                }
-
-                .section-text {
-                    flex: 1;
-                    text-align: left;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    gap: 1.2rem;
-                    max-width: 500px;
-                }
-
-                .section-content {
-                    font-size: 1.3rem;
-                    margin: 0;
-                    white-space: pre-line;
-                }
-
-                .section-content2 {
-                    font-size: 1.1rem;
-                    margin: 0;
-                }
-
-                .section-images {
-                    flex: 0 0 auto;
-                    display: flex;
-                    flex-direction: row;
-                    gap: 1rem;
-                    align-items: center;
-                    justify-content: flex-end;
-                }
-
-                .section-images.flipped {
-                    justify-content: flex-start;
-                }
-
-                .section-image-small {
-                    width: 240px;
-                    border-radius: 12px;
-                    object-fit: cover;
-                }
-
-                .section-image-large {
-                    width: 550px;
-                    border-radius: 12px;
-                    object-fit: cover;
-                }
-
-                .section-image-medium {
-                    width: 400px;
-                    border-radius: 12px;
-                    object-fit: cover;
-                }
-
-                /* Mobile styles */
-                @media (max-width: 768px) {
-                    .section-container {
-                        flex-direction: column;
-                        padding: 2rem 1rem;
-                        gap: 1.5rem;
-                        min-height: auto;
-                    }
-
-                    .section-flipped {
-                        flex-direction: column;
-                    }
-
-                    .section-text {
-                        max-width: 100%;
-                        text-align: left;
-                        order: 2;
-                    }
-
-                    .section-images {
-                        order: 1;
-                        justify-content: center;
-                        flex-wrap: wrap;
-                    }
-
-                    .section-images.flipped {
-                        order: 1;
-                        justify-content: center;
-                    }
-
-                    .section-title {
-                        font-size: 2rem;
-                        text-align: center;
-                    }
-
-                    .section-content {
-                        font-size: 1.1rem;
-                    }
-
-                    .section-content2 {
-                        font-size: 1rem;
-                    }
-
-                    .section-image-small,
-                    .section-image-large,
-                    .section-image-medium {
-                        width: 100%;
-                        max-width: 350px;
-                        height: 250px;
-                        object-fit: cover;
-                    }
-
-                    .section-link {
-                        margin-top: 1rem;
-                        margin-right: 0.5rem;
-                        margin-bottom: 0.5rem;
-                        padding: 0.6rem 1.2rem;
-                        font-size: 1rem;
-                    }
-                }
-
-                @media (max-width: 480px) {
-                    .section-container {
-                        padding: 1.5rem 1rem;
-                        margin: 0.5rem 0;
-                    }
-
-                    .section-title {
-                        font-size: 1.8rem;
-                    }
-
-                    .section-content {
-                        font-size: 1rem;
-                    }
-
-                    .section-image-small,
-                    .section-image-large,
-                    .section-image-medium {
-                        max-width: 280px;
-                        height: 200px;
-                        object-fit: cover;
-                    }
-
-                    .section-link {
-                        padding: 0.5rem 1rem;
-                        font-size: 0.9rem;
-                    }
-                }
-            b:T808,
+            a:T808,
             .footer {
                display: flex;
                align-items: center;
@@ -957,6 +850,104 @@
                     }
                 }
             }
+        b:T9d7,
+
+            .icon-button {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 8px;
+                padding: 10px 20px 10px 20px;
+                border-radius: 10px;
+                background: none;
+                border: none;
+                color: white;
+            }
+
+            .icons {
+                height: 30px;
+                width: auto;
+                color: white;
+                -webkit-filter: invert(100%);
+            }
+
+            .icon-button:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+                cursor: pointer;
+                transition: background-color 0.25s ease-in-out;
+            }
+
+            .icon-button p {
+                margin: 0;
+                font-weight: bold;
+            }
+
+            /* Mobile styles */
+            @media (max-width: 768px) {
+                .icon-button {
+                    padding: 8px 15px;
+                    gap: 6px;
+                }
+
+                .icons {
+                    height: 25px;
+                }
+
+                .icon-button p {
+                    font-size: 14px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .icon-button {
+                    padding: 6px 10px;
+                    gap: 4px;
+                }
+
+                .icons {
+                    height: 20px;
+                }
+
+                .icon-button p {
+                    font-size: 12px;
+                }
+            }
+
+            /* Firefox mobile specific optimizations */
+            @-moz-document url-prefix() {
+                @media (max-width: 768px) {
+                    .icon-button {
+                        padding: 6px 12px;
+                        gap: 5px;
+                    }
+
+                    .icons {
+                        height: 22px;
+                    }
+
+                    .icon-button p {
+                        font-size: 13px;
+                        line-height: 1.2;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    .icon-button {
+                        padding: 4px 8px;
+                        gap: 3px;
+                    }
+
+                    .icons {
+                        height: 18px;
+                    }
+
+                    .icon-button p {
+                        font-size: 11px;
+                        line-height: 1.1;
+                    }
+                }
+            }
+
         c:T9d7,
 
             .icon-button {
@@ -1349,110 +1340,12 @@
                 }
             }
 
-        10:T9d7,
-
-            .icon-button {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                gap: 8px;
-                padding: 10px 20px 10px 20px;
-                border-radius: 10px;
-                background: none;
-                border: none;
-                color: white;
-            }
-
-            .icons {
-                height: 30px;
-                width: auto;
-                color: white;
-                -webkit-filter: invert(100%);
-            }
-
-            .icon-button:hover {
-                background-color: rgba(0, 0, 0, 0.1);
-                cursor: pointer;
-                transition: background-color 0.25s ease-in-out;
-            }
-
-            .icon-button p {
-                margin: 0;
-                font-weight: bold;
-            }
-
-            /* Mobile styles */
-            @media (max-width: 768px) {
-                .icon-button {
-                    padding: 8px 15px;
-                    gap: 6px;
-                }
-
-                .icons {
-                    height: 25px;
-                }
-
-                .icon-button p {
-                    font-size: 14px;
-                }
-            }
-
-            @media (max-width: 480px) {
-                .icon-button {
-                    padding: 6px 10px;
-                    gap: 4px;
-                }
-
-                .icons {
-                    height: 20px;
-                }
-
-                .icon-button p {
-                    font-size: 12px;
-                }
-            }
-
-            /* Firefox mobile specific optimizations */
-            @-moz-document url-prefix() {
-                @media (max-width: 768px) {
-                    .icon-button {
-                        padding: 6px 12px;
-                        gap: 5px;
-                    }
-
-                    .icons {
-                        height: 22px;
-                    }
-
-                    .icon-button p {
-                        font-size: 13px;
-                        line-height: 1.2;
-                    }
-                }
-
-                @media (max-width: 480px) {
-                    .icon-button {
-                        padding: 4px 8px;
-                        gap: 3px;
-                    }
-
-                    .icons {
-                        height: 18px;
-                    }
-
-                    .icon-button p {
-                        font-size: 11px;
-                        line-height: 1.1;
-                    }
-                }
-            }
-
-        0:{"P":null,"b":"ZrPP_NK4pgrIVXL4BN68M","p":"","c":["","sigw"],"i":false,"f":[[["",{"children":["sigw",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/75d977d86924f4e6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__className_258576","children":[["$","head",null,{"children":["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["sigw",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"children":[["$","$L4",null,{}],["$","$L5",null,{}],["$","div",null,{"style":{"backgroundColor":"rgba(0, 0, 0, 0.1)","minHeight":"60vh","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center","textAlign":"center"},"children":[[["$","style",null,{"children":"$6"}],["$","div",null,{"style":{"display":"flex","alignItems":"center","justifyContent":"center","gap":"2rem","width":"100%","minHeight":"350px","backgroundColor":"#fff","color":"#222","boxSizing":"border-box","borderBottomLeftRadius":"24px","borderBottomRightRadius":"24px"},"children":["$","div",null,{"className":"intro-container","children":[["$","div",null,{"className":"intro-content","children":[["$","h2",null,{"className":"intro-title","children":"SIG Web Development"}],["$","p",null,{"className":"intro-text","children":"SIG webdev is a weekly web development club that meets every Wednesday from 4:30pm-6:00pm in the Psych CS Building, welcoming all skill levels from beginners to experienced developers.  The semester features hands-on workshops covering HTML/CSS, GitHub Pages, React with Vite,  TypeScript, ExpressJS, and SQL. Participants build real projects like personal sites, REST APIs,  and React apps, with guidance tailored to both new and advanced coders."}],"$undefined"]}],["$","img",null,{"src":"https://www.getmecoding.com/wp-content/uploads/2017/10/GMC_blog_IsWebDevelopmentCoding_resize.jpg","alt":"come join acm with me vro. come be deckerpilled","className":"intro-image"}]]}]}]],["$","div",null,{"style":{"width":"100%","maxWidth":"1500px"},"children":[[["$","style",null,{"children":"$7"}],["$","div",null,{"className":"section-container section-flipped","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"What Type of Events does SIGwebdev Host?"}],["$","p",null,{"className":"section-content","children":"SIG webdev focuses on web development skills, hosting workshops on HTML, CSS, JavaScript, TypeScript and popular frameworks. Members learn about web technologies not taught in the classroom."}],["$","p",null,{"className":"section-content2","children":"SIG webdev also meets for SQL & Snacks, Study Events, and Movies"}],["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images flipped","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/ce4e93df-a30f-4ad8-8534-a7e672ab1861","alt":"","className":"section-image-small"}],"$undefined",["$","img",null,{"src":"https://github.com/user-attachments/assets/0fe2f271-14a7-4e2a-a8f2-9c73951acba8","alt":"","className":"section-image-small"}],"$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$8"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Fall 2025 Schedule"}],["$","p",null,{"className":"section-content","children":"\n                            Sep 24: Kickoff + Developer Setup + GitHub Pages\n                            \nOct 1: One-Stop Web Basics Workshop (HTML/CSS/Dev Tools)\n                            \nOct 8: Intro to React + Vite + TypeScript + bun\n                            \nOct 15: SQL and Snacks\n                            \nOct 22: Backend with ExpressJS + REST APIs\n                            \nOct 29: SQL and Snacks\n                            \nNov 5: SEO Optimization & page accessibility workshop\n                            \nNov 12: Catch up Workshop & Chill: Leetcode/Hackerrank Practice\n                            \nNov 19: Project Showcase + End-of-Semester Party\n                            "}],["$","p",null,{"className":"section-content2","children":"Weekly Meetings in Psych CS building from 4:30pm to 6pm"}],["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$9"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Past Events"}],["$","p",null,{"className":"section-content","children":"Coming Soon"}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$a"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Student Highlights"}],["$","p",null,{"className":"section-content","children":"This Very Website, More coming soon"}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]]]}]]}],[["$","style",null,{"children":"$b"}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"icons-wrapper","children":[[["$","style",null,{"children":"$c"}],["$","a",null,{"href":"mailto:niuhuskiesacm@gmail.com","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"/icons/mail.svg","alt":"Email Us icon"}],["$","p",null,{"children":"Email Us"}]]}]}]],[["$","style",null,{"children":"$d"}],["$","a",null,{"href":"https://discord.gg/gzQDaQMGjJ","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"/icons/brand-discord.svg","alt":"Discord icon"}],["$","p",null,{"children":"Discord"}]]}]}]],[["$","style",null,{"children":"$e"}],["$","a",null,{"href":"https://huskiehub.niu.edu/NIUACM/club_signup","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"/icons/heading.svg","alt":"Huskie Hub icon"}],["$","p",null,{"children":"Huskie Hub"}]]}]}]],[["$","style",null,{"children":"$f"}],["$","a",null,{"href":"https://github.com/niu-acm","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"/icons/brand-github.svg","alt":"GitHub icon"}],["$","p",null,{"children":"GitHub"}]]}]}]],[["$","style",null,{"children":"$10"}],["$","a",null,{"href":"https://www.linkedin.com/groups/14721661","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"/icons/brand-linkedin.svg","alt":"LinkedIn icon"}],["$","p",null,{"children":"LinkedIn"}]]}]}]]]}]}]]]}],["$","$L11",null,{"children":"$L12"}],null,["$","$L13",null,{"children":["$L14","$L15",["$","$L16",null,{"promise":"$@17"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","mlXcXrkCmYwPvWkvCXxPq",{"children":[["$","$L18",null,{"children":"$L19"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$1a","$undefined"],"s":false,"S":true}
-1b:"$Sreact.suspense"
-1c:I[4911,[],"AsyncMetadata"]
-12:["$","$1b",null,{"fallback":null,"children":["$","$L1c",null,{"promise":"$@1d"}]}]
-15:null
-19:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+        0:{"P":null,"b":"3TVrXo3NFZFYlyh3CTBV2","p":"","c":["","resources",""],"i":false,"f":[[["",{"children":["resources",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/75d977d86924f4e6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__className_258576","children":[["$","head",null,{"children":["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["resources",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"children":[["$","$L4",null,{}],["$","$L5",null,{}],["$","div",null,{"style":{"backgroundColor":"rgba(0, 0, 0, 0.1)","minHeight":"60vh","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center","textAlign":"center"},"children":["$","div",null,{"style":{"width":"100%","maxWidth":"1500px"},"children":[[["$","style",null,{"children":"$6"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Community GitHub"}],["$","p",null,{"className":"section-content","children":"Our GitHub is the central hub for all our projects, resources, and community contributions. Whether you're looking to collaborate on a project, find resources, or just explore what we're working on"}],"$undefined",["$","div",null,{"children":[["$","a",null,{"href":"https://github.com/niu-acm","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"Visit Our GitHub"}],"$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":[["$","img",null,{"src":"https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png","alt":"","className":"section-image-small"}],"$undefined","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$7"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Resources and Musings"}],["$","p",null,{"className":"section-content","children":"Just a bunch of useful websites"}],"$undefined",["$","div",null,{"children":[["$","a",null,{"href":"https://leetcode.com/problemset/","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"Leetcode"}],["$","a",null,{"href":"https://niucsci.wiki/","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"NIU CSCI Wiki"}],["$","a",null,{"href":"https://vyxz.xyz/sshfs-vscode","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"Remote development in VSCode with SSHFS"}],["$","a",null,{"href":"https://niucsci.wiki/guide/make","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"How to make Makefiles"}],["$","a",null,{"href":"https://niucsci.wiki/guide/documentation","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"Doc-driven development with doxygen and git"}],["$","a",null,{"href":"https://web.archive.org/web/20051231223018/http://www.cs.niu.edu/","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"CS Department's Website in 2006"}],["$","a",null,{"href":"https://www.youtube.com/watch?v=HXeLdyB6zME","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"John Winans 340 Youtube Course"}]]}]]}],["$","div",null,{"className":"section-images ","children":[["$","img",null,{"src":"https://www.niu.edu/academics/images/apply-block-images/alejandro-cut-out.png","alt":"","className":"section-image-small"}],"$undefined","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$8"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Old NIU ACM Websites"}],["$","p",null,{"className":"section-content","children":"A collection of old NIU ACM websites from the Wayback Machine"}],"$undefined",["$","div",null,{"children":[["$","a",null,{"href":"https://web.archive.org/web/19980524234956/http://www.cs.niu.edu/~niuacm/","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"1990s Website"}],["$","a",null,{"href":"https://web.archive.org/web/20040901095600/http://www.cs.niu.edu/~niuacm/","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"2000s Website"}],["$","a",null,{"href":"https://web.archive.org/web/20240621002411/https://acm.cs.niu.edu/","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"2010s-Mid 2020s Website"}],"$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$9"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"NIU ACM Flyers"}],["$","p",null,{"className":"section-content","children":"Look for the Student Chapter of the ACM's flyers posted on campus bulletin boards for announcements of activities."}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined",["$","img",null,{"src":"https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b","alt":"","className":"section-image-large"}],"$undefined","$undefined","$undefined"]}]]}]]]}]}],[["$","style",null,{"children":"$a"}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"icons-wrapper","children":[[["$","style",null,{"children":"$b"}],["$","a",null,{"href":"mailto:niuhuskiesacm@gmail.com","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"/icons/mail.svg","alt":"Email Us icon"}],["$","p",null,{"children":"Email Us"}]]}]}]],[["$","style",null,{"children":"$c"}],["$","a",null,{"href":"https://discord.gg/gzQDaQMGjJ","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"/icons/brand-discord.svg","alt":"Discord icon"}],["$","p",null,{"children":"Discord"}]]}]}]],[["$","style",null,{"children":"$d"}],["$","a",null,{"href":"https://huskiehub.niu.edu/NIUACM/club_signup","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"/icons/heading.svg","alt":"Huskie Hub icon"}],["$","p",null,{"children":"Huskie Hub"}]]}]}]],[["$","style",null,{"children":"$e"}],["$","a",null,{"href":"https://github.com/niu-acm","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"/icons/brand-github.svg","alt":"GitHub icon"}],["$","p",null,{"children":"GitHub"}]]}]}]],[["$","style",null,{"children":"$f"}],["$","a",null,{"href":"https://www.linkedin.com/groups/14721661","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"/icons/brand-linkedin.svg","alt":"LinkedIn icon"}],["$","p",null,{"children":"LinkedIn"}]]}]}]]]}]}]]]}],["$","$L10",null,{"children":"$L11"}],null,["$","$L12",null,{"children":["$L13","$L14",["$","$L15",null,{"promise":"$@16"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","dG1dJndOdZ8jDqArmWxAB",{"children":[["$","$L17",null,{"children":"$L18"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$19","$undefined"],"s":false,"S":true}
+1a:"$Sreact.suspense"
+1b:I[4911,[],"AsyncMetadata"]
+11:["$","$1a",null,{"fallback":null,"children":["$","$L1b",null,{"promise":"$@1c"}]}]
 14:null
-1d:{"metadata":[["$","title","0",{"children":"NIU ACM"}],["$","meta","1",{"name":"description","content":"NIU's Premiere Computer Science Organization, Since the 1990s, NIU ACM has been the organization for Computer Science students at Northern Illinois University. We provide resources, events, and a community for all students interested in computing."}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
-17:{"metadata":"$1d:metadata","error":null,"digest":"$undefined"}
+18:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:null
+1c:{"metadata":[["$","title","0",{"children":"NIU ACM"}],["$","meta","1",{"name":"description","content":"NIU's Premiere Computer Science Organization, Since the 1990s, NIU ACM has been the organization for Computer Science students at Northern Illinois University. We provide resources, events, and a community for all students interested in computing."}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+16:{"metadata":"$1c:metadata","error":null,"digest":"$undefined"}
