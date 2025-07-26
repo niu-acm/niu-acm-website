@@ -86,7 +86,7 @@ export default function Home() {
 				name="SIGwebdev"
 				description="SIGwebdev is for anyone interested in building things on the web—from total beginners to experienced devs.
 				If you're into HTML/CSS, PHP, React, Tailwind, or just want to make your portfolio shine, this is your space"
-				image_url="https://www.hubspot.com/hubfs/web-development.webp"
+				image_url="https://github.com/user-attachments/assets/13937877-1f3a-4cb8-87c9-3c832882314b"
 				flipped={true}
 				link="/sigw"
 			/>
