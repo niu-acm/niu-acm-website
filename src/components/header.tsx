@@ -107,6 +107,17 @@ export default function Header() {
                     background: rgba(0, 0, 0, 0.1);
                 }
 
+                /* 13-14 inch laptop screens */
+                @media (min-width: 769px) and (max-width: 1440px) {
+                    .header-title {
+                        font-size: 1.6rem;
+                    }
+
+                    .header-logo {
+                        height: 65px;
+                    }
+                }
+
                 /* Mobile styles */
                 @media (max-width: 768px) {
                     .header {

@@ -126,6 +126,48 @@ export default function SectionBody({
                     object-fit: cover;
                 }
 
+                /* 13-14 inch laptop screens */
+                @media (min-width: 769px) and (max-width: 1440px) {
+                    .section-container {
+                        padding: 0.6rem 4vw;
+                        min-height: 300px;
+                    }
+
+                    .section-title {
+                        font-size: 2rem;
+                    }
+
+                    .section-content {
+                        font-size: 1.1rem;
+                    }
+
+                    .section-content2 {
+                        font-size: 1rem;
+                    }
+
+                    .section-text {
+                        max-width: 450px;
+                        gap: 1rem;
+                    }
+
+                    .section-image-small {
+                        width: 200px;
+                    }
+
+                    .section-image-large {
+                        width: 450px;
+                    }
+
+                    .section-image-medium {
+                        width: 320px;
+                    }
+
+                    .section-link {
+                        padding: 0.5rem 1.2rem;
+                        font-size: 1rem;
+                    }
+                }
+
                 /* Mobile styles */
                 @media (max-width: 768px) {
                     .section-container {

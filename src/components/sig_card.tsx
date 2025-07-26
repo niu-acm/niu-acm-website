@@ -76,6 +76,39 @@ export default function SigCard({
                    object-fit: cover;
               }
 
+              /* 13-14 inch laptop screens */
+              @media (min-width: 769px) and (max-width: 1440px) {
+                  .sig-card {
+                      margin: 20px 60px;
+                  }
+
+                  .sig-card-content {
+                      padding: 0px 60px 0px 60px;
+                      font-size: 20px;
+                  }
+
+                  .sig-header {
+                      font-size: 24px;
+                      margin-bottom: 8px;
+                      margin-top: 20px;
+                  }
+
+                  .sig-body {
+                      font-size: 16px;
+                      padding: 25px 0px;
+                  }
+
+                  .sig-link {
+                      padding: 20px;
+                      font-size: 1rem;
+                      margin-bottom: 20px;
+                  }
+
+                  .sig-card-image {
+                      width: 250px;
+                  }
+              }
+
               /* Mobile styles */
               @media (max-width: 768px) {
                   .sig-card {

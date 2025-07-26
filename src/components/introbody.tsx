@@ -63,6 +63,35 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                     transform: translateY(-30px);
                 }
 
+                /* 13-14 inch laptop screens */
+                @media (min-width: 769px) and (max-width: 1440px) {
+                    .intro-container {
+                        max-width: 1200px;
+                        gap: 1.5rem;
+                        padding: 2.5rem 0rem;
+                    }
+
+                    .intro-title {
+                        font-size: 2.2rem;
+                    }
+
+                    .intro-text {
+                        font-size: 1.2rem;
+                        margin-top: 1.5rem;
+                    }
+
+                    .intro-image {
+                        width: 550px;
+                        transform: translateY(-20px);
+                    }
+
+                    .join-acm-btn {
+                        margin-top: 1.5rem;
+                        padding: 0.6rem 1.8rem;
+                        font-size: 1.1rem;
+                    }
+                }
+
                 /* Mobile styles */
                 @media (max-width: 768px) {
                     .intro-container {
