@@ -29,7 +29,7 @@ const gothamFont = localFont({
 
 export const metadata: Metadata = {
   title: "NIU ACM",
-  description: "NIU's Premiere Computer Science Organization, Since the 1990s, NIU ACM has been the organization for Computer Science students at Northern Illinois University. We provide resources, events, and a community for all students interested in computing.",
+  description: "NIU's Premiere Computer Science Organization since 1980, NIU ACM has been the organization for Computer Science students at Northern Illinois University. We provide resources, events, and a community for all students interested in computing.",
 };
 
 export default function RootLayout({
