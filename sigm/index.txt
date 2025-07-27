@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
 2:I[7555,[],""]
 3:I[1295,[],""]
-4:I[435,["729","static/chunks/729-0ae0020d02b338de.js","11","static/chunks/app/sigm/page-e53637486bb28efc.js"],"default"]
-5:I[7911,["729","static/chunks/729-0ae0020d02b338de.js","11","static/chunks/app/sigm/page-e53637486bb28efc.js"],"default"]
+4:I[435,["729","static/chunks/729-0ae0020d02b338de.js","11","static/chunks/app/sigm/page-018d4e36fa43cb29.js"],"default"]
+5:I[7911,["729","static/chunks/729-0ae0020d02b338de.js","11","static/chunks/app/sigm/page-018d4e36fa43cb29.js"],"default"]
 12:I[9665,[],"MetadataBoundary"]
 14:I[9665,[],"OutletBoundary"]
 17:I[4911,[],"AsyncMetadataOutlet"]
@@ -13,7 +13,7 @@
 :HL["/_next/static/media/eb74faabb8756d67-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/ec453c98cba9d61a-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/css/75d977d86924f4e6.css","style"]
-6:Td13,
+6:Tcc8,
                 .join-acm-btn {
                     display: inline-block;
                     margin-top: 2rem;
@@ -34,13 +34,12 @@
 
                 .intro-container {
                     width: 100%;
-                    max-width: 60vw;
+                    max-width: 1500px;
                     display: flex;
                     align-items: flex-start;
                     justify-content: center;
                     gap: 2rem;
                     padding: 4rem 0rem;
-                    margin: 0 auto;
                 }
 
                 .intro-content {
@@ -49,18 +48,18 @@
                 }
 
                 .intro-title {
-                    font-size: 2.4rem;
+                    font-size: 2.8rem;
                     font-weight: bold;
                     margin: 0;
                 }
 
                 .intro-text {
-                    font-size: 1.3rem;
+                    font-size: 1.5rem;
                     margin-top: 2rem;
                 }
 
                 .intro-image {
-                    width: 500px;
+                    width: 700px;
                     height: auto;
                     border-radius: 8px;
                     box-shadow: 0 4px 24px rgba(0,0,0,0.1);
@@ -71,7 +70,6 @@
                 @media (max-width: 768px) {
                     .intro-container {
                         flex-direction: column;
-                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1rem;
                     }
@@ -122,7 +120,7 @@
                         max-width: 500px;
                     }
                 }
-            7:T1828,
+            7:T17da,
                 .section-title {
                     font-size: 2.4rem;
                     font-weight: bold;
@@ -161,12 +159,11 @@
                     justify-content: space-between;
                     gap: 0.5rem;
                     width: 100%;
-                    max-width: 60vw;
-                    min-height: 300px;
+                    min-height: 350px;
                     color: #222;
-                    padding: 3rem 2rem;
+                    padding: 4rem 6vw;
                     box-sizing: border-box;
-                    margin: 1rem auto;
+                    margin: 1rem 0;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
@@ -180,18 +177,18 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 1rem;
-                    max-width: 400px;
+                    gap: 1.2rem;
+                    max-width: 500px;
                 }
 
                 .section-content {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
                     margin: 0;
                     white-space: pre-line;
                 }
 
                 .section-content2 {
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                     margin: 0;
                 }
 
@@ -209,19 +206,19 @@
                 }
 
                 .section-image-small {
-                    width: 180px;
+                    width: 240px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-large {
-                    width: 350px;
+                    width: 550px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-medium {
-                    width: 280px;
+                    width: 400px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
@@ -230,7 +227,6 @@
                 @media (max-width: 768px) {
                     .section-container {
                         flex-direction: column;
-                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1.5rem;
                         min-height: auto;
@@ -315,7 +311,7 @@
                         font-size: 0.9rem;
                     }
                 }
-            8:T1828,
+            8:T17da,
                 .section-title {
                     font-size: 2.4rem;
                     font-weight: bold;
@@ -354,12 +350,11 @@
                     justify-content: space-between;
                     gap: 0.5rem;
                     width: 100%;
-                    max-width: 60vw;
-                    min-height: 300px;
+                    min-height: 350px;
                     color: #222;
-                    padding: 3rem 2rem;
+                    padding: 4rem 6vw;
                     box-sizing: border-box;
-                    margin: 1rem auto;
+                    margin: 1rem 0;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
@@ -373,18 +368,18 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 1rem;
-                    max-width: 400px;
+                    gap: 1.2rem;
+                    max-width: 500px;
                 }
 
                 .section-content {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
                     margin: 0;
                     white-space: pre-line;
                 }
 
                 .section-content2 {
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                     margin: 0;
                 }
 
@@ -402,19 +397,19 @@
                 }
 
                 .section-image-small {
-                    width: 180px;
+                    width: 240px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-large {
-                    width: 350px;
+                    width: 550px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-medium {
-                    width: 280px;
+                    width: 400px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
@@ -423,7 +418,6 @@
                 @media (max-width: 768px) {
                     .section-container {
                         flex-direction: column;
-                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1.5rem;
                         min-height: auto;
@@ -508,7 +502,7 @@
                         font-size: 0.9rem;
                     }
                 }
-            9:T1828,
+            9:T17da,
                 .section-title {
                     font-size: 2.4rem;
                     font-weight: bold;
@@ -547,12 +541,11 @@
                     justify-content: space-between;
                     gap: 0.5rem;
                     width: 100%;
-                    max-width: 60vw;
-                    min-height: 300px;
+                    min-height: 350px;
                     color: #222;
-                    padding: 3rem 2rem;
+                    padding: 4rem 6vw;
                     box-sizing: border-box;
-                    margin: 1rem auto;
+                    margin: 1rem 0;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
@@ -566,18 +559,18 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 1rem;
-                    max-width: 400px;
+                    gap: 1.2rem;
+                    max-width: 500px;
                 }
 
                 .section-content {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
                     margin: 0;
                     white-space: pre-line;
                 }
 
                 .section-content2 {
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                     margin: 0;
                 }
 
@@ -595,19 +588,19 @@
                 }
 
                 .section-image-small {
-                    width: 180px;
+                    width: 240px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-large {
-                    width: 350px;
+                    width: 550px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-medium {
-                    width: 280px;
+                    width: 400px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
@@ -616,7 +609,6 @@
                 @media (max-width: 768px) {
                     .section-container {
                         flex-direction: column;
-                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1.5rem;
                         min-height: auto;
@@ -701,7 +693,7 @@
                         font-size: 0.9rem;
                     }
                 }
-            a:T1828,
+            a:T17da,
                 .section-title {
                     font-size: 2.4rem;
                     font-weight: bold;
@@ -740,12 +732,11 @@
                     justify-content: space-between;
                     gap: 0.5rem;
                     width: 100%;
-                    max-width: 60vw;
-                    min-height: 300px;
+                    min-height: 350px;
                     color: #222;
-                    padding: 3rem 2rem;
+                    padding: 4rem 6vw;
                     box-sizing: border-box;
-                    margin: 1rem auto;
+                    margin: 1rem 0;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
@@ -759,18 +750,18 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 1rem;
-                    max-width: 400px;
+                    gap: 1.2rem;
+                    max-width: 500px;
                 }
 
                 .section-content {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
                     margin: 0;
                     white-space: pre-line;
                 }
 
                 .section-content2 {
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                     margin: 0;
                 }
 
@@ -788,19 +779,19 @@
                 }
 
                 .section-image-small {
-                    width: 180px;
+                    width: 240px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-large {
-                    width: 350px;
+                    width: 550px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-medium {
-                    width: 280px;
+                    width: 400px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
@@ -809,7 +800,6 @@
                 @media (max-width: 768px) {
                     .section-container {
                         flex-direction: column;
-                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1.5rem;
                         min-height: auto;
@@ -894,7 +884,7 @@
                         font-size: 0.9rem;
                     }
                 }
-            b:T1828,
+            b:T17da,
                 .section-title {
                     font-size: 2.4rem;
                     font-weight: bold;
@@ -933,12 +923,11 @@
                     justify-content: space-between;
                     gap: 0.5rem;
                     width: 100%;
-                    max-width: 60vw;
-                    min-height: 300px;
+                    min-height: 350px;
                     color: #222;
-                    padding: 3rem 2rem;
+                    padding: 4rem 6vw;
                     box-sizing: border-box;
-                    margin: 1rem auto;
+                    margin: 1rem 0;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
@@ -952,18 +941,18 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 1rem;
-                    max-width: 400px;
+                    gap: 1.2rem;
+                    max-width: 500px;
                 }
 
                 .section-content {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
                     margin: 0;
                     white-space: pre-line;
                 }
 
                 .section-content2 {
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                     margin: 0;
                 }
 
@@ -981,19 +970,19 @@
                 }
 
                 .section-image-small {
-                    width: 180px;
+                    width: 240px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-large {
-                    width: 350px;
+                    width: 550px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-medium {
-                    width: 280px;
+                    width: 400px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
@@ -1002,7 +991,6 @@
                 @media (max-width: 768px) {
                     .section-container {
                         flex-direction: column;
-                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1.5rem;
                         min-height: auto;
@@ -1650,7 +1638,7 @@
                 }
             }
 
-        0:{"P":null,"b":"nSz5uguGVTcuVwWftsdqm","p":"","c":["","sigm",""],"i":false,"f":[[["",{"children":["sigm",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/75d977d86924f4e6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__className_258576","children":[["$","head",null,{"children":["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["sigm",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"children":[["$","$L4",null,{}],["$","$L5",null,{}],["$","div",null,{"style":{"backgroundColor":"rgba(0, 0, 0, 0.1)","minHeight":"60vh","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center","textAlign":"center"},"children":[[["$","style",null,{"children":"$6"}],["$","div",null,{"style":{"display":"flex","alignItems":"center","justifyContent":"center","gap":"2rem","width":"100%","minHeight":"350px","backgroundColor":"#fff","color":"#222","boxSizing":"border-box","borderBottomLeftRadius":"24px","borderBottomRightRadius":"24px"},"children":["$","div",null,{"className":"intro-container","children":[["$","div",null,{"className":"intro-content","children":[["$","h2",null,{"className":"intro-title","children":"NIU's Premier Computer Science Organization"}],["$","p",null,{"className":"intro-text","children":"NIU ACM is your gateway to hands-on tech experience, career growth, and a community of like-minded students. Join us for workshops, guest speakers, and SIGs (Special Interest Groups) where you can build projects, learn new skills, connect with alumni, and have fun through socials and team events — whether you're just starting out or looking to level up, there's a place for you here."}],"$undefined"]}],["$","img",null,{"src":"https://npr.brightspotcdn.com/e1/7b/9b044d4642d389e499176c5edd69/img-9121.jpg","alt":"come join acm with me vro. come be deckerpilled","className":"intro-image"}]]}]}]],["$","div",null,{"style":{"width":"100%","maxWidth":"1500px"},"children":[[["$","style",null,{"children":"$7"}],["$","div",null,{"className":"section-container section-flipped","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"What Type of Events does SIGmainframe Host?"}],["$","p",null,{"className":"section-content","children":""}],"",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images flipped","children":[["$","img",null,{"src":"https://i.imgflip.com/2e8ce9.jpg","alt":"","className":"section-image-small"}],"$undefined","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$8"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Fall 2025 Schedule"}],["$","p",null,{"className":"section-content","children":"\n                            Sep 23: \n                            \nSep 30:\n                            \nOct 7:\n                            \nOct 14: \n                            \nOct 21: \n                            \nOct 28: \n                            \nNov 4: \n                            \nNov 11: \n                            \nNov 18: \n                            "}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$9"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Mainframe Conferences"}],["$","p",null,{"className":"section-content","children":"NIU Mainframers often attend SHARE and TechXChange events throughout the year. These events provide opportunities to learn about the latest mainframe technologies, network with industry professionals, and share knowledge with peers."}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined",["$","img",null,{"src":"https://github.com/user-attachments/assets/e97a945e-955e-4fe4-9885-6e8185de4d01","alt":"","className":"section-image-medium"}],["$","img",null,{"src":"https://media.licdn.com/dms/image/v2/D5622AQHgkZLYjmnzcQ/feedshare-shrink_2048_1536/B56ZVOjV5YGQAo-/0/1740779648248?e=1753920000&v=beta&t=OnTGbIB13VoiW7Ye8BCFk4mLVbE4oRB9TEPVRKlbvSM","alt":"","className":"section-image-medium"}]]}]]}]],[["$","style",null,{"children":"$a"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Past Events"}],["$","p",null,{"className":"section-content","children":""}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$b"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Mainframe Alumni"}],["$","p",null,{"className":"section-content","children":""}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":[["$","img",null,{"src":"https://i.imgflip.com/2e8ce9.jpg","alt":"","className":"section-image-small"}],"$undefined","$undefined","$undefined","$undefined"]}]]}]]]}]]}],[["$","style",null,{"children":"$c"}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"icons-wrapper","children":[[["$","style",null,{"children":"$d"}],["$","a",null,{"href":"mailto:niuhuskiesacm@gmail.com","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/e1584402-dc6d-42dc-99cf-515440ed82dd","alt":"Email Us icon"}],["$","p",null,{"children":"Email Us"}]]}]}]],[["$","style",null,{"children":"$e"}],["$","a",null,{"href":"https://discord.gg/gzQDaQMGjJ","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/bc0c54fb-838c-4535-a756-b2487533903a","alt":"Discord icon"}],["$","p",null,{"children":"Discord"}]]}]}]],[["$","style",null,{"children":"$f"}],["$","a",null,{"href":"https://huskiehub.niu.edu/NIUACM/club_signup","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0","alt":"Huskie Hub icon"}],["$","p",null,{"children":"Huskie Hub"}]]}]}]],[["$","style",null,{"children":"$10"}],["$","a",null,{"href":"https://github.com/niu-acm","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace","alt":"GitHub icon"}],["$","p",null,{"children":"GitHub"}]]}]}]],[["$","style",null,{"children":"$11"}],["$","a",null,{"href":"https://www.linkedin.com/groups/14721661","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551","alt":"LinkedIn icon"}],["$","p",null,{"children":"LinkedIn"}]]}]}]]]}]}]]]}],["$","$L12",null,{"children":"$L13"}],null,["$","$L14",null,{"children":["$L15","$L16",["$","$L17",null,{"promise":"$@18"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","RhDCE8xeDFPtyNL3Ifx0I",{"children":[["$","$L19",null,{"children":"$L1a"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$1b","$undefined"],"s":false,"S":true}
+        0:{"P":null,"b":"8YNFMLStnY8h4IpnKlTqW","p":"","c":["","sigm",""],"i":false,"f":[[["",{"children":["sigm",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/75d977d86924f4e6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__className_258576","children":[["$","head",null,{"children":["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["sigm",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"children":[["$","$L4",null,{}],["$","$L5",null,{}],["$","div",null,{"style":{"backgroundColor":"rgba(0, 0, 0, 0.1)","minHeight":"60vh","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center","textAlign":"center"},"children":[[["$","style",null,{"children":"$6"}],["$","div",null,{"style":{"display":"flex","alignItems":"center","justifyContent":"center","gap":"2rem","width":"100%","minHeight":"350px","backgroundColor":"#fff","color":"#222","boxSizing":"border-box","borderBottomLeftRadius":"24px","borderBottomRightRadius":"24px"},"children":["$","div",null,{"className":"intro-container","children":[["$","div",null,{"className":"intro-content","children":[["$","h2",null,{"className":"intro-title","children":"NIU's Premier Computer Science Organization"}],["$","p",null,{"className":"intro-text","children":"NIU ACM is your gateway to hands-on tech experience, career growth, and a community of like-minded students. Join us for workshops, guest speakers, and SIGs (Special Interest Groups) where you can build projects, learn new skills, connect with alumni, and have fun through socials and team events — whether you're just starting out or looking to level up, there's a place for you here."}],"$undefined"]}],["$","img",null,{"src":"https://npr.brightspotcdn.com/e1/7b/9b044d4642d389e499176c5edd69/img-9121.jpg","alt":"come join acm with me vro. come be deckerpilled","className":"intro-image"}]]}]}]],["$","div",null,{"style":{"width":"100%","maxWidth":"1500px"},"children":[[["$","style",null,{"children":"$7"}],["$","div",null,{"className":"section-container section-flipped","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"What Type of Events does SIGmainframe Host?"}],["$","p",null,{"className":"section-content","children":""}],"",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images flipped","children":[["$","img",null,{"src":"https://i.imgflip.com/2e8ce9.jpg","alt":"","className":"section-image-small"}],"$undefined","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$8"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Fall 2025 Schedule"}],["$","p",null,{"className":"section-content","children":"\n                            Sep 23: \n                            \nSep 30:\n                            \nOct 7:\n                            \nOct 14: \n                            \nOct 21: \n                            \nOct 28: \n                            \nNov 4: \n                            \nNov 11: \n                            \nNov 18: \n                            "}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$9"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Mainframe Conferences"}],["$","p",null,{"className":"section-content","children":"NIU Mainframers often attend SHARE and TechXChange events throughout the year. These events provide opportunities to learn about the latest mainframe technologies, network with industry professionals, and share knowledge with peers."}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined",["$","img",null,{"src":"https://github.com/user-attachments/assets/e97a945e-955e-4fe4-9885-6e8185de4d01","alt":"","className":"section-image-medium"}],["$","img",null,{"src":"https://media.licdn.com/dms/image/v2/D5622AQHgkZLYjmnzcQ/feedshare-shrink_2048_1536/B56ZVOjV5YGQAo-/0/1740779648248?e=1753920000&v=beta&t=OnTGbIB13VoiW7Ye8BCFk4mLVbE4oRB9TEPVRKlbvSM","alt":"","className":"section-image-medium"}]]}]]}]],[["$","style",null,{"children":"$a"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Past Events"}],["$","p",null,{"className":"section-content","children":""}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$b"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Mainframe Alumni"}],["$","p",null,{"className":"section-content","children":""}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":[["$","img",null,{"src":"https://i.imgflip.com/2e8ce9.jpg","alt":"","className":"section-image-small"}],"$undefined","$undefined","$undefined","$undefined"]}]]}]]]}]]}],[["$","style",null,{"children":"$c"}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"icons-wrapper","children":[[["$","style",null,{"children":"$d"}],["$","a",null,{"href":"mailto:niuhuskiesacm@gmail.com","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/e1584402-dc6d-42dc-99cf-515440ed82dd","alt":"Email Us icon"}],["$","p",null,{"children":"Email Us"}]]}]}]],[["$","style",null,{"children":"$e"}],["$","a",null,{"href":"https://discord.gg/gzQDaQMGjJ","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/bc0c54fb-838c-4535-a756-b2487533903a","alt":"Discord icon"}],["$","p",null,{"children":"Discord"}]]}]}]],[["$","style",null,{"children":"$f"}],["$","a",null,{"href":"https://huskiehub.niu.edu/NIUACM/club_signup","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0","alt":"Huskie Hub icon"}],["$","p",null,{"children":"Huskie Hub"}]]}]}]],[["$","style",null,{"children":"$10"}],["$","a",null,{"href":"https://github.com/niu-acm","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace","alt":"GitHub icon"}],["$","p",null,{"children":"GitHub"}]]}]}]],[["$","style",null,{"children":"$11"}],["$","a",null,{"href":"https://www.linkedin.com/groups/14721661","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551","alt":"LinkedIn icon"}],["$","p",null,{"children":"LinkedIn"}]]}]}]]]}]}]]]}],["$","$L12",null,{"children":"$L13"}],null,["$","$L14",null,{"children":["$L15","$L16",["$","$L17",null,{"promise":"$@18"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","jf8wyYfYHOXI6Y9o8vDLD",{"children":[["$","$L19",null,{"children":"$L1a"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$1b","$undefined"],"s":false,"S":true}
 1c:"$Sreact.suspense"
 1d:I[4911,[],"AsyncMetadata"]
 13:["$","$1c",null,{"fallback":null,"children":["$","$L1d",null,{"promise":"$@1e"}]}]
