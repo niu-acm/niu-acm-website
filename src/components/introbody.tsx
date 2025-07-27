@@ -14,7 +14,7 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                 .join-acm-btn {
                     display: inline-block;
                     margin-top: 2rem;
-                    padding: 0.75rem 2rem;
+                    padding: 0.8rem 2.2rem;
                     background: #fff;
                     color: rgb(200, 16, 46);
                     border-radius: 8px;
@@ -31,12 +31,13 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
 
                 .intro-container {
                     width: 100%;
-                    max-width: 1500px;
+                    max-width: min(120rem, 95vw);
                     display: flex;
                     align-items: flex-start;
                     justify-content: center;
-                    gap: 2rem;
-                    padding: 4rem 0rem;
+                    gap: 3rem;
+                    padding: 4rem 3rem;
+                    margin: 0 auto;
                 }
 
                 .intro-content {
@@ -45,28 +46,58 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                 }
 
                 .intro-title {
-                    font-size: 2.8rem;
+                    font-size: 3rem;
                     font-weight: bold;
                     margin: 0;
                 }
 
                 .intro-text {
                     font-size: 1.5rem;
-                    margin-top: 2rem;
+                    margin-top: 1.8rem;
+                    line-height: 1.5;
                 }
 
                 .intro-image {
-                    width: 700px;
+                    width: 600px;
                     height: auto;
                     border-radius: 8px;
                     box-shadow: 0 4px 24px rgba(0,0,0,0.1);
-                    transform: translateY(-30px);
+                    transform: translateY(-25px);
+                    flex-shrink: 0;
+                }
+
+                /* Tablet and small laptop styles */
+                @media (max-width: 1024px) and (min-width: 769px) {
+                    .intro-container {
+                        max-width: 90vw;
+                        gap: 1.5rem;
+                        padding: 2.5rem 1rem;
+                    }
+
+                    .intro-title {
+                        font-size: 2.2rem;
+                    }
+
+                    .intro-text {
+                        font-size: 1.2rem;
+                    }
+
+                    .intro-image {
+                        width: 420px;
+                        transform: translateY(-15px);
+                    }
+
+                    .join-acm-btn {
+                        font-size: 1rem;
+                        padding: 0.55rem 1.6rem;
+                    }
                 }
 
                 /* Mobile styles */
                 @media (max-width: 768px) {
                     .intro-container {
                         flex-direction: column;
+                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1rem;
                     }
