@@ -33,10 +33,10 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                     width: 100%;
                     max-width: min(90rem, 95vw);
                     display: flex;
-                    align-items: flex-start;
+                    align-items: center;
                     justify-content: center;
-                    gap: 3rem;
-                    padding: 4rem 3rem;
+                    gap: min(3rem, 5vw);
+                    padding: min(4rem, 6vw) min(3rem, 4vw);
                     margin: 0 auto;
                 }
 
@@ -58,11 +58,10 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                 }
 
                 .intro-image {
-                    width: 600px;
+                    width: min(40vw, 600px);
                     height: auto;
                     border-radius: 8px;
                     box-shadow: 0 4px 24px rgba(0,0,0,0.1);
-                    transform: translateY(-25px);
                     flex-shrink: 0;
                 }
 
@@ -70,26 +69,25 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                 @media (max-width: 1024px) and (min-width: 769px) {
                     .intro-container {
                         max-width: 90vw;
-                        gap: 1.5rem;
-                        padding: 2.5rem 1rem;
+                        gap: min(2rem, 3vw);
+                        padding: min(3rem, 4vw) min(2rem, 3vw);
                     }
 
                     .intro-title {
-                        font-size: 2.2rem;
+                        font-size: min(2.5rem, 4vw);
                     }
 
                     .intro-text {
-                        font-size: 1.2rem;
+                        font-size: min(1.3rem, 2.2vw);
                     }
 
                     .intro-image {
-                        width: 420px;
-                        transform: translateY(-15px);
+                        width: min(35vw, 420px);
                     }
 
                     .join-acm-btn {
-                        font-size: 1rem;
-                        padding: 0.55rem 1.6rem;
+                        font-size: min(1.1rem, 1.8vw);
+                        padding: 0.6rem 1.8rem;
                     }
                 }
 
