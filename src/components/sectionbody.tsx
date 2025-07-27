@@ -25,7 +25,7 @@ export default function SectionBody({
         <>
             <style>{`
                 .section-title {
-                    font-size: 2.4rem;
+                    font-size: 2rem;
                     font-weight: bold;
                     margin: 0;
                     transition: color 0.2s, text-shadow 0.2s, transform 0.2s;
@@ -62,11 +62,11 @@ export default function SectionBody({
                     justify-content: space-between;
                     gap: 0.5rem;
                     width: 100%;
-                    min-height: 350px;
+                    min-height: 300px;
                     color: #222;
-                    padding: 4rem 6vw;
+                    padding: 4rem 4rem;
                     box-sizing: border-box;
-                    margin: 1rem 0;
+                    margin: 1rem auto;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
@@ -80,18 +80,18 @@ export default function SectionBody({
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 1.2rem;
-                    max-width: 500px;
+                    gap: 1rem;
+                    max-width: 400px;
                 }
 
                 .section-content {
-                    font-size: 1.3rem;
+                    font-size: 1.1rem;
                     margin: 0;
                     white-space: pre-line;
                 }
 
                 .section-content2 {
-                    font-size: 1.1rem;
+                    font-size: 1rem;
                     margin: 0;
                 }
 
@@ -109,19 +109,19 @@ export default function SectionBody({
                 }
 
                 .section-image-small {
-                    width: 240px;
+                    width: 180px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-large {
-                    width: 550px;
+                    width: 350px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-medium {
-                    width: 400px;
+                    width: 280px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
