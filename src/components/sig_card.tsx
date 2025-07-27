@@ -26,7 +26,7 @@ export default function SigCard({
                    width: "100%",
                    border-radius: 5px;
                    border: 2px dark grey;
-                   margin: 25px 100px 25px 100px;
+                   margin: 20px 60px;
                 }
 
                 .sig-card:hover {
@@ -36,34 +36,34 @@ export default function SigCard({
                 }
 
               .sig-card-content {
-                   padding: 0px 100px 0px 100px;
-                   font-size: 25px;
+                   padding: 0px 60px 0px 60px;
+                   font-size: 18px;
               }
 
               .sig-header {
-                   font-size: 30px;
-                   margin-bottom: 10px;
-                   margin-top: 30px;
+                   font-size: 22px;
+                   margin-bottom: 8px;
+                   margin-top: 20px;
                    color: rgb(200, 16, 46);
               }
 
               .sig-body {
-                   font-size: 20px;
-                   padding: 40px 0px 40px 0px;
+                   font-size: 16px;
+                   padding: 25px 0px;
               }
 
               .sig-link {
                    display: inline-block;
                    background: rgb(200, 16, 46);
                    color: white;
-                   padding: 30px;
+                   padding: 18px;
                    border-radius: 8px;
                    font-weight: bold;
                    text-decoration: none;
-                   font-size: 1.2rem;
+                   font-size: 1rem;
                    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
                    transition: background 0.2s, color 0.2s, transform 0.15s;
-                   margin-bottom: 30px;
+                   margin-bottom: 20px;
               }
 
               .sig-link:hover {
@@ -71,7 +71,7 @@ export default function SigCard({
               }
 
               .sig-card-image {
-                   width: 300px;
+                   width: 240px;
                    height: auto;
                    object-fit: cover;
               }
