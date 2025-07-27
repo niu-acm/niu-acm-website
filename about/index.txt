@@ -183,7 +183,7 @@
                         font-size: 0.85rem;
                     }
                 }
-            7:T1c83,
+            7:T1828,
                 .section-title {
                     font-size: 2.4rem;
                     font-weight: bold;
@@ -222,11 +222,12 @@
                     justify-content: space-between;
                     gap: 0.5rem;
                     width: 100%;
-                    min-height: 350px;
+                    max-width: 60vw;
+                    min-height: 300px;
                     color: #222;
-                    padding: 4rem 6vw;
+                    padding: 3rem 2rem;
                     box-sizing: border-box;
-                    margin: 1rem 0;
+                    margin: 1rem auto;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
@@ -240,18 +241,18 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 1.2rem;
-                    max-width: 500px;
+                    gap: 1rem;
+                    max-width: 400px;
                 }
 
                 .section-content {
-                    font-size: 1.3rem;
+                    font-size: 1.1rem;
                     margin: 0;
                     white-space: pre-line;
                 }
 
                 .section-content2 {
-                    font-size: 1.1rem;
+                    font-size: 1rem;
                     margin: 0;
                 }
 
@@ -269,69 +270,28 @@
                 }
 
                 .section-image-small {
-                    width: 240px;
+                    width: 180px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-large {
-                    width: 550px;
+                    width: 350px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-medium {
-                    width: 400px;
+                    width: 280px;
                     border-radius: 12px;
                     object-fit: cover;
-                }
-
-                /* 13-14 inch laptop screens */
-                @media (min-width: 769px) and (max-width: 1440px) {
-                    .section-container {
-                        padding: 0.6rem 4vw;
-                        min-height: 300px;
-                    }
-
-                    .section-title {
-                        font-size: 2rem;
-                    }
-
-                    .section-content {
-                        font-size: 1.1rem;
-                    }
-
-                    .section-content2 {
-                        font-size: 1rem;
-                    }
-
-                    .section-text {
-                        max-width: 450px;
-                        gap: 1rem;
-                    }
-
-                    .section-image-small {
-                        width: 200px;
-                    }
-
-                    .section-image-large {
-                        width: 450px;
-                    }
-
-                    .section-image-medium {
-                        width: 320px;
-                    }
-
-                    .section-link {
-                        padding: 0.5rem 1.2rem;
-                        font-size: 1rem;
-                    }
                 }
 
                 /* Mobile styles */
                 @media (max-width: 768px) {
                     .section-container {
                         flex-direction: column;
+                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1.5rem;
                         min-height: auto;
@@ -416,7 +376,7 @@
                         font-size: 0.9rem;
                     }
                 }
-            8:T1c83,
+            8:T1828,
                 .section-title {
                     font-size: 2.4rem;
                     font-weight: bold;
@@ -455,11 +415,12 @@
                     justify-content: space-between;
                     gap: 0.5rem;
                     width: 100%;
-                    min-height: 350px;
+                    max-width: 60vw;
+                    min-height: 300px;
                     color: #222;
-                    padding: 4rem 6vw;
+                    padding: 3rem 2rem;
                     box-sizing: border-box;
-                    margin: 1rem 0;
+                    margin: 1rem auto;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
@@ -473,18 +434,18 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 1.2rem;
-                    max-width: 500px;
+                    gap: 1rem;
+                    max-width: 400px;
                 }
 
                 .section-content {
-                    font-size: 1.3rem;
+                    font-size: 1.1rem;
                     margin: 0;
                     white-space: pre-line;
                 }
 
                 .section-content2 {
-                    font-size: 1.1rem;
+                    font-size: 1rem;
                     margin: 0;
                 }
 
@@ -502,69 +463,28 @@
                 }
 
                 .section-image-small {
-                    width: 240px;
+                    width: 180px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-large {
-                    width: 550px;
+                    width: 350px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-medium {
-                    width: 400px;
+                    width: 280px;
                     border-radius: 12px;
                     object-fit: cover;
-                }
-
-                /* 13-14 inch laptop screens */
-                @media (min-width: 769px) and (max-width: 1440px) {
-                    .section-container {
-                        padding: 0.6rem 4vw;
-                        min-height: 300px;
-                    }
-
-                    .section-title {
-                        font-size: 2rem;
-                    }
-
-                    .section-content {
-                        font-size: 1.1rem;
-                    }
-
-                    .section-content2 {
-                        font-size: 1rem;
-                    }
-
-                    .section-text {
-                        max-width: 450px;
-                        gap: 1rem;
-                    }
-
-                    .section-image-small {
-                        width: 200px;
-                    }
-
-                    .section-image-large {
-                        width: 450px;
-                    }
-
-                    .section-image-medium {
-                        width: 320px;
-                    }
-
-                    .section-link {
-                        padding: 0.5rem 1.2rem;
-                        font-size: 1rem;
-                    }
                 }
 
                 /* Mobile styles */
                 @media (max-width: 768px) {
                     .section-container {
                         flex-direction: column;
+                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1.5rem;
                         min-height: auto;
@@ -649,7 +569,7 @@
                         font-size: 0.9rem;
                     }
                 }
-            9:T1c83,
+            9:T1828,
                 .section-title {
                     font-size: 2.4rem;
                     font-weight: bold;
@@ -688,11 +608,12 @@
                     justify-content: space-between;
                     gap: 0.5rem;
                     width: 100%;
-                    min-height: 350px;
+                    max-width: 60vw;
+                    min-height: 300px;
                     color: #222;
-                    padding: 4rem 6vw;
+                    padding: 3rem 2rem;
                     box-sizing: border-box;
-                    margin: 1rem 0;
+                    margin: 1rem auto;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
@@ -706,18 +627,18 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 1.2rem;
-                    max-width: 500px;
+                    gap: 1rem;
+                    max-width: 400px;
                 }
 
                 .section-content {
-                    font-size: 1.3rem;
+                    font-size: 1.1rem;
                     margin: 0;
                     white-space: pre-line;
                 }
 
                 .section-content2 {
-                    font-size: 1.1rem;
+                    font-size: 1rem;
                     margin: 0;
                 }
 
@@ -735,69 +656,28 @@
                 }
 
                 .section-image-small {
-                    width: 240px;
+                    width: 180px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-large {
-                    width: 550px;
+                    width: 350px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-medium {
-                    width: 400px;
+                    width: 280px;
                     border-radius: 12px;
                     object-fit: cover;
-                }
-
-                /* 13-14 inch laptop screens */
-                @media (min-width: 769px) and (max-width: 1440px) {
-                    .section-container {
-                        padding: 0.6rem 4vw;
-                        min-height: 300px;
-                    }
-
-                    .section-title {
-                        font-size: 2rem;
-                    }
-
-                    .section-content {
-                        font-size: 1.1rem;
-                    }
-
-                    .section-content2 {
-                        font-size: 1rem;
-                    }
-
-                    .section-text {
-                        max-width: 450px;
-                        gap: 1rem;
-                    }
-
-                    .section-image-small {
-                        width: 200px;
-                    }
-
-                    .section-image-large {
-                        width: 450px;
-                    }
-
-                    .section-image-medium {
-                        width: 320px;
-                    }
-
-                    .section-link {
-                        padding: 0.5rem 1.2rem;
-                        font-size: 1rem;
-                    }
                 }
 
                 /* Mobile styles */
                 @media (max-width: 768px) {
                     .section-container {
                         flex-direction: column;
+                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1.5rem;
                         min-height: auto;
@@ -882,7 +762,7 @@
                         font-size: 0.9rem;
                     }
                 }
-            a:T1c83,
+            a:T1828,
                 .section-title {
                     font-size: 2.4rem;
                     font-weight: bold;
@@ -921,11 +801,12 @@
                     justify-content: space-between;
                     gap: 0.5rem;
                     width: 100%;
-                    min-height: 350px;
+                    max-width: 60vw;
+                    min-height: 300px;
                     color: #222;
-                    padding: 4rem 6vw;
+                    padding: 3rem 2rem;
                     box-sizing: border-box;
-                    margin: 1rem 0;
+                    margin: 1rem auto;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
@@ -939,18 +820,18 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 1.2rem;
-                    max-width: 500px;
+                    gap: 1rem;
+                    max-width: 400px;
                 }
 
                 .section-content {
-                    font-size: 1.3rem;
+                    font-size: 1.1rem;
                     margin: 0;
                     white-space: pre-line;
                 }
 
                 .section-content2 {
-                    font-size: 1.1rem;
+                    font-size: 1rem;
                     margin: 0;
                 }
 
@@ -968,69 +849,28 @@
                 }
 
                 .section-image-small {
-                    width: 240px;
+                    width: 180px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-large {
-                    width: 550px;
+                    width: 350px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-medium {
-                    width: 400px;
+                    width: 280px;
                     border-radius: 12px;
                     object-fit: cover;
-                }
-
-                /* 13-14 inch laptop screens */
-                @media (min-width: 769px) and (max-width: 1440px) {
-                    .section-container {
-                        padding: 0.6rem 4vw;
-                        min-height: 300px;
-                    }
-
-                    .section-title {
-                        font-size: 2rem;
-                    }
-
-                    .section-content {
-                        font-size: 1.1rem;
-                    }
-
-                    .section-content2 {
-                        font-size: 1rem;
-                    }
-
-                    .section-text {
-                        max-width: 450px;
-                        gap: 1rem;
-                    }
-
-                    .section-image-small {
-                        width: 200px;
-                    }
-
-                    .section-image-large {
-                        width: 450px;
-                    }
-
-                    .section-image-medium {
-                        width: 320px;
-                    }
-
-                    .section-link {
-                        padding: 0.5rem 1.2rem;
-                        font-size: 1rem;
-                    }
                 }
 
                 /* Mobile styles */
                 @media (max-width: 768px) {
                     .section-container {
                         flex-direction: column;
+                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1.5rem;
                         min-height: auto;
@@ -1678,7 +1518,7 @@
                 }
             }
 
-        0:{"P":null,"b":"MHuGbpNIo-Byl23TeEk8H","p":"","c":["","about",""],"i":false,"f":[[["",{"children":["about",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/75d977d86924f4e6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__className_258576","children":[["$","head",null,{"children":["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["about",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"children":[["$","$L4",null,{}],["$","$L5",null,{}],["$","div",null,{"style":{"backgroundColor":"rgba(0, 0, 0, 0.1)","minHeight":"60vh","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center","textAlign":"center"},"children":[[["$","style",null,{"children":"$6"}],["$","div",null,{"className":"about-container","children":[["$","h1",null,{"className":"about-title","children":"ACM Board"}],["$","div",null,{"className":"about-description","children":"Meet the current ACM board members. We are dedicated to supporting the NIU computing community and organizing events, workshops, and opportunities for all students! If you are interested in joining the board email niuacm@mail.niu.edu"}],["$","div",null,{"className":"members-grid","children":[["$","div","0",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/a8fcffe9-13d1-4ae6-8e17-06787c0d04d0","alt":"Juan Lopez","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Juan Lopez"}],["$","div",null,{"className":"member-position","children":"Chair, SIGwebdev Lead"}]]}],["$","div","1",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/35d84516-1df5-41a4-96b6-032217b0a1ef","alt":"Douglas Johnson","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Douglas Johnson"}],["$","div",null,{"className":"member-position","children":"Vice Chair, SIGmainframe Lead"}]]}],["$","div","2",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/cbacee6a-cf39-4196-9246-23e902a4351b","alt":"John White","className":"member-image"}],["$","div",null,{"className":"member-name","children":"John White"}],["$","div",null,{"className":"member-position","children":"Secretary"}]]}],["$","div","3",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/281a0339-a1de-4651-b461-f17d80638373","alt":"Elisabeth Smith","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Elisabeth Smith"}],["$","div",null,{"className":"member-position","children":"Treasurer"}]]}],["$","div","4",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/ee9b2a42-e63c-46bf-8bb8-99090f6e2862","alt":"Kurt McMahon","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Kurt McMahon"}],["$","div",null,{"className":"member-position","children":"Faculty Advisor"}]]}],["$","div","5",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/29846ee6-7e52-426f-beb8-03e1f576b502","alt":"Nathaniel Aguirre","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Nathaniel Aguirre"}],["$","div",null,{"className":"member-position","children":"SIGwebdev Officer"}]]}],["$","div","6",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/326e0216-6822-407b-88c5-44bf4a4618ef","alt":"Jakobi McFadden","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Jakobi McFadden"}],["$","div",null,{"className":"member-position","children":"SIGwebdev Officer"}]]}],["$","div","7",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/af74b729-f4dd-4a5d-a913-37fce192688a","alt":"Julian Carranza","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Julian Carranza"}],["$","div",null,{"className":"member-position","children":"SIGwebdev Officer"}]]}],["$","div","8",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/d63945f7-ee1d-4647-bc3e-754ec015bc58","alt":"Victor Taiwo","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Victor Taiwo"}],["$","div",null,{"className":"member-position","children":"ACM Recruiter"}]]}],["$","div","9",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/fe7fbea7-bb05-432e-8e1e-b9992437b8f5","alt":"Oyewale Adeoye","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Oyewale Adeoye"}],["$","div",null,{"className":"member-position","children":"ACM Recruiter"}]]}]]}]]}]],["$","div",null,{"style":{"width":"100%","maxWidth":"80rem","margin":"0 auto"},"children":[["$","style",null,{"children":"$7"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Speaker Series Fall 2025"}],["$","p",null,{"className":"section-content","children":"NIU ACM brings you a series of talks from industry professionals, alumni, and faculty. Below are details of the upcoming talks."}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]]}],["$","div",null,{"style":{"width":"100%","maxWidth":"80rem","margin":"0 auto"},"children":[["$","style",null,{"children":"$8"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Speaker #1"}],["$","p",null,{"className":"section-content","children":""}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]]}],["$","div",null,{"style":{"width":"100%","maxWidth":"80rem","margin":"0 auto"},"children":[["$","style",null,{"children":"$9"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Speaker #2"}],["$","p",null,{"className":"section-content","children":""}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]]}],["$","div",null,{"style":{"width":"100%","maxWidth":"80rem","margin":"0 auto"},"children":[["$","style",null,{"children":"$a"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Speaker #3"}],["$","p",null,{"className":"section-content","children":""}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]]}]]}],[["$","style",null,{"children":"$b"}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"icons-wrapper","children":[[["$","style",null,{"children":"$c"}],["$","a",null,{"href":"mailto:niuhuskiesacm@gmail.com","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/e1584402-dc6d-42dc-99cf-515440ed82dd","alt":"Email Us icon"}],["$","p",null,{"children":"Email Us"}]]}]}]],[["$","style",null,{"children":"$d"}],["$","a",null,{"href":"https://discord.gg/gzQDaQMGjJ","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/bc0c54fb-838c-4535-a756-b2487533903a","alt":"Discord icon"}],["$","p",null,{"children":"Discord"}]]}]}]],[["$","style",null,{"children":"$e"}],["$","a",null,{"href":"https://huskiehub.niu.edu/NIUACM/club_signup","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0","alt":"Huskie Hub icon"}],["$","p",null,{"children":"Huskie Hub"}]]}]}]],[["$","style",null,{"children":"$f"}],["$","a",null,{"href":"https://github.com/niu-acm","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace","alt":"GitHub icon"}],["$","p",null,{"children":"GitHub"}]]}]}]],[["$","style",null,{"children":"$10"}],["$","a",null,{"href":"https://www.linkedin.com/groups/14721661","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551","alt":"LinkedIn icon"}],["$","p",null,{"children":"LinkedIn"}]]}]}]]]}]}]]]}],["$","$L11",null,{"children":"$L12"}],null,["$","$L13",null,{"children":["$L14","$L15",["$","$L16",null,{"promise":"$@17"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ipYXmUijAy4hr2g2k2NPI",{"children":[["$","$L18",null,{"children":"$L19"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$1a","$undefined"],"s":false,"S":true}
+        0:{"P":null,"b":"dr4cwAOrnesbhhGyR7Ds6","p":"","c":["","about",""],"i":false,"f":[[["",{"children":["about",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/75d977d86924f4e6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__className_258576","children":[["$","head",null,{"children":["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["about",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"children":[["$","$L4",null,{}],["$","$L5",null,{}],["$","div",null,{"style":{"backgroundColor":"rgba(0, 0, 0, 0.1)","minHeight":"60vh","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center","textAlign":"center"},"children":[[["$","style",null,{"children":"$6"}],["$","div",null,{"className":"about-container","children":[["$","h1",null,{"className":"about-title","children":"ACM Board"}],["$","div",null,{"className":"about-description","children":"Meet the current ACM board members. We are dedicated to supporting the NIU computing community and organizing events, workshops, and opportunities for all students! If you are interested in joining the board email niuacm@mail.niu.edu"}],["$","div",null,{"className":"members-grid","children":[["$","div","0",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/a8fcffe9-13d1-4ae6-8e17-06787c0d04d0","alt":"Juan Lopez","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Juan Lopez"}],["$","div",null,{"className":"member-position","children":"Chair, SIGwebdev Lead"}]]}],["$","div","1",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/35d84516-1df5-41a4-96b6-032217b0a1ef","alt":"Douglas Johnson","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Douglas Johnson"}],["$","div",null,{"className":"member-position","children":"Vice Chair, SIGmainframe Lead"}]]}],["$","div","2",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/cbacee6a-cf39-4196-9246-23e902a4351b","alt":"John White","className":"member-image"}],["$","div",null,{"className":"member-name","children":"John White"}],["$","div",null,{"className":"member-position","children":"Secretary"}]]}],["$","div","3",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/281a0339-a1de-4651-b461-f17d80638373","alt":"Elisabeth Smith","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Elisabeth Smith"}],["$","div",null,{"className":"member-position","children":"Treasurer"}]]}],["$","div","4",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/ee9b2a42-e63c-46bf-8bb8-99090f6e2862","alt":"Kurt McMahon","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Kurt McMahon"}],["$","div",null,{"className":"member-position","children":"Faculty Advisor"}]]}],["$","div","5",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/29846ee6-7e52-426f-beb8-03e1f576b502","alt":"Nathaniel Aguirre","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Nathaniel Aguirre"}],["$","div",null,{"className":"member-position","children":"SIGwebdev Officer"}]]}],["$","div","6",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/326e0216-6822-407b-88c5-44bf4a4618ef","alt":"Jakobi McFadden","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Jakobi McFadden"}],["$","div",null,{"className":"member-position","children":"SIGwebdev Officer"}]]}],["$","div","7",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/af74b729-f4dd-4a5d-a913-37fce192688a","alt":"Julian Carranza","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Julian Carranza"}],["$","div",null,{"className":"member-position","children":"SIGwebdev Officer"}]]}],["$","div","8",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/d63945f7-ee1d-4647-bc3e-754ec015bc58","alt":"Victor Taiwo","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Victor Taiwo"}],["$","div",null,{"className":"member-position","children":"ACM Recruiter"}]]}],["$","div","9",{"className":"member-card","children":[["$","img",null,{"src":"https://github.com/user-attachments/assets/fe7fbea7-bb05-432e-8e1e-b9992437b8f5","alt":"Oyewale Adeoye","className":"member-image"}],["$","div",null,{"className":"member-name","children":"Oyewale Adeoye"}],["$","div",null,{"className":"member-position","children":"ACM Recruiter"}]]}]]}]]}]],["$","div",null,{"style":{"width":"100%","maxWidth":"80rem","margin":"0 auto"},"children":[["$","style",null,{"children":"$7"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Speaker Series Fall 2025"}],["$","p",null,{"className":"section-content","children":"NIU ACM brings you a series of talks from industry professionals, alumni, and faculty. Below are details of the upcoming talks."}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]]}],["$","div",null,{"style":{"width":"100%","maxWidth":"80rem","margin":"0 auto"},"children":[["$","style",null,{"children":"$8"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Speaker #1"}],["$","p",null,{"className":"section-content","children":""}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]]}],["$","div",null,{"style":{"width":"100%","maxWidth":"80rem","margin":"0 auto"},"children":[["$","style",null,{"children":"$9"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Speaker #2"}],["$","p",null,{"className":"section-content","children":""}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]]}],["$","div",null,{"style":{"width":"100%","maxWidth":"80rem","margin":"0 auto"},"children":[["$","style",null,{"children":"$a"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Speaker #3"}],["$","p",null,{"className":"section-content","children":""}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}]]}]]}],[["$","style",null,{"children":"$b"}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"icons-wrapper","children":[[["$","style",null,{"children":"$c"}],["$","a",null,{"href":"mailto:niuhuskiesacm@gmail.com","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/e1584402-dc6d-42dc-99cf-515440ed82dd","alt":"Email Us icon"}],["$","p",null,{"children":"Email Us"}]]}]}]],[["$","style",null,{"children":"$d"}],["$","a",null,{"href":"https://discord.gg/gzQDaQMGjJ","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/bc0c54fb-838c-4535-a756-b2487533903a","alt":"Discord icon"}],["$","p",null,{"children":"Discord"}]]}]}]],[["$","style",null,{"children":"$e"}],["$","a",null,{"href":"https://huskiehub.niu.edu/NIUACM/club_signup","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0","alt":"Huskie Hub icon"}],["$","p",null,{"children":"Huskie Hub"}]]}]}]],[["$","style",null,{"children":"$f"}],["$","a",null,{"href":"https://github.com/niu-acm","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace","alt":"GitHub icon"}],["$","p",null,{"children":"GitHub"}]]}]}]],[["$","style",null,{"children":"$10"}],["$","a",null,{"href":"https://www.linkedin.com/groups/14721661","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551","alt":"LinkedIn icon"}],["$","p",null,{"children":"LinkedIn"}]]}]}]]]}]}]]]}],["$","$L11",null,{"children":"$L12"}],null,["$","$L13",null,{"children":["$L14","$L15",["$","$L16",null,{"promise":"$@17"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","3oPXK7encl4S7cbqRnh7a",{"children":[["$","$L18",null,{"children":"$L19"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$1a","$undefined"],"s":false,"S":true}
 1b:"$Sreact.suspense"
 1c:I[4911,[],"AsyncMetadata"]
 12:["$","$1b",null,{"fallback":null,"children":["$","$L1c",null,{"promise":"$@1d"}]}]
