@@ -23,10 +23,10 @@ export default function SigCard({
                    flex-direction: row;
                    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                    transition: 0.3s ease;
-                   width: "100%",
+                   max-width: 60vw;
                    border-radius: 5px;
                    border: 2px dark grey;
-                   margin: 25px 100px 25px 100px;
+                   margin: 20px auto;
                 }
 
                 .sig-card:hover {
@@ -36,34 +36,34 @@ export default function SigCard({
                 }
 
               .sig-card-content {
-                   padding: 0px 100px 0px 100px;
-                   font-size: 25px;
+                   padding: 0px 60px 0px 60px;
+                   font-size: 20px;
               }
 
               .sig-header {
-                   font-size: 30px;
-                   margin-bottom: 10px;
-                   margin-top: 30px;
+                   font-size: 24px;
+                   margin-bottom: 8px;
+                   margin-top: 20px;
                    color: rgb(200, 16, 46);
               }
 
               .sig-body {
-                   font-size: 20px;
-                   padding: 40px 0px 40px 0px;
+                   font-size: 16px;
+                   padding: 25px 0px;
               }
 
               .sig-link {
                    display: inline-block;
                    background: rgb(200, 16, 46);
                    color: white;
-                   padding: 30px;
+                   padding: 20px;
                    border-radius: 8px;
                    font-weight: bold;
                    text-decoration: none;
-                   font-size: 1.2rem;
+                   font-size: 1rem;
                    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
                    transition: background 0.2s, color 0.2s, transform 0.15s;
-                   margin-bottom: 30px;
+                   margin-bottom: 20px;
               }
 
               .sig-link:hover {
@@ -71,49 +71,17 @@ export default function SigCard({
               }
 
               .sig-card-image {
-                   width: 300px;
+                   width: 250px;
                    height: auto;
                    object-fit: cover;
-              }
-
-              /* 13-14 inch laptop screens */
-              @media (min-width: 769px) and (max-width: 1440px) {
-                  .sig-card {
-                      margin: 20px 60px;
-                  }
-
-                  .sig-card-content {
-                      padding: 0px 60px 0px 60px;
-                      font-size: 20px;
-                  }
-
-                  .sig-header {
-                      font-size: 24px;
-                      margin-bottom: 8px;
-                      margin-top: 20px;
-                  }
-
-                  .sig-body {
-                      font-size: 16px;
-                      padding: 25px 0px;
-                  }
-
-                  .sig-link {
-                      padding: 20px;
-                      font-size: 1rem;
-                      margin-bottom: 20px;
-                  }
-
-                  .sig-card-image {
-                      width: 250px;
-                  }
               }
 
               /* Mobile styles */
               @media (max-width: 768px) {
                   .sig-card {
                       flex-direction: column;
-                      margin: 5px 10px;
+                      max-width: 95vw;
+                      margin: 5px auto;
                   }
 
                   .sig-card-content {
@@ -147,7 +115,8 @@ export default function SigCard({
 
               @media (max-width: 480px) {
                   .sig-card {
-                      margin: 5px 8px;
+                      max-width: 95vw;
+                      margin: 5px auto;
                   }
 
                   .sig-card-content {

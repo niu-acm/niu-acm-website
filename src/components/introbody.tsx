@@ -31,12 +31,13 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
 
                 .intro-container {
                     width: 100%;
-                    max-width: 1500px;
+                    max-width: 60vw;
                     display: flex;
                     align-items: flex-start;
                     justify-content: center;
                     gap: 2rem;
                     padding: 4rem 0rem;
+                    margin: 0 auto;
                 }
 
                 .intro-content {
@@ -45,57 +46,29 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                 }
 
                 .intro-title {
-                    font-size: 2.8rem;
+                    font-size: 2.4rem;
                     font-weight: bold;
                     margin: 0;
                 }
 
                 .intro-text {
-                    font-size: 1.5rem;
+                    font-size: 1.3rem;
                     margin-top: 2rem;
                 }
 
                 .intro-image {
-                    width: 700px;
+                    width: 500px;
                     height: auto;
                     border-radius: 8px;
                     box-shadow: 0 4px 24px rgba(0,0,0,0.1);
                     transform: translateY(-30px);
                 }
 
-                /* 13-14 inch laptop screens */
-                @media (min-width: 769px) and (max-width: 1440px) {
-                    .intro-container {
-                        max-width: 1200px;
-                        gap: 1.5rem;
-                        padding: 2.5rem 0rem;
-                    }
-
-                    .intro-title {
-                        font-size: 2.2rem;
-                    }
-
-                    .intro-text {
-                        font-size: 1.2rem;
-                        margin-top: 1.5rem;
-                    }
-
-                    .intro-image {
-                        width: 550px;
-                        transform: translateY(-20px);
-                    }
-
-                    .join-acm-btn {
-                        margin-top: 1.5rem;
-                        padding: 0.6rem 1.8rem;
-                        font-size: 1.1rem;
-                    }
-                }
-
                 /* Mobile styles */
                 @media (max-width: 768px) {
                     .intro-container {
                         flex-direction: column;
+                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1rem;
                     }

@@ -62,11 +62,12 @@ export default function SectionBody({
                     justify-content: space-between;
                     gap: 0.5rem;
                     width: 100%;
-                    min-height: 350px;
+                    max-width: 60vw;
+                    min-height: 300px;
                     color: #222;
-                    padding: 4rem 6vw;
+                    padding: 3rem 2rem;
                     box-sizing: border-box;
-                    margin: 1rem 0;
+                    margin: 1rem auto;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
                 }
 
@@ -80,18 +81,18 @@ export default function SectionBody({
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    gap: 1.2rem;
-                    max-width: 500px;
+                    gap: 1rem;
+                    max-width: 400px;
                 }
 
                 .section-content {
-                    font-size: 1.3rem;
+                    font-size: 1.1rem;
                     margin: 0;
                     white-space: pre-line;
                 }
 
                 .section-content2 {
-                    font-size: 1.1rem;
+                    font-size: 1rem;
                     margin: 0;
                 }
 
@@ -109,69 +110,28 @@ export default function SectionBody({
                 }
 
                 .section-image-small {
-                    width: 240px;
+                    width: 180px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-large {
-                    width: 550px;
+                    width: 350px;
                     border-radius: 12px;
                     object-fit: cover;
                 }
 
                 .section-image-medium {
-                    width: 400px;
+                    width: 280px;
                     border-radius: 12px;
                     object-fit: cover;
-                }
-
-                /* 13-14 inch laptop screens */
-                @media (min-width: 769px) and (max-width: 1440px) {
-                    .section-container {
-                        padding: 0.6rem 4vw;
-                        min-height: 300px;
-                    }
-
-                    .section-title {
-                        font-size: 2rem;
-                    }
-
-                    .section-content {
-                        font-size: 1.1rem;
-                    }
-
-                    .section-content2 {
-                        font-size: 1rem;
-                    }
-
-                    .section-text {
-                        max-width: 450px;
-                        gap: 1rem;
-                    }
-
-                    .section-image-small {
-                        width: 200px;
-                    }
-
-                    .section-image-large {
-                        width: 450px;
-                    }
-
-                    .section-image-medium {
-                        width: 320px;
-                    }
-
-                    .section-link {
-                        padding: 0.5rem 1.2rem;
-                        font-size: 1rem;
-                    }
                 }
 
                 /* Mobile styles */
                 @media (max-width: 768px) {
                     .section-container {
                         flex-direction: column;
+                        max-width: 95vw;
                         padding: 2rem 1rem;
                         gap: 1.5rem;
                         min-height: auto;
