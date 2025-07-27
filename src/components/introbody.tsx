@@ -31,7 +31,7 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
 
                 .intro-container {
                     width: 100%;
-                    max-width: min(120rem, 95vw);
+                    max-width: min(90rem, 95vw);
                     display: flex;
                     align-items: flex-start;
                     justify-content: center;
