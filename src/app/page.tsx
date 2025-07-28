@@ -22,7 +22,7 @@ export default function Home() {
 		}} >
 			{/* Intro Section */}
 			<IntroBody
-				title="NIU's Premier Computer Science Organization"
+				title="NIU's Premiere Computer Science Organization"
 				content="NIU ACM is your gateway to hands-on tech experience, career growth, and a community of like-minded students. Join ACM for workshops, professional presentations, 
 				and SIGs (Special Interest Groups) where you can build projects, 
 				learn new skills, and have fun through socials and events- whether you're just starting out or looking to level up, there's a place for you here."
