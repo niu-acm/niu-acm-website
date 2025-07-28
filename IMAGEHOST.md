@@ -22,6 +22,7 @@
 ![mcmahon](https://github.com/user-attachments/assets/ee9b2a42-e63c-46bf-8bb8-99090f6e2862)
 ![social](https://github.com/user-attachments/assets/f4c576e9-4ce5-4aad-a4db-ccac2ac55dcd)
 ![speaker](https://github.com/user-attachments/assets/f64f5d13-134c-43d9-97ae-4daa162c6629)
+![mainframeimg](https://github.com/user-attachments/assets/10c66b69-d491-466e-a2ad-d54ad51d9b8a)
 
 
 ![brand-github](https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace)
