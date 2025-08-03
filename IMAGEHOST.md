@@ -24,6 +24,10 @@
 ![speaker](https://github.com/user-attachments/assets/f64f5d13-134c-43d9-97ae-4daa162c6629)
 ![mainframeimg](https://github.com/user-attachments/assets/10c66b69-d491-466e-a2ad-d54ad51d9b8a)
 ![greenscreen](https://github.com/user-attachments/assets/e79ee876-ceab-415c-bfbe-68973e6e8efa)
+![sang](https://github.com/user-attachments/assets/c5f36f53-b89b-4c3b-9e5f-b7a818609d77)
+![josh](https://github.com/user-attachments/assets/aa8a0b33-ca8a-478d-b04e-972f1f55edc1)
+![eduardo](https://github.com/user-attachments/assets/cb5c728b-5e41-454c-9dd0-b9a00abf7e92)
+
 
 
 ![brand-github](https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace)
