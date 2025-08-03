@@ -31,8 +31,11 @@ export default function Home() {
                         { name: "Nathaniel Aguirre", position: "SIGwebdev Officer", imageUrl:"https://github.com/user-attachments/assets/29846ee6-7e52-426f-beb8-03e1f576b502" },
                         { name: "Jakobi McFadden", position: "SIGwebdev Officer", imageUrl:"https://github.com/user-attachments/assets/326e0216-6822-407b-88c5-44bf4a4618ef" },
                         { name: "Julian Carranza", position: "SIGwebdev Officer", imageUrl: "https://github.com/user-attachments/assets/af74b729-f4dd-4a5d-a913-37fce192688a" },
-                        { name: "Victor Taiwo", position: "ACM Recruiter", imageUrl:"https://github.com/user-attachments/assets/d63945f7-ee1d-4647-bc3e-754ec015bc58" },
-                        { name: "Oyewale Adeoye", position: "ACM Recruiter", imageUrl: "https://github.com/user-attachments/assets/fe7fbea7-bb05-432e-8e1e-b9992437b8f5"}
+                        { name: "Joshua Pollack", position: "SIGmainframe Officer", imageUrl: "https://github.com/user-attachments/assets/aa8a0b33-ca8a-478d-b04e-972f1f55edc1"},
+                        { name: "Sang Pham", position: "SIGmainframe Officer", imageUrl: "https://github.com/user-attachments/assets/c5f36f53-b89b-4c3b-9e5f-b7a818609d77"},
+                        { name: "Eduardo Acosta", position: "SIGmainframe Officer", imageUrl: "https://github.com/user-attachments/assets/cb5c728b-5e41-454c-9dd0-b9a00abf7e92"},
+                        { name: "Victor Taiwo", position: "Community Ambassador", imageUrl:"https://github.com/user-attachments/assets/d63945f7-ee1d-4647-bc3e-754ec015bc58" },
+                        { name: "Oyewale Adeoye", position: "Community Ambassador", imageUrl: "https://github.com/user-attachments/assets/fe7fbea7-bb05-432e-8e1e-b9992437b8f5"}
                     ]}
                 />
                 

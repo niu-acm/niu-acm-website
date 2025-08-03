@@ -65,7 +65,7 @@ export default function Home() {
                         title="Mainframe Conferences"
                         content="NIU Mainframers have started to attend SHARE and TechXChange events throughout the year. These events provide opportunities to learn about the latest mainframe technologies, network with industry professionals, and share knowledge with peers. At SHARE in February 2025, NIU had 17 students attend, including 3 ACM board members. These conferences will be highlighted to students as the opportunities they are, which are great networking opportunities as well as getting a chance to see how professionals use mainframes in their careers, and hear about work that mainframers are doing in the real world."
                         imageSrc4="https://github.com/user-attachments/assets/e97a945e-955e-4fe4-9885-6e8185de4d01"
-                        imageSrc5="https://media.licdn.com/dms/image/v2/D5622AQHgkZLYjmnzcQ/feedshare-shrink_2048_1536/B56ZVOjV5YGQAo-/0/1740779648248?e=1753920000&v=beta&t=OnTGbIB13VoiW7Ye8BCFk4mLVbE4oRB9TEPVRKlbvSM"
+                        imageSrc5="https://github.com/user-attachments/assets/907cf5e5-f53d-40fe-b1c0-96f585bb7c3d"
                     />
 
                     {/* Past Events */}
