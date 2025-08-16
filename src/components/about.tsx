@@ -18,7 +18,7 @@ export default function AboutBoard({ members }: AboutBoardProps) {
             <style>{`
                 .about-container {
                     width: 100%;
-                    max-width: 80rem;
+                    max-width: 75rem;
                     margin: 2rem auto;
                     padding: 2rem 0;
                     background: #fff;
