@@ -38,7 +38,6 @@ export default function Home() {
                         { name: "Oyewale Adeoye", position: "Community Ambassador", imageUrl: "https://github.com/user-attachments/assets/fe7fbea7-bb05-432e-8e1e-b9992437b8f5"}
                     ]}
                     />  
-
             </div>
             <Footer />
         </div>
