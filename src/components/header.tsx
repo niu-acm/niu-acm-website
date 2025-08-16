@@ -22,7 +22,7 @@ export default function Header() {
                 }
                 .header-container {
                     width: 100%;
-                    max-width: 1500px;
+                    max-width: 150rem;
                     margin: 0 auto;
                     display: flex;
                     align-items: center;
@@ -47,16 +47,16 @@ export default function Header() {
 
                 .header-nav {
                     display: flex;
-                    gap: 1rem;
+                    gap: 0.2rem;
                 }
 
                 .header-nav a {
                     color: white;
                     text-decoration: none;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                     font-weight: 500;
-                    padding: 0.5rem 1.2rem;
-                    border-radius: 8px;
+                    padding: 0.3rem 0.8rem;
+                    border-radius: 4px;
                     transition: background 0.2s, color 0.2s, transform 0.15s, box-shadow 0.2s;
                 }
 
@@ -97,9 +97,9 @@ export default function Header() {
                 .mobile-nav a {
                     color: white;
                     text-decoration: none;
-                    font-size: 1.2rem;
+                    font-size: 0.7rem;
                     font-weight: 500;
-                    padding: 1rem 2.5rem;
+                    padding: 0.6rem 1.5rem;
                     transition: background 0.2s;
                 }
 
@@ -166,10 +166,13 @@ export default function Header() {
                     {/* Desktop Navigation */}
                     <nav className="header-nav">
                         <Link href="/about">About</Link>
+                        <Link href="/speakers">Speakers</Link>
                         <Link href="/calendar">Calendar</Link>
                         <Link href="/sigm">SIGmainframe</Link>
                         <Link href="/sigw">SIGwebdev</Link>
+                        <Link href="/sponsors">Sponsors</Link>
                         <Link href="/resources">Resources</Link>
+                        
                     </nav>
 
                     {/* Mobile Menu Button */}
@@ -185,9 +188,11 @@ export default function Header() {
                 {/* Mobile Navigation */}
                 <nav className={`mobile-nav ${mobileMenuOpen ? 'open' : ''}`}>
                     <Link href="/about" onClick={() => setMobileMenuOpen(false)}>About</Link>
+                    <Link href="/speakers" onClick={() => setMobileMenuOpen(false)}>Speakers</Link>
                     <Link href="/calendar" onClick={() => setMobileMenuOpen(false)}>Calendar</Link>
                     <Link href="/sigm" onClick={() => setMobileMenuOpen(false)}>SIGmainframe</Link>
                     <Link href="/sigw" onClick={() => setMobileMenuOpen(false)}>SIGwebdev</Link>
+                    <Link href="/sponsors" onClick={() => setMobileMenuOpen(false)}>Sponsors</Link>
                     <Link href="/resources" onClick={() => setMobileMenuOpen(false)}>Resources</Link>
                 </nav>
             </header>
