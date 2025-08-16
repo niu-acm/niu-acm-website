@@ -2,7 +2,6 @@ import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Background from '@/components/background';
 import AboutBoard from '../../components/about';
-import SectionBody from '@/components/sectionbody';
 
 export default function Home() {
     return (
@@ -39,7 +38,6 @@ export default function Home() {
                         { name: "Oyewale Adeoye", position: "Community Ambassador", imageUrl: "https://github.com/user-attachments/assets/fe7fbea7-bb05-432e-8e1e-b9992437b8f5"}
                     ]}
                     />  
-
             </div>
             <Footer />
         </div>
