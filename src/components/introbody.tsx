@@ -36,7 +36,7 @@ export default function IntroBody({ title, content, imageSrc, altText, join, whi
                     align-items: center;
                     justify-content: center;
                     gap: min(3rem, 5vw);
-                    padding: min(4rem, 6vw) min(3rem, 4vw);
+                    padding: min(1rem, 1vw) min(1rem, 1vw);
                     margin: 0 auto;
                 }
 

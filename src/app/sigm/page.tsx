@@ -50,7 +50,7 @@ export default function Home() {
                          content={`
                             Sep 23: Byte into the Mainframe: Introduction to Mainframes
                             \nSep 30: Unlocking Mainframe Learning: IBM Z Xplore, Interskill Learning, MVS-TK5
-                            \nOct 7: ISPF/TSO vs Zowe: Old School Meets New School
+                            \nOct 7: No Meeting due to TechXChange Orlando
                             \nOct 14: Understanding Z/OS Data Sets: What's the Difference?
                             \nOct 21: Snacks and Studying: Work on Mainframe Certifications, Study for Midterms, or Come Enjoy Free Snacks!
                             \nOct 28: JCL 101: Writing your First Job
@@ -65,21 +65,8 @@ export default function Home() {
                         title="Mainframe Conferences"
                         content="NIU Mainframers have started to attend SHARE and TechXChange events throughout the year. These events provide opportunities to learn about the latest mainframe technologies, network with industry professionals, and share knowledge with peers. At SHARE in February 2025, NIU had 17 students attend, including 3 ACM board members. These conferences will be highlighted to students as the opportunities they are, which are great networking opportunities as well as getting a chance to see how professionals use mainframes in their careers, and hear about work that mainframers are doing in the real world."
                         imageSrc4="https://github.com/user-attachments/assets/e97a945e-955e-4fe4-9885-6e8185de4d01"
-                        imageSrc5="https://github.com/user-attachments/assets/907cf5e5-f53d-40fe-b1c0-96f585bb7c3d"
                     />
 
-                    {/* Past Events */}
-                    <SectionBody
-                        title="Past Events"
-                        content=""
-                    /> 
-
-                    {/* Example Section */}
-                    <SectionBody
-                        title="Mainframe Alumni"
-                        content=""
-                        imageSrc="https://i.imgflip.com/2e8ce9.jpg"
-                    />
                 </div>
             </div>
             <Footer />

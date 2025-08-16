@@ -24,10 +24,10 @@ export default function Home() {
                 {/* Intro Section */}
                 <IntroBody
                     title="SIG Web Development"
-                    content="SIG webdev is a weekly web development club that meets every Wednesday from 4:30pm-6:00pm in the Psych CS Building,
-                    welcoming all skill levels from beginners to experienced developers. 
-                    The semester features hands-on workshops covering HTML/CSS, GitHub Pages, React with Vite, 
-                    TypeScript, ExpressJS, and SQL. Participants build real projects like personal sites, REST APIs, 
+                    content="SIG webdev is a weekly web development club that meets every Wednesday from 4:30pm-6:00pm in the Psych CS Building.
+                    Welcoming all skill levels from beginners to experienced developers.
+                    The semester features hands-on workshops covering HTML/CSS, GitHub Pages, React with Vite,
+                    TypeScript, ExpressJS, and SQL. Participants build real projects like personal sites, REST APIs,
                     and React apps, with guidance tailored to both new and advanced coders."
                     imageSrc="https://www.getmecoding.com/wp-content/uploads/2017/10/GMC_blog_IsWebDevelopmentCoding_resize.jpg"
                     altText="come join acm with me vro. come be deckerpilled"
@@ -36,7 +36,7 @@ export default function Home() {
 
                 <div style={{
                     width: "100%",
-                    maxWidth: "1500px"
+           
                 }}>
                     {/* Example Section */}
                     <SectionBody
@@ -55,7 +55,7 @@ export default function Home() {
                             Sep 24: Kickoff + Developer Setup + GitHub Pages
                             \nOct 1: One-Stop Web Basics Workshop (HTML/CSS/Dev Tools)
                             \nOct 8: Intro to React + Vite + TypeScript + bun
-                            \nOct 15: SQL and Snacks
+                            \nOct 15: Retro Website Browsing
                             \nOct 22: Backend with ExpressJS + REST APIs
                             \nOct 29: SQL and Snacks
                             \nNov 5: SEO Optimization & page accessibility workshop
@@ -65,16 +65,18 @@ export default function Home() {
                         content2="Weekly Meetings in Psych CS building from 4:30pm to 6pm"
                     />
 
-                    {/* Past Events */}
+                     {/* Example Section */}
                     <SectionBody
-                        title="Past Events"
-                        content="Coming Soon"
+                        title="Technologies Used"
+                        content="HTML, CSS, JavaScript, TypeScript, React, Vite, ExpressJS, SQL"
                     />
 
                     {/* Example Section */}
                     <SectionBody
                         title="Student Highlights"
-                        content="This Very Website, More coming soon"
+                        content="Websites from NIU Students"
+                        link={{ url: "https://juanlopezcs.com/", text: "Juan Lopez's Site" }}
+                        link2={{ url: "https://natestech.site/", text: "Nate's Site" }}
                     />
                 </div>
             </div>

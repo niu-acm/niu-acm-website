@@ -34,38 +34,11 @@ export default function Home() {
                         { name: "Joshua Pollack", position: "SIGmainframe Officer", imageUrl: "https://github.com/user-attachments/assets/aa8a0b33-ca8a-478d-b04e-972f1f55edc1"},
                         { name: "Sang Pham", position: "SIGmainframe Officer", imageUrl: "https://github.com/user-attachments/assets/c5f36f53-b89b-4c3b-9e5f-b7a818609d77"},
                         { name: "Eduardo Acosta", position: "SIGmainframe Officer", imageUrl: "https://github.com/user-attachments/assets/cb5c728b-5e41-454c-9dd0-b9a00abf7e92"},
+                        { name: "Anthony Baptiste", position: "Community Ambassador", imageUrl: "https://github.com/user-attachments/assets/5f4b4e17-27e9-45e3-ad8e-6bca4475726d"},
                         { name: "Victor Taiwo", position: "Community Ambassador", imageUrl:"https://github.com/user-attachments/assets/d63945f7-ee1d-4647-bc3e-754ec015bc58" },
                         { name: "Oyewale Adeoye", position: "Community Ambassador", imageUrl: "https://github.com/user-attachments/assets/fe7fbea7-bb05-432e-8e1e-b9992437b8f5"}
                     ]}
-                />
-                
-                <div style={{ width: "100%", maxWidth: "80rem", margin: "0 auto" }}>
-                <SectionBody
-                    title="Speaker Series Fall 2025"
-                    content="NIU ACM brings you a series of talks from industry professionals, alumni, and faculty. Below are details of the upcoming talks."
-                />
-                </div>
-
-                <div style={{ width: "100%", maxWidth: "80rem", margin: "0 auto" }}>
-                <SectionBody
-                    title="Speaker #1"
-                    content=""
-                />
-                </div>
-
-                <div style={{ width: "100%", maxWidth: "80rem", margin: "0 auto" }}>
-                <SectionBody
-                    title="Speaker #2"
-                    content=""
-                />
-                </div>
-
-                <div style={{ width: "100%", maxWidth: "80rem", margin: "0 auto" }}>
-                <SectionBody
-                    title="Speaker #3"
-                    content=""
-                />
-                </div>
+                    />  
 
             </div>
             <Footer />

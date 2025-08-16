@@ -40,7 +40,7 @@ export default function Header() {
                 }
 
                 .header-title {
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                     font-weight: bold;
                     letter-spacing: 1px;
                 }

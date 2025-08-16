@@ -60,11 +60,11 @@ export default function SectionBody({
                     flex-direction: row;
                     background-color: white;
                     justify-content: space-between;
-                    gap: 2rem;
-                    width: 100%;
-                    min-height: 300px;
+                    gap: 1rem;
+                    width: 80%;
+                    max-width: 100rem;
                     color: #222;
-                    padding: 4rem 4rem;
+                    padding: 2rem 2rem;
                     box-sizing: border-box;
                     margin: 1rem auto;
                     box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
@@ -81,7 +81,7 @@ export default function SectionBody({
                     flex-direction: column;
                     justify-content: center;
                     gap: 1rem;
-                    max-width: min(60rem, 65vw);
+                    max-width: min(40rem, 50vw);
                 }
 
                 .section-content {
