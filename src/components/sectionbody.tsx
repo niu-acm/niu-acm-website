@@ -133,6 +133,8 @@ export default function SectionBody({
                         padding: 2rem 1rem;
                         gap: 1.5rem;
                         min-height: auto;
+                        width: 90%;
+                        margin: 1rem auto;
                     }
 
                     .section-flipped {
@@ -190,7 +192,8 @@ export default function SectionBody({
                 @media (max-width: 480px) {
                     .section-container {
                         padding: 1.5rem 1rem;
-                        margin: 0.5rem 0;
+                        margin: 0.5rem auto;
+                        width: 95%;
                     }
 
                     .section-title {

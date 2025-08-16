@@ -39,7 +39,7 @@ export default function Home() {
 			<SectionBody
 				title="Why ACM is Different this year"
 				content="NIU's ACM Chapter is expanding to two special interest groups (SIGs) this year:  SIGmainframe and SIGwebdev. ACM also has a new advisor, Kurt McMahon. Our Board
-				is more diverse than ever, with a mix of new and returning members. We are the biggest ACM board in NIU history with 10 board members."
+				is more diverse than ever, with a mix of new and returning members. We are the biggest ACM in NIU history with 14 organization officers"
 				content2="ACM's goal is to provide a welcoming and inclusive environment for all students interested in computer science and finding their niche within the tech industry."
 				imageSrc2="https://github.com/user-attachments/assets/8f1bdde4-ca84-4f74-a254-376c473d1029"
 			></SectionBody>
