@@ -52,6 +52,8 @@ export default function Home() {
 				Stay tuned for more details on dates and speakers!"
 				content2="Free Food and Drinks will be provided at all events"
 				imageSrc2="https://github.com/user-attachments/assets/f64f5d13-134c-43d9-97ae-4daa162c6629"
+				link={{ url: "/speakers", text: "Speakers List" }}
+
 				flipped={true}
 			></SectionBody>
 
