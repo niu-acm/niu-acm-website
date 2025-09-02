@@ -36,7 +36,7 @@ export default function Header() {
                 }
 
                 .header-logo {
-                    height: 75px;
+                    height: 90px;
                 }
 
                 .header-title {
