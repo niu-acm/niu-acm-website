@@ -157,7 +157,7 @@ export default function Header() {
                 <div className="header-container">
                     <div className="header-left">
                         <Link href="/">
-                            <img src="https://github.com/user-attachments/assets/dfc9b026-70b7-45de-a67e-cb49df4769af"
+                            <img src="https://github.com/user-attachments/assets/6a468ee4-ade4-42f7-8d71-6b02d1dde42a"
                             alt="ACM Logo" className="header-logo" />
                         </Link>
                         <span className="header-title">Northern Illinois ACM</span>
