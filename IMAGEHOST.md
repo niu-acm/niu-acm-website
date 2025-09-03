@@ -3,7 +3,9 @@
 ![stupidboat](https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b)
 ![share-min](https://github.com/user-attachments/assets/907cf5e5-f53d-40fe-b1c0-96f585bb7c3d)
 ![share2](https://github.com/user-attachments/assets/e97a945e-955e-4fe4-9885-6e8185de4d01)
-![acmlogo](https://github.com/user-attachments/assets/6a468ee4-ade4-42f7-8d71-6b02d1dde42a)
+![newacm](https://github.com/user-attachments/assets/7f62e30a-4893-49ea-9a81-a2e7ec1844de)
+![SIGs](https://github.com/user-attachments/assets/b9d09162-d400-4434-b87a-baa1b5758733)
+
 
 ![niu-updated-logo](https://github.com/user-attachments/assets/d1a3224a-b4d8-4e01-8ef4-8f7c75e04a95)
 ![Niu_bars](https://github.com/user-attachments/assets/ceebea3e-a14b-45f4-935a-038838a86837)
