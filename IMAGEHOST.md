@@ -5,6 +5,7 @@
 ![share2](https://github.com/user-attachments/assets/e97a945e-955e-4fe4-9885-6e8185de4d01)
 ![newacm](https://github.com/user-attachments/assets/7f62e30a-4893-49ea-9a81-a2e7ec1844de)
 ![SIGs](https://github.com/user-attachments/assets/b9d09162-d400-4434-b87a-baa1b5758733)
+![ACMNEWLOGO](https://github.com/user-attachments/assets/12c5cfc7-6a9a-4c1d-afa4-978d6f459945)
 
 
 ![niu-updated-logo](https://github.com/user-attachments/assets/d1a3224a-b4d8-4e01-8ef4-8f7c75e04a95)
