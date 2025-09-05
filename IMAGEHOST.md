@@ -3,6 +3,12 @@
 ![stupidboat](https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b)
 ![share-min](https://github.com/user-attachments/assets/907cf5e5-f53d-40fe-b1c0-96f585bb7c3d)
 ![share2](https://github.com/user-attachments/assets/e97a945e-955e-4fe4-9885-6e8185de4d01)
+![newacm](https://github.com/user-attachments/assets/7f62e30a-4893-49ea-9a81-a2e7ec1844de)
+![SIGs](https://github.com/user-attachments/assets/b9d09162-d400-4434-b87a-baa1b5758733)
+![ACMNEWLOGO](https://github.com/user-attachments/assets/12c5cfc7-6a9a-4c1d-afa4-978d6f459945)
+![michael](https://github.com/user-attachments/assets/5a10c948-b46c-4df8-beb7-654f56b03393)
+
+
 ![niu-updated-logo](https://github.com/user-attachments/assets/d1a3224a-b4d8-4e01-8ef4-8f7c75e04a95)
 ![Niu_bars](https://github.com/user-attachments/assets/ceebea3e-a14b-45f4-935a-038838a86837)
 ![nerdsky](https://github.com/user-attachments/assets/ce4e93df-a30f-4ad8-8534-a7e672ab1861)
@@ -37,3 +43,5 @@
 ![horse](https://github.com/user-attachments/assets/ceb46555-e444-4768-9af6-706b25a1817a)
 ![heading](https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0)
 ![brand-linkedin](https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551)
+
+
