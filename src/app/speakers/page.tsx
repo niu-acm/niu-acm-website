@@ -27,7 +27,7 @@ export default function Home() {
             />
 
             <SectionBody
-                title="October 16th: Marianne Guieb of ComEd"
+                title="October 16th: Marianne Guieb, Senior Energy Acquisition Specialist at ComEd"
                 content="Bio"
                 imageSrc2="https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b"
             />
