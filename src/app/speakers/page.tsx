@@ -16,13 +16,18 @@ export default function Home() {
                 />
 
             <SectionBody
-                title="Speaker #1"
-                content="Bio"
-                imageSrc2="https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b"
+                title="October 2nd: Michael Minella, Director of Spring-Boot (Broadcom)"
+                content="Michael Minella is an engineer, Java Champion, speaker, & author with over 21 years of enterprise development experience.
+                 He has been a member of the Spring OSS team for over 11 years and currently serves as the Director responsible 
+                 for Spring R&D. Formerly he lead the Spring Batch project and was the founder of the Spring Cloud Task project. 
+                 Michael has spoken on topics that include Java and Spring & is a JavaOne Rockstar. He was a member of the expert 
+                 group for JSR-352 (java batch processing) & is a committer on the Jakarata EE JBatch project. Michael is the author 
+                 of The Definitive Guide to Spring Batch and the regular curmudgeon on the podcast OffHeap"
+                imageSrc2="https://github.com/user-attachments/assets/5a10c948-b46c-4df8-beb7-654f56b03393"
             />
 
             <SectionBody
-                title="Speaker #2"
+                title="October 16th: Marianne Guieb of ComEd"
                 content="Bio"
                 imageSrc2="https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b"
             />
