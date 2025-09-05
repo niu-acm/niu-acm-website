@@ -6,6 +6,7 @@
 ![newacm](https://github.com/user-attachments/assets/7f62e30a-4893-49ea-9a81-a2e7ec1844de)
 ![SIGs](https://github.com/user-attachments/assets/b9d09162-d400-4434-b87a-baa1b5758733)
 ![ACMNEWLOGO](https://github.com/user-attachments/assets/12c5cfc7-6a9a-4c1d-afa4-978d6f459945)
+![michael](https://github.com/user-attachments/assets/5a10c948-b46c-4df8-beb7-654f56b03393)
 
 
 ![niu-updated-logo](https://github.com/user-attachments/assets/d1a3224a-b4d8-4e01-8ef4-8f7c75e04a95)
@@ -42,3 +43,5 @@
 ![horse](https://github.com/user-attachments/assets/ceb46555-e444-4768-9af6-706b25a1817a)
 ![heading](https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0)
 ![brand-linkedin](https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551)
+
+
