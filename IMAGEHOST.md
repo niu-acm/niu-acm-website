@@ -34,7 +34,7 @@
 ![josh](https://github.com/user-attachments/assets/aa8a0b33-ca8a-478d-b04e-972f1f55edc1)
 ![eduardo](https://github.com/user-attachments/assets/cb5c728b-5e41-454c-9dd0-b9a00abf7e92)
 ![anthony](https://github.com/user-attachments/assets/5f4b4e17-27e9-45e3-ad8e-6bca4475726d)
-
+![marianne](https://github.com/user-attachments/assets/60cd1603-b222-47d9-afb2-e30ba0508f4b)
 
 
 ![brand-github](https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace)
