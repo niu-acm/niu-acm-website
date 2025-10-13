@@ -33,7 +33,7 @@ export default function Home() {
                 This talk will explore how computer scientists contribute to innovations in data analytics, automation, and cybersecurity for critical infrastructure.
                 Learn how your skills in computing can help modernize one of the most important systems in the world and create new technology jobs in the process.
                 Come to gain insight and make connections that could spark your next career direction."
-                imageSrc2="https://github.com/user-attachments/assets/60cd1603-b222-47d9-afb2-e30ba0508f4b"
+                imageSrc2="https://github.com/user-attachments/assets/d8693b04-10dd-462e-9c7f-cf3c6ec06915"
             />
 
             <SectionBody
