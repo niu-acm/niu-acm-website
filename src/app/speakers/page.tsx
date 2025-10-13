@@ -26,6 +26,7 @@ export default function Home() {
                 imageSrc2="https://github.com/user-attachments/assets/5a10c948-b46c-4df8-beb7-654f56b03393"
             />
 
+            <div style={{ '--section-image-size': '150px' }}>
             <SectionBody
                 title="October 16th: Marianne Guieb, Senior Energy Acquisition Specialist at ComEd"
                 content="Power systems are changing fast, and computer science is a part of it. Join NIU Electrical Engineering Alumna Marianne Guieb from ComEd as she 
@@ -36,6 +37,7 @@ export default function Home() {
                 imageSrc2="https://github.com/user-attachments/assets/60cd1603-b222-47d9-afb2-e30ba0508f4b"
                 style={{ width: "100px", height: "100px" }}
             />
+            </div>
 
             <SectionBody
                 title="Speaker #3"
