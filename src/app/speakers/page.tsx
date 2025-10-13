@@ -34,6 +34,7 @@ export default function Home() {
                 Learn how your skills in computing can help modernize one of the most important systems in the world and create new technology jobs in the process.
                 Come to gain insight and make connections that could spark your next career direction."
                 imageSrc2="https://github.com/user-attachments/assets/60cd1603-b222-47d9-afb2-e30ba0508f4b"
+                style={{ width: "100px", height: "100px" }}
             />
 
             <SectionBody
