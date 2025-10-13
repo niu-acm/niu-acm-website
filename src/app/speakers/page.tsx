@@ -28,8 +28,12 @@ export default function Home() {
 
             <SectionBody
                 title="October 16th: Marianne Guieb, Senior Energy Acquisition Specialist at ComEd"
-                content="Bio"
-                imageSrc2="https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b"
+                content="Power systems are changing fast, and computer science is a part of it. Join NIU Electrical Engineering Alumna Marianne Guieb from ComEd as she 
+                explains how the electric grid has evolved over the past two decades and how new technology is reshaping the energy industry.
+                This talk will explore how computer scientists contribute to innovations in data analytics, automation, and cybersecurity for critical infrastructure.
+                Learn how your skills in computing can help modernize one of the most important systems in the world and create new technology jobs in the process.
+                Come to gain insight and make connections that could spark your next career direction."
+                imageSrc2="https://github.com/user-attachments/assets/60cd1603-b222-47d9-afb2-e30ba0508f4b"
             />
 
             <SectionBody
