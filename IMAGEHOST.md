@@ -39,6 +39,7 @@
 ![nov6](https://github.com/user-attachments/assets/b94a21ec-6ae0-47ff-a10c-dad85e9d7099)
 ![johncnov20](https://github.com/user-attachments/assets/6d5c56f0-d656-43b7-8e84-63806154df6f)
 ![johncarrportrait](https://github.com/user-attachments/assets/5470faea-83b0-4611-85aa-becde085b60a)
+![tux1](https://github.com/user-attachments/assets/723c417a-54a9-4c77-8880-21b2523c1970)
 
 
 
