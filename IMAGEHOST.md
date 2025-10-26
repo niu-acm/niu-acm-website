@@ -36,6 +36,9 @@
 ![anthony](https://github.com/user-attachments/assets/5f4b4e17-27e9-45e3-ad8e-6bca4475726d)
 ![oct16](https://github.com/user-attachments/assets/d8693b04-10dd-462e-9c7f-cf3c6ec06915)
 ![flyer](https://github.com/user-attachments/assets/09607da2-f107-47ed-b8e1-7a762e7f4b36)
+![nov6](https://github.com/user-attachments/assets/b94a21ec-6ae0-47ff-a10c-dad85e9d7099)
+![johnc](https://github.com/user-attachments/assets/6d5c56f0-d656-43b7-8e84-63806154df6f)
+
 
 ![brand-github](https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace)
 ![brand-discord](https://github.com/user-attachments/assets/bc0c54fb-838c-4535-a756-b2487533903a)
