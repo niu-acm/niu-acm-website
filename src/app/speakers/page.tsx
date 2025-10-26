@@ -37,9 +37,13 @@ export default function Home() {
             />
 
             <SectionBody
-                title="Speaker #3"
-                content="Bio"
-                imageSrc2="https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b"
+                title="November 20th: Johnn Carr, Middleware Services Practice Manager at TxMQ"
+                content="a highly experienced professional with more than 30 years of experience in IT industry, and a 2024 IBM Champion in the Automation category. 
+                He is currently employed as a Principal Program Manager for Middleware Services at TxMQ, Inc. John boasts a wealth of experience in high-volume message processing, transformation, 
+                and enrichment using IBM MQ on IBM i, z/OS, and distributed systems, as well as in digital transformation initiatives such as App Connect Enterprise and z/OS Connect. 
+                He takes great pride in advocating for IBM products, particularly IBM MQ, which he has come to admire for its versatility and continuous learning opportunities across 
+                various platforms and configurations."
+                imageSrc2="https://github.com/user-attachments/assets/5470faea-83b0-4611-85aa-becde085b60a"
             />
 
             <Footer />
