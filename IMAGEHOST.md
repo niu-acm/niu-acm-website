@@ -39,8 +39,8 @@
 ![nov6](https://github.com/user-attachments/assets/b94a21ec-6ae0-47ff-a10c-dad85e9d7099)
 ![johncnov20](https://github.com/user-attachments/assets/6d5c56f0-d656-43b7-8e84-63806154df6f)
 ![johncarrportrait](https://github.com/user-attachments/assets/5470faea-83b0-4611-85aa-becde085b60a)
+![emmett](https://github.com/user-attachments/assets/86161224-d3d7-47f9-bee5-d347b7417cf7)
 ![tux1](https://github.com/user-attachments/assets/723c417a-54a9-4c77-8880-21b2523c1970)
-
 
 
 ![brand-github](https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace)
@@ -49,5 +49,3 @@
 ![horse](https://github.com/user-attachments/assets/ceb46555-e444-4768-9af6-706b25a1817a)
 ![heading](https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0)
 ![brand-linkedin](https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551)
-
-
