@@ -50,3 +50,5 @@
 ![horse](https://github.com/user-attachments/assets/ceb46555-e444-4768-9af6-706b25a1817a)
 ![heading](https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0)
 ![brand-linkedin](https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551)
+<img width="1728" height="2304" alt="(updated) IGDO flyer" src="https://github.com/user-attachments/assets/1dc5d118-5fdb-4d22-95a6-e6c569b4a7a3" />
+
