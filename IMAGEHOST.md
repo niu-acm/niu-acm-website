@@ -3,6 +3,12 @@
 ![stupidboat](https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b)
 ![share-min](https://github.com/user-attachments/assets/907cf5e5-f53d-40fe-b1c0-96f585bb7c3d)
 ![share2](https://github.com/user-attachments/assets/e97a945e-955e-4fe4-9885-6e8185de4d01)
+![newacm](https://github.com/user-attachments/assets/7f62e30a-4893-49ea-9a81-a2e7ec1844de)
+![SIGs](https://github.com/user-attachments/assets/b9d09162-d400-4434-b87a-baa1b5758733)
+![ACMNEWLOGO](https://github.com/user-attachments/assets/12c5cfc7-6a9a-4c1d-afa4-978d6f459945)
+![michael](https://github.com/user-attachments/assets/5a10c948-b46c-4df8-beb7-654f56b03393)
+
+
 ![niu-updated-logo](https://github.com/user-attachments/assets/d1a3224a-b4d8-4e01-8ef4-8f7c75e04a95)
 ![Niu_bars](https://github.com/user-attachments/assets/ceebea3e-a14b-45f4-935a-038838a86837)
 ![nerdsky](https://github.com/user-attachments/assets/ce4e93df-a30f-4ad8-8534-a7e672ab1861)
@@ -28,7 +34,15 @@
 ![josh](https://github.com/user-attachments/assets/aa8a0b33-ca8a-478d-b04e-972f1f55edc1)
 ![eduardo](https://github.com/user-attachments/assets/cb5c728b-5e41-454c-9dd0-b9a00abf7e92)
 ![anthony](https://github.com/user-attachments/assets/5f4b4e17-27e9-45e3-ad8e-6bca4475726d)
-
+![oct16](https://github.com/user-attachments/assets/d8693b04-10dd-462e-9c7f-cf3c6ec06915)
+![flyer](https://github.com/user-attachments/assets/09607da2-f107-47ed-b8e1-7a762e7f4b36)
+![nov6](https://github.com/user-attachments/assets/b94a21ec-6ae0-47ff-a10c-dad85e9d7099)
+![johncnov20](https://github.com/user-attachments/assets/6d5c56f0-d656-43b7-8e84-63806154df6f)
+![johncarrportrait](https://github.com/user-attachments/assets/5470faea-83b0-4611-85aa-becde085b60a)
+![emmett](https://github.com/user-attachments/assets/86161224-d3d7-47f9-bee5-d347b7417cf7)
+![tux1](https://github.com/user-attachments/assets/723c417a-54a9-4c77-8880-21b2523c1970)
+![sql](https://github.com/user-attachments/assets/ca3a9891-2cba-48e4-b24c-e1a69bb82795)
+![genmeet](https://github.com/user-attachments/assets/6d4d860c-8207-43a3-a082-ad3aa408e3aa)
 
 
 ![brand-github](https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace)
@@ -37,3 +51,5 @@
 ![horse](https://github.com/user-attachments/assets/ceb46555-e444-4768-9af6-706b25a1817a)
 ![heading](https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0)
 ![brand-linkedin](https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551)
+<img width="1728" height="2304" alt="(updated) IGDO flyer" src="https://github.com/user-attachments/assets/1dc5d118-5fdb-4d22-95a6-e6c569b4a7a3" />
+
