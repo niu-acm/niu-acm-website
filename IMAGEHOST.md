@@ -42,6 +42,7 @@
 ![emmett](https://github.com/user-attachments/assets/86161224-d3d7-47f9-bee5-d347b7417cf7)
 ![tux1](https://github.com/user-attachments/assets/723c417a-54a9-4c77-8880-21b2523c1970)
 ![sql](https://github.com/user-attachments/assets/ca3a9891-2cba-48e4-b24c-e1a69bb82795)
+![genmeet](https://github.com/user-attachments/assets/6d4d860c-8207-43a3-a082-ad3aa408e3aa)
 
 
 ![brand-github](https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace)
