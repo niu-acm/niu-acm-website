@@ -36,7 +36,7 @@ export default function Header() {
                 }
 
                 .header-logo {
-                    height: 75px;
+                    height: 90px;
                 }
 
                 .header-title {
@@ -157,7 +157,7 @@ export default function Header() {
                 <div className="header-container">
                     <div className="header-left">
                         <Link href="/">
-                            <img src="https://github.com/user-attachments/assets/dfc9b026-70b7-45de-a67e-cb49df4769af"
+                            <img src="https://github.com/user-attachments/assets/12c5cfc7-6a9a-4c1d-afa4-978d6f459945"
                             alt="ACM Logo" className="header-logo" />
                         </Link>
                         <span className="header-title">Northern Illinois ACM</span>

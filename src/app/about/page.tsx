@@ -35,7 +35,8 @@ export default function Home() {
                         { name: "Eduardo Acosta", position: "SIGmainframe Officer", imageUrl: "https://github.com/user-attachments/assets/cb5c728b-5e41-454c-9dd0-b9a00abf7e92"},
                         { name: "Anthony Baptiste", position: "Community Ambassador", imageUrl: "https://github.com/user-attachments/assets/5f4b4e17-27e9-45e3-ad8e-6bca4475726d"},
                         { name: "Victor Taiwo", position: "Community Ambassador", imageUrl:"https://github.com/user-attachments/assets/d63945f7-ee1d-4647-bc3e-754ec015bc58" },
-                        { name: "Oyewale Adeoye", position: "Community Ambassador", imageUrl: "https://github.com/user-attachments/assets/fe7fbea7-bb05-432e-8e1e-b9992437b8f5"}
+                        { name: "Oyewale Adeoye", position: "Community Ambassador", imageUrl: "https://github.com/user-attachments/assets/fe7fbea7-bb05-432e-8e1e-b9992437b8f5"},
+                        { name: "Emmett O'Callaghan", position: "Community Ambassador", imageUrl: "https://github.com/user-attachments/assets/86161224-d3d7-47f9-bee5-d347b7417cf7"}
                     ]}
                     />  
             </div>
