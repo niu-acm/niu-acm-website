@@ -40,6 +40,8 @@
 ![tux1](https://github.com/user-attachments/assets/723c417a-54a9-4c77-8880-21b2523c1970)
 ![sql](https://github.com/user-attachments/assets/ca3a9891-2cba-48e4-b24c-e1a69bb82795)
 ![henry](https://github.com/user-attachments/assets/5107bfd7-ed0e-4e81-a305-9da040f8e85a)
+![socialnew](https://github.com/user-attachments/assets/7e9f7350-9e58-4d70-84be-700c7e481552)
+
 
 
 ![brand-github](https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace)
@@ -48,5 +50,4 @@
 ![horse](https://github.com/user-attachments/assets/ceb46555-e444-4768-9af6-706b25a1817a)
 ![heading](https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0)
 ![brand-linkedin](https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551)
-<img width="1728" height="2304" alt="(updated) IGDO flyer" src="https://github.com/user-attachments/assets/1dc5d118-5fdb-4d22-95a6-e6c569b4a7a3" />
 
