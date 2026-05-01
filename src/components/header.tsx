@@ -168,11 +168,9 @@ export default function Header() {
                         <Link href="/about">About</Link>
                         <Link href="/speakers">Speakers</Link>
                         <Link href="/calendar">Calendar</Link>
-                        <Link href="/sigm">SIGmainframe</Link>
-                        <Link href="/sigw">SIGwebdev</Link>
+                        <Link href="/workshops">Workshops</Link>
                         <Link href="/sponsors">Sponsors</Link>
-                        <Link href="/resources">Resources</Link>
-                        
+                        <Link href="/resources">Resources</Link>                        
                     </nav>
 
                     {/* Mobile Menu Button */}
@@ -194,6 +192,7 @@ export default function Header() {
                     <Link href="/sigw" onClick={() => setMobileMenuOpen(false)}>SIGwebdev</Link>
                     <Link href="/sponsors" onClick={() => setMobileMenuOpen(false)}>Sponsors</Link>
                     <Link href="/resources" onClick={() => setMobileMenuOpen(false)}>Resources</Link>
+                    <Link href="/workshops" onClick={() => setMobileMenuOpen(false)}>Workshops</Link>
                 </nav>
             </header>
         </>
