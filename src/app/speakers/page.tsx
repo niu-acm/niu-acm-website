@@ -16,21 +16,20 @@ export default function Home() {
                 />
 
             <SectionBody
-                title="Speaker #1"
-                content="Bio"
-                imageSrc2="https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b"
+                title="September 17th:"
+                content="TBA"
+                imageSrc2=""
             />
 
             <SectionBody
-                title="Speaker #2"
-                content="Bio"
-                imageSrc2="https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b"
+                title="October 22nd:"
+                content="TBA"
+                imageSrc2=""
             />
-
             <SectionBody
-                title="Speaker #3"
-                content="Bio"
-                imageSrc2="https://github.com/user-attachments/assets/adeccf3e-80e7-4eae-a30a-6ef7ae2cce0b"
+                title="November 19th:"
+                content="TBA"
+                imageSrc2=""
             />
 
             <Footer />

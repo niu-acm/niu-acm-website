@@ -15,23 +15,8 @@ export default function Home() {
             />
 
             <SectionBody
-                title="Gold Sponsors"
-                content="space holder"
-            />
-
-            <SectionBody
-                title="Silver Sponsors"
-                content="space holder"
-            />
-
-            <SectionBody
-                title="Bronze Sponsors"
-                content="space holder"
-            />
-
-            <SectionBody
-                title="Alumni Sponsors"
-                content="space holder"
+                title="Sponsors"
+                content=""
             />
 
             <Footer />

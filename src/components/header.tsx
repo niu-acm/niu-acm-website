@@ -36,7 +36,7 @@ export default function Header() {
                 }
 
                 .header-logo {
-                    height: 75px;
+                    height: 90px;
                 }
 
                 .header-title {
@@ -157,7 +157,7 @@ export default function Header() {
                 <div className="header-container">
                     <div className="header-left">
                         <Link href="/">
-                            <img src="https://github.com/user-attachments/assets/dfc9b026-70b7-45de-a67e-cb49df4769af"
+                            <img src="https://github.com/user-attachments/assets/12c5cfc7-6a9a-4c1d-afa4-978d6f459945"
                             alt="ACM Logo" className="header-logo" />
                         </Link>
                         <span className="header-title">Northern Illinois ACM</span>
@@ -168,11 +168,11 @@ export default function Header() {
                         <Link href="/about">About</Link>
                         <Link href="/speakers">Speakers</Link>
                         <Link href="/calendar">Calendar</Link>
-                        <Link href="/sigm">SIGmainframe</Link>
-                        <Link href="/sigw">SIGwebdev</Link>
+                        <Link href="/workshops">Workshops</Link>
                         <Link href="/sponsors">Sponsors</Link>
-                        <Link href="/resources">Resources</Link>
-                        
+                        <Link href="/resources">Resources</Link>    
+                        <Link href="/blog">Blog</Link>                        
+                    
                     </nav>
 
                     {/* Mobile Menu Button */}
@@ -190,10 +190,10 @@ export default function Header() {
                     <Link href="/about" onClick={() => setMobileMenuOpen(false)}>About</Link>
                     <Link href="/speakers" onClick={() => setMobileMenuOpen(false)}>Speakers</Link>
                     <Link href="/calendar" onClick={() => setMobileMenuOpen(false)}>Calendar</Link>
-                    <Link href="/sigm" onClick={() => setMobileMenuOpen(false)}>SIGmainframe</Link>
-                    <Link href="/sigw" onClick={() => setMobileMenuOpen(false)}>SIGwebdev</Link>
+                    <Link href="/workshops" onClick={() => setMobileMenuOpen(false)}>Workshops</Link>
                     <Link href="/sponsors" onClick={() => setMobileMenuOpen(false)}>Sponsors</Link>
                     <Link href="/resources" onClick={() => setMobileMenuOpen(false)}>Resources</Link>
+                    <Link href="/blog" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
                 </nav>
             </header>
         </>
