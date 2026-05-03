@@ -1,13 +1,13 @@
 1:"$Sreact.fragment"
 2:I[7555,[],""]
 3:I[1295,[],""]
-4:I[7911,["729","static/chunks/729-0ae0020d02b338de.js","49","static/chunks/app/speakers/page-725e1da7911ef7d4.js"],"default"]
-5:I[435,["729","static/chunks/729-0ae0020d02b338de.js","49","static/chunks/app/speakers/page-725e1da7911ef7d4.js"],"default"]
-10:I[9665,[],"MetadataBoundary"]
-12:I[9665,[],"OutletBoundary"]
-15:I[4911,[],"AsyncMetadataOutlet"]
-17:I[9665,[],"ViewportBoundary"]
-19:I[6614,[],""]
+4:I[435,["729","static/chunks/729-0ae0020d02b338de.js","831","static/chunks/app/blog/page-5f05b53407b92f21.js"],"default"]
+5:I[7911,["729","static/chunks/729-0ae0020d02b338de.js","831","static/chunks/app/blog/page-5f05b53407b92f21.js"],"default"]
+f:I[9665,[],"MetadataBoundary"]
+11:I[9665,[],"OutletBoundary"]
+14:I[4911,[],"AsyncMetadataOutlet"]
+16:I[9665,[],"ViewportBoundary"]
+18:I[6614,[],""]
 :HL["/_next/static/media/45d4bdb7b7024bda-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/c8fd26c47b32418b-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/eb74faabb8756d67-s.p.otf","font",{"crossOrigin":"","type":"font/otf"}]
@@ -595,201 +595,7 @@
                         font-size: 0.9rem;
                     }
                 }
-            9:T1856,
-                .section-title {
-                    font-size: 2rem;
-                    font-weight: bold;
-                    margin: 0;
-                    transition: color 0.2s, text-shadow 0.2s, transform 0.2s;
-                    cursor: pointer;
-                }
-                .section-title:hover {
-                    color: #c8102e;
-                    text-shadow: 0 2px 12px #c8102e44;
-                    transform: scale(1.07);
-                }
-                .section-link {
-                    display: inline-block;
-                    margin-top: 1.2rem;
-                    margin-right: 1rem;
-                    padding: 0.6rem 1.5rem;
-                    background: #c8102e;
-                    color: #fff;
-                    border-radius: 8px;
-                    font-weight: bold;
-                    text-decoration: none;
-                    font-size: 1.1rem;
-                    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-                    transition: background 0.2s, color 0.2s;
-                }
-                .section-link:hover {
-                    background: #a00b23;
-                    color: #fff;
-                }
-
-                .section-container {
-                    display: flex;
-                    flex-direction: row;
-                    background-color: white;
-                    justify-content: space-between;
-                    gap: 1rem;
-                    width: 80%;
-                    max-width: 100rem;
-                    color: #222;
-                    padding: 2rem 2rem;
-                    box-sizing: border-box;
-                    margin: 1rem auto;
-                    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.5);
-                }
-
-                .section-flipped {
-                    flex-direction: row-reverse;
-                }
-
-                .section-text {
-                    flex: 1;
-                    text-align: left;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    gap: 1rem;
-                    max-width: min(40rem, 50vw);
-                }
-
-                .section-content {
-                    font-size: 1.1rem;
-                    margin: 0;
-                    white-space: pre-line;
-                }
-
-                .section-content2 {
-                    font-size: 1rem;
-                    margin: 0;
-                }
-
-                .section-images {
-                    flex: 0 0 auto;
-                    display: flex;
-                    flex-direction: row;
-                    gap: 1rem;
-                    align-items: center;
-                    justify-content: flex-end;
-                }
-
-                .section-images.flipped {
-                    justify-content: flex-start;
-                }
-
-                .section-image-small {
-                    width: 180px;
-                    border-radius: 12px;
-                    object-fit: cover;
-                }
-
-                .section-image-large {
-                    width: 350px;
-                    border-radius: 12px;
-                    object-fit: cover;
-                }
-
-                .section-image-medium {
-                    width: 280px;
-                    border-radius: 12px;
-                    object-fit: cover;
-                }
-
-                /* Mobile styles */
-                @media (max-width: 768px) {
-                    .section-container {
-                        flex-direction: column;
-                        padding: 2rem 1rem;
-                        gap: 1.5rem;
-                        min-height: auto;
-                        width: 90%;
-                        margin: 1rem auto;
-                    }
-
-                    .section-flipped {
-                        flex-direction: column;
-                    }
-
-                    .section-text {
-                        max-width: 100%;
-                        text-align: left;
-                        order: 2;
-                    }
-
-                    .section-images {
-                        order: 1;
-                        justify-content: center;
-                        flex-wrap: wrap;
-                    }
-
-                    .section-images.flipped {
-                        order: 1;
-                        justify-content: center;
-                    }
-
-                    .section-title {
-                        font-size: 2rem;
-                        text-align: center;
-                    }
-
-                    .section-content {
-                        font-size: 1.1rem;
-                    }
-
-                    .section-content2 {
-                        font-size: 1rem;
-                    }
-
-                    .section-image-small,
-                    .section-image-large,
-                    .section-image-medium {
-                        width: 100%;
-                        max-width: 350px;
-                        height: 250px;
-                        object-fit: cover;
-                    }
-
-                    .section-link {
-                        margin-top: 1rem;
-                        margin-right: 0.5rem;
-                        margin-bottom: 0.5rem;
-                        padding: 0.6rem 1.2rem;
-                        font-size: 1rem;
-                    }
-                }
-
-                @media (max-width: 480px) {
-                    .section-container {
-                        padding: 1.5rem 1rem;
-                        margin: 0.5rem auto;
-                        width: 95%;
-                    }
-
-                    .section-title {
-                        font-size: 1.8rem;
-                    }
-
-                    .section-content {
-                        font-size: 1rem;
-                    }
-
-                    .section-image-small,
-                    .section-image-large,
-                    .section-image-medium {
-                        max-width: 280px;
-                        height: 200px;
-                        object-fit: cover;
-                    }
-
-                    .section-link {
-                        padding: 0.5rem 1rem;
-                        font-size: 0.9rem;
-                    }
-                }
-            a:T808,
+            9:T808,
             .footer {
                display: flex;
                align-items: center;
@@ -862,6 +668,104 @@
                     }
                 }
             }
+        a:T9d7,
+
+            .icon-button {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 8px;
+                padding: 10px 20px 10px 20px;
+                border-radius: 10px;
+                background: none;
+                border: none;
+                color: white;
+            }
+
+            .icons {
+                height: 30px;
+                width: auto;
+                color: white;
+                -webkit-filter: invert(100%);
+            }
+
+            .icon-button:hover {
+                background-color: rgba(0, 0, 0, 0.1);
+                cursor: pointer;
+                transition: background-color 0.25s ease-in-out;
+            }
+
+            .icon-button p {
+                margin: 0;
+                font-weight: bold;
+            }
+
+            /* Mobile styles */
+            @media (max-width: 768px) {
+                .icon-button {
+                    padding: 8px 15px;
+                    gap: 6px;
+                }
+
+                .icons {
+                    height: 25px;
+                }
+
+                .icon-button p {
+                    font-size: 14px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .icon-button {
+                    padding: 6px 10px;
+                    gap: 4px;
+                }
+
+                .icons {
+                    height: 20px;
+                }
+
+                .icon-button p {
+                    font-size: 12px;
+                }
+            }
+
+            /* Firefox mobile specific optimizations */
+            @-moz-document url-prefix() {
+                @media (max-width: 768px) {
+                    .icon-button {
+                        padding: 6px 12px;
+                        gap: 5px;
+                    }
+
+                    .icons {
+                        height: 22px;
+                    }
+
+                    .icon-button p {
+                        font-size: 13px;
+                        line-height: 1.2;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    .icon-button {
+                        padding: 4px 8px;
+                        gap: 3px;
+                    }
+
+                    .icons {
+                        height: 18px;
+                    }
+
+                    .icon-button p {
+                        font-size: 11px;
+                        line-height: 1.1;
+                    }
+                }
+            }
+
         b:T9d7,
 
             .icon-button {
@@ -1254,110 +1158,12 @@
                 }
             }
 
-        f:T9d7,
-
-            .icon-button {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                gap: 8px;
-                padding: 10px 20px 10px 20px;
-                border-radius: 10px;
-                background: none;
-                border: none;
-                color: white;
-            }
-
-            .icons {
-                height: 30px;
-                width: auto;
-                color: white;
-                -webkit-filter: invert(100%);
-            }
-
-            .icon-button:hover {
-                background-color: rgba(0, 0, 0, 0.1);
-                cursor: pointer;
-                transition: background-color 0.25s ease-in-out;
-            }
-
-            .icon-button p {
-                margin: 0;
-                font-weight: bold;
-            }
-
-            /* Mobile styles */
-            @media (max-width: 768px) {
-                .icon-button {
-                    padding: 8px 15px;
-                    gap: 6px;
-                }
-
-                .icons {
-                    height: 25px;
-                }
-
-                .icon-button p {
-                    font-size: 14px;
-                }
-            }
-
-            @media (max-width: 480px) {
-                .icon-button {
-                    padding: 6px 10px;
-                    gap: 4px;
-                }
-
-                .icons {
-                    height: 20px;
-                }
-
-                .icon-button p {
-                    font-size: 12px;
-                }
-            }
-
-            /* Firefox mobile specific optimizations */
-            @-moz-document url-prefix() {
-                @media (max-width: 768px) {
-                    .icon-button {
-                        padding: 6px 12px;
-                        gap: 5px;
-                    }
-
-                    .icons {
-                        height: 22px;
-                    }
-
-                    .icon-button p {
-                        font-size: 13px;
-                        line-height: 1.2;
-                    }
-                }
-
-                @media (max-width: 480px) {
-                    .icon-button {
-                        padding: 4px 8px;
-                        gap: 3px;
-                    }
-
-                    .icons {
-                        height: 18px;
-                    }
-
-                    .icon-button p {
-                        font-size: 11px;
-                        line-height: 1.1;
-                    }
-                }
-            }
-
-        0:{"P":null,"b":"cQIf0YDhBtDaerHrfem7z","p":"","c":["","speakers",""],"i":false,"f":[[["",{"children":["speakers",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b6afc22830d5a546.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__className_258576","children":[["$","head",null,{"children":["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["speakers",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","$L4",null,{}],["$","$L5",null,{}],[["$","style",null,{"children":"$6"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"Industry Speakers"}],["$","p",null,{"className":"section-content","children":"ACM at NIU regularly hosts talks from industry professionals in the technology field. These speakers share their insights, experiences, and knowledge on various topics related to computer science and technology. Past speakers have included software engineers, data scientists, cybersecurity experts, and tech entrepreneurs. These events provide valuable learning opportunities for students and help them stay updated with the latest trends in the tech industry."}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined",["$","img",null,{"src":"https://github.com/user-attachments/assets/f64f5d13-134c-43d9-97ae-4daa162c6629","alt":"","className":"section-image-large"}],"$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$7"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"September 17th:"}],["$","p",null,{"className":"section-content","children":"TBA"}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$8"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"October 22nd:"}],["$","p",null,{"className":"section-content","children":"TBA"}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$9"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"November 19th:"}],["$","p",null,{"className":"section-content","children":"TBA"}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined","","$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$a"}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"icons-wrapper","children":[[["$","style",null,{"children":"$b"}],["$","a",null,{"href":"mailto:niuhuskiesacm@gmail.com","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/e1584402-dc6d-42dc-99cf-515440ed82dd","alt":"Email Us icon"}],["$","p",null,{"children":"Email Us"}]]}]}]],[["$","style",null,{"children":"$c"}],["$","a",null,{"href":"https://discord.gg/gzQDaQMGjJ","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/bc0c54fb-838c-4535-a756-b2487533903a","alt":"Discord icon"}],["$","p",null,{"children":"Discord"}]]}]}]],[["$","style",null,{"children":"$d"}],["$","a",null,{"href":"https://huskiehub.niu.edu/NIUACM/club_signup","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0","alt":"Huskie Hub icon"}],["$","p",null,{"children":"Huskie Hub"}]]}]}]],[["$","style",null,{"children":"$e"}],["$","a",null,{"href":"https://github.com/niu-acm","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace","alt":"GitHub icon"}],["$","p",null,{"children":"GitHub"}]]}]}]],[["$","style",null,{"children":"$f"}],["$","a",null,{"href":"https://www.linkedin.com/groups/14721661","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551","alt":"LinkedIn icon"}],["$","p",null,{"children":"LinkedIn"}]]}]}]]]}]}]]],["$","$L10",null,{"children":"$L11"}],null,["$","$L12",null,{"children":["$L13","$L14",["$","$L15",null,{"promise":"$@16"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","dgjkIuNlVpE1GFCa-TZhm",{"children":[["$","$L17",null,{"children":"$L18"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$19","$undefined"],"s":false,"S":true}
-1a:"$Sreact.suspense"
-1b:I[4911,[],"AsyncMetadata"]
-11:["$","$1a",null,{"fallback":null,"children":["$","$L1b",null,{"promise":"$@1c"}]}]
-14:null
-18:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+        0:{"P":null,"b":"cQIf0YDhBtDaerHrfem7z","p":"","c":["","blog",""],"i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/b6afc22830d5a546.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__className_258576","children":[["$","head",null,{"children":["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"children":[["$","$L4",null,{}],["$","$L5",null,{}],[["$","style",null,{"children":"$6"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":" 📌 5/3/2026: Rest in Peace, Kurt McMahon"}],["$","p",null,{"className":"section-content","children":"Kurt wasn't just an instructor, no one at this university is just an instructor. However, not many opened themselves up the way he did. He was a beloved member of a community he had served for over half his life. He will be greatly missed by the NIU Computer Science community and beyond. Rest in peace, Kurt."}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined",["$","img",null,{"src":"https://github.com/user-attachments/assets/ee9b2a42-e63c-46bf-8bb8-99090f6e2862","alt":"","className":"section-image-large"}],"$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$7"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"4/28/2026: New NIU CS Discord Server"}],["$","p",null,{"className":"section-content","children":"There is a new NIU CS Discord server! Join to stay up to date with the latest news and events in the NIU Computer Science community, connect with fellow students, and get help with your CS courses. Whether you're looking for study groups, project collaborators, or just want to chat about all things computer science, our Discord server is the place to be. Click the link below to join and be a part of our vibrant CS community!"}],"$undefined",["$","div",null,{"children":[["$","a",null,{"href":"https://discord.gg/2RcV89CKZS","className":"section-link","target":"_blank","rel":"noopener noreferrer","children":"New NIU CS Discord"}],"$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined",["$","img",null,{"src":"https://github.com/user-attachments/assets/ce4e93df-a30f-4ad8-8534-a7e672ab1861","alt":"","className":"section-image-large"}],"$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$8"}],["$","div",null,{"className":"section-container ","children":[["$","div",null,{"className":"section-text","children":[["$","h2",null,{"className":"section-title","children":"4/26/2026: Blogs launched"}],["$","p",null,{"className":"section-content","children":"Look at this picture of Tux in Team Fortress 2"}],"$undefined",["$","div",null,{"children":["$undefined","$undefined","$undefined","$undefined","$undefined","$undefined","$undefined"]}]]}],["$","div",null,{"className":"section-images ","children":["$undefined",["$","img",null,{"src":"https://github.com/user-attachments/assets/723c417a-54a9-4c77-8880-21b2523c1970","alt":"","className":"section-image-large"}],"$undefined","$undefined","$undefined"]}]]}]],[["$","style",null,{"children":"$9"}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"icons-wrapper","children":[[["$","style",null,{"children":"$a"}],["$","a",null,{"href":"mailto:niuhuskiesacm@gmail.com","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/e1584402-dc6d-42dc-99cf-515440ed82dd","alt":"Email Us icon"}],["$","p",null,{"children":"Email Us"}]]}]}]],[["$","style",null,{"children":"$b"}],["$","a",null,{"href":"https://discord.gg/gzQDaQMGjJ","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/bc0c54fb-838c-4535-a756-b2487533903a","alt":"Discord icon"}],["$","p",null,{"children":"Discord"}]]}]}]],[["$","style",null,{"children":"$c"}],["$","a",null,{"href":"https://huskiehub.niu.edu/NIUACM/club_signup","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/480677a8-671b-4961-ad95-6469d1d667c0","alt":"Huskie Hub icon"}],["$","p",null,{"children":"Huskie Hub"}]]}]}]],[["$","style",null,{"children":"$d"}],["$","a",null,{"href":"https://github.com/niu-acm","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/fa7dcb0c-43a3-4fc7-8a8f-310538616ace","alt":"GitHub icon"}],["$","p",null,{"children":"GitHub"}]]}]}]],[["$","style",null,{"children":"$e"}],["$","a",null,{"href":"https://www.linkedin.com/groups/14721661","children":["$","button",null,{"className":"icon-button","children":[["$","img",null,{"className":"icons","src":"https://github.com/user-attachments/assets/d81f9435-e675-404f-b356-428afbc24551","alt":"LinkedIn icon"}],["$","p",null,{"children":"LinkedIn"}]]}]}]]]}]}]]]}],["$","$Lf",null,{"children":"$L10"}],null,["$","$L11",null,{"children":["$L12","$L13",["$","$L14",null,{"promise":"$@15"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","4h_H3ruqXdAAj9e9XomiT",{"children":[["$","$L16",null,{"children":"$L17"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$18","$undefined"],"s":false,"S":true}
+19:"$Sreact.suspense"
+1a:I[4911,[],"AsyncMetadata"]
+10:["$","$19",null,{"fallback":null,"children":["$","$L1a",null,{"promise":"$@1b"}]}]
 13:null
-1c:{"metadata":[["$","title","0",{"children":"NIU ACM"}],["$","meta","1",{"name":"description","content":"NIU's Premiere Computer Science Organization since 1980, NIU ACM has been the organization for Computer Science students at Northern Illinois University. We provide resources, events, and a community for all students interested in computing."}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
-16:{"metadata":"$1c:metadata","error":null,"digest":"$undefined"}
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+12:null
+1b:{"metadata":[["$","title","0",{"children":"NIU ACM"}],["$","meta","1",{"name":"description","content":"NIU's Premiere Computer Science Organization since 1980, NIU ACM has been the organization for Computer Science students at Northern Illinois University. We provide resources, events, and a community for all students interested in computing."}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+15:{"metadata":"$1b:metadata","error":null,"digest":"$undefined"}
