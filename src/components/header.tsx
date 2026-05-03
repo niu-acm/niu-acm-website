@@ -190,11 +190,10 @@ export default function Header() {
                     <Link href="/about" onClick={() => setMobileMenuOpen(false)}>About</Link>
                     <Link href="/speakers" onClick={() => setMobileMenuOpen(false)}>Speakers</Link>
                     <Link href="/calendar" onClick={() => setMobileMenuOpen(false)}>Calendar</Link>
-                    <Link href="/sigm" onClick={() => setMobileMenuOpen(false)}>SIGmainframe</Link>
-                    <Link href="/sigw" onClick={() => setMobileMenuOpen(false)}>SIGwebdev</Link>
+                    <Link href="/workshops" onClick={() => setMobileMenuOpen(false)}>Workshops</Link>
                     <Link href="/sponsors" onClick={() => setMobileMenuOpen(false)}>Sponsors</Link>
                     <Link href="/resources" onClick={() => setMobileMenuOpen(false)}>Resources</Link>
-                    <Link href="/workshops" onClick={() => setMobileMenuOpen(false)}>Workshops</Link>
+                    <Link href="/blog" onClick={() => setMobileMenuOpen(false)}>Blog</Link>
                 </nav>
             </header>
         </>
