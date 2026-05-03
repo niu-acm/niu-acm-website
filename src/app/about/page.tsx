@@ -2,6 +2,7 @@ import Header from '../../components/header';
 import Footer from '../../components/footer';
 import Background from '@/components/background';
 import AboutBoard from '../../components/about';
+import SectionBody from '@/components/sectionbody';
 
 export default function Home() {
     return (
@@ -31,7 +32,8 @@ export default function Home() {
                      ]}
                     />  
             </div>
-            <Footer />
+
+               <Footer />
         </div>
     );
 }

@@ -160,7 +160,7 @@ export default function Header() {
                             <img src="https://github.com/user-attachments/assets/12c5cfc7-6a9a-4c1d-afa4-978d6f459945"
                             alt="ACM Logo" className="header-logo" />
                         </Link>
-                        <span className="header-title">Northern Illinois ACM</span>
+                        <span className="header-title">Northern Illinois University ACM</span>
                     </div>
                     
                     {/* Desktop Navigation */}
@@ -170,7 +170,9 @@ export default function Header() {
                         <Link href="/calendar">Calendar</Link>
                         <Link href="/workshops">Workshops</Link>
                         <Link href="/sponsors">Sponsors</Link>
-                        <Link href="/resources">Resources</Link>                        
+                        <Link href="/resources">Resources</Link>    
+                        <Link href="/blog">Blog</Link>                        
+                    
                     </nav>
 
                     {/* Mobile Menu Button */}
