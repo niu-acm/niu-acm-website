@@ -22,12 +22,12 @@ export default function Home() {
             >       
                 <AboutBoard
                     members={[
-                        { name: "Ethan Olvera", position: "Chair", imageUrl: "" },
+                        { name: "Brett Williams", position: "Chair", imageUrl: "" },
+                        { name: "Jared Fleck", position: "Vice Chair", imageUrl: "" },
                         { name: "Antonio Ibarra", position: "Treasurer", imageUrl:"" },
                         { name: "Emmett O'Callaghan", position: "Secretary", imageUrl: "https://github.com/user-attachments/assets/86161224-d3d7-47f9-bee5-d347b7417cf7"},
-                        { name: "Jared Fleck", position: "SIG/Workshop Lead Officer", imageUrl:"" },
-                        { name: "Javon Cherry", position: "Community Ambassador", imageUrl: "" },  
-                        { name: "Faculty Advisor", position: "Faculty Advisor", imageUrl: "" },                   
+                        { name: "Jared Fleck", position: "SIG/Workshop Lead Officer", imageUrl:"" },  
+                        { name: "Jon Lehuta", position: "Faculty Advisor", imageUrl: "" },                   
                      ]}
                     />  
             </div>

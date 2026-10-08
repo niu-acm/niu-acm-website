@@ -16,19 +16,19 @@ export default function Home() {
                 />
 
             <SectionBody
-                title="September 17th:"
-                content="TBA"
+                title="September 30th:"
+                content="IBM Career connect"
                 imageSrc2=""
             />
 
             <SectionBody
-                title="October 22nd:"
-                content="TBA"
+                title="October 13th:"
+                content="DOUBLE FEATURE!! Elise Garnet & Jeff DeBuhr, Industry Software Engineering 101"
                 imageSrc2=""
             />
             <SectionBody
                 title="November 19th:"
-                content="TBA"
+                content="IdeaNova"
                 imageSrc2=""
             />
 
