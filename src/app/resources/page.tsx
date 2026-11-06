@@ -38,12 +38,11 @@ export default function Home() {
                         content="Just a bunch of useful websites"
                         imageSrc="https://www.niu.edu/academics/images/apply-block-images/alejandro-cut-out.png"
                         link={{ url: "https://leetcode.com/problemset/", text: "Leetcode" }}
-                        link2={{ url: "https://niucsci.wiki/", text: "NIU CSCI Wiki" }}
-                        link3={{ url: "https://vyxz.xyz/sshfs-vscode", text: "Remote development in VSCode with SSHFS" }}
-                        link4={{ url: "https://niucsci.wiki/guide/make", text: "How to make Makefiles" }}
-                        link5={{ url: "https://niucsci.wiki/guide/documentation", text: "Doc-driven development with doxygen and git" }}
-                        link6={{ url: "https://web.archive.org/web/20051231223018/http://www.cs.niu.edu/", text: "CS Department's Website in 2006" }}
-                        link7={{ url: "https://www.youtube.com/watch?v=HXeLdyB6zME", text: "John Winans 340 Youtube Course" }}
+                        link2={{ url: "https://www.youtube.com/watch?v=pPFAQ33YOVo", text: "SSH and VSCode Setup Video" }}
+                        link3={{ url: "https://vyxz.xyz/sshfs-vscode", text: "SSH and VScode Setup Guide" }}
+                        link4={{ url: "https://web.archive.org/web/20051231223018/http://www.cs.niu.edu/", text: "CS Department's Website in 2006" }}
+                        link5={{ url: "https://www.youtube.com/watch?v=HXeLdyB6zME", text: "John Winans 340 Youtube Course" }}
+                        link6={{ url: "https://web.archive.org/web/19970630134119/http://www.cs.niu.edu/~mcmahon/info.html", text: "Kurt McMahon's Cajometry website" }}
                     />
 
                     <SectionBody
@@ -51,7 +50,8 @@ export default function Home() {
                         content="A collection of old NIU ACM websites from the Wayback Machine"
                         link={{ url: "https://web.archive.org/web/19980524234956/http://www.cs.niu.edu/~niuacm/", text: "1990s Website" }}
                         link2={{ url: "https://web.archive.org/web/20040901095600/http://www.cs.niu.edu/~niuacm/", text: "2000s Website" }}
-                        link3={{ url: "https://web.archive.org/web/20240621002411/https://acm.cs.niu.edu/", text: "2010s-Mid 2020s Website" }}
+                        link3={{ url: "https://students.cs.niu.edu/~z1573308/acm/basic/index.html", text: "2010s Website - Mid-2010s Website" }}
+                        link4={{ url: "https://web.archive.org/web/20240621002411/https://acm.cs.niu.edu/", text: "Mid-2010s - Mid 2020s Website" }}
                     />
 
                     <SectionBody

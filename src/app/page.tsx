@@ -23,9 +23,8 @@ export default function Home() {
 			{/* Intro Section */}
 			<IntroBody
 				title="NIU's Premiere Computer Science Organization"
-				content="NIU ACM is your gateway to hands-on tech experience, career growth, and a community of like-minded students. Join ACM for workshops, professional presentations, 
-				and SIGs (Special Interest Groups) where you can build projects, 
-				learn new skills, and have fun through socials and events- whether you're just starting out or looking to level up, there's a place for you here."
+				content="NIU ACM is your gateway to hands-on tech experience, career growth, and a community of like-minded students. Join ACM for workshops, conferences, and professional presentations, 
+				Learn new skills, and have fun through socials and events- whether you're just starting out or looking to level up, there's a place for you here."
 				imageSrc="https://npr.brightspotcdn.com/e1/7b/9b044d4642d389e499176c5edd69/img-9121.jpg"
 				altText="come join acm with me vro. come be deckerpilled"
 				join="https://huskiehub.niu.edu/NIUACM/club_signup"
@@ -37,17 +36,15 @@ export default function Home() {
 			}} >
 			{/* Different Section */}
 			<SectionBody
-				title="Why ACM is Different this year"
-				content="NIU's ACM Chapter is expanding to two special interest groups (SIGs) this year:  SIGmainframe and SIGwebdev. ACM also has a new advisor, Kurt McMahon. Our Board
-				is more diverse than ever, with a mix of new and returning members. We are the biggest ACM in NIU history with 14 organization officers"
-				content2="ACM's goal is to provide a welcoming and inclusive environment for all students interested in computer science and finding their niche within the tech industry."
+				title="Why Join ACM?"
+				content="Joining ACM opens the door to a world of opportunities in computer science. As a member, you'll gain access to exclusive workshops, industry talks, and networking events that can help you build practical skills and connect with professionals in the field. ACM also provides resources for career development, including resume reviews, interview prep, and job listings. Beyond the professional benefits, ACM is a welcoming community where you can collaborate on projects, make friends, and have fun while exploring your passion for technology."
 				imageSrc2="https://github.com/user-attachments/assets/8f1bdde4-ca84-4f74-a254-376c473d1029"
 			></SectionBody>
 
 			{/* Speaker Section */}
 			<SectionBody
-				title="ACM Speaker Series Fall 2025"
-				content="ACM has Three Speaker Series events planned for Fall 2025.
+				title="ACM Speaker Series Fall 2026"
+				content="ACM has Three Speaker Series events planned for Fall 2026.
 				These events will feature guest speakers providing their experiences and career pathes.
 				Stay tuned for more details on dates and speakers!"
 				content2="Free Food and Drinks will be provided at all events"
@@ -71,7 +68,7 @@ export default function Home() {
 				content="SIGs are focused subgroups where members can dive deep 
 				into specific areas of tech they're passionate about.
 				They’re informal, collaborative spaces that meet regularly to learn, build, and grow together."
-				content2="Check out our two SIGs below to see what they’re all about"
+				content2="Check out our two SIGs below to see what they’re all about. SIG activity varies by semester, but in the past they’ve hosted workshops, built projects, and members attended events such as SHARE and TechXChange"
 				imageSrc3="https://github.com/user-attachments/assets/d1e339a0-25b5-479a-8272-f45287020ab8"
 			></SectionBody>
 
@@ -84,15 +81,15 @@ export default function Home() {
 				or you want to earn IBM Z Developer Badges, this is the SIG for you!"
 				image_url="https://github.com/user-attachments/assets/31ebe18c-ec4c-417e-9a58-d030e6da9edc"
 				flipped={false}
-				link="/sigm"
+				link="/workshops"
 			/>
 			<SigCard
 				name="SIGwebdev"
-				description="SIGwebdev is for anyone interested in building things on the web—from total beginners to experienced devs.
+				description="SIGwebdev is for anyone interested in building things on the web- from total beginners to experienced devs.
 				If you're into HTML/CSS, PHP, React, Tailwind, or just want to make your portfolio shine, this is your space"
 				image_url="https://github.com/user-attachments/assets/13937877-1f3a-4cb8-87c9-3c832882314b"
 				flipped={true}
-				link="/sigw"
+				link="/workshops"
 			/>
 			</div>
 		</div>
